@@ -6798,7 +6798,7 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
+						aType = "Skill",
 						actionID = 7568,
 						actionLua = "",
 						allowInterrupt = false,

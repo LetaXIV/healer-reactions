@@ -25816,11 +25816,11 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
+						aType = "Skill",
 						actionID = 7568,
 						actionLua = "",
 						allowInterrupt = false,
-						atomicPriority = true,
+						atomicPriority = false,
 						castAtMouse = false,
 						castPosX = 0,
 						castPosY = 0,
@@ -26175,6 +26175,7 @@ local tbl =
 						uuid = "ceadaa46-4c87-85ed-b164-aa8b7aff982a",
 						version = 2,
 					},
+					inheritedIndex = 3,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
