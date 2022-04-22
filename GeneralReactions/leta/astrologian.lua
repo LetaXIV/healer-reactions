@@ -25981,7 +25981,7 @@ local tbl =
 			uuid = "8a6b7d61-c81b-fc05-848e-0ba9cfd34da8",
 			version = 2,
 		},
-		inheritedIndex = 30,
+		inheritedIndex = 32,
 		inheritedObjectUUID = "",
 	},
 	
@@ -26011,18 +26011,18 @@ local tbl =
 						{
 							
 							{
-								"71a60039-320c-35e7-bd8f-3cdb8d879634",
+								"8218683f-99fd-4914-9aba-1b335274059d",
 								true,
 							},
 							
 							{
-								"ceadaa46-4c87-85ed-b164-aa8b7aff982a",
+								"843689a0-9044-af6a-a278-6e43c1351089",
 								true,
 							},
 						},
 						endIfUsed = true,
 						fallthrough = false,
-						gVar = "ACR_RikuAST2_Healbar_Esuna",
+						gVar = "ACR_RikuSCH2_Healbar_Esuna",
 						gVarValue = 1,
 						ignoreWeaveRules = false,
 						isAreaTarget = false,
@@ -26044,7 +26044,7 @@ local tbl =
 						useItemID = 0,
 						useItemName = "",
 						usePot = false,
-						uuid = "00bfbcce-88a9-5e90-9afe-ae508f10f68e",
+						uuid = "a340ece6-1a94-ad90-a8d8-1e847556c15a",
 						variableIsHover = true,
 						variableTogglesType = 3,
 						version = 2,
@@ -26063,13 +26063,25 @@ local tbl =
 					{
 						actionCDValue = 0,
 						actionID = -1,
-						buffCheckType = 1,
+						buffCheckType = 4,
 						buffDuration = 0,
 						buffID = -1,
 						buffIDList = 
 						{
+							723,
+							6,
+							7,
+							14,
+							15,
+							17,
+							267,
+							268,
+							1511,
+							910,
+							2965,
+							569,
 						},
-						category = "Lua",
+						category = "Party",
 						channelCheckSpellID = -1,
 						channelCheckSpellIDList = 
 						{
@@ -26123,7 +26135,7 @@ local tbl =
 						markerIDList = 
 						{
 						},
-						matchAnyBuff = false,
+						matchAnyBuff = true,
 						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
@@ -26135,8 +26147,8 @@ local tbl =
 						partyTargetContentID = -1,
 						partyTargetName = "",
 						partyTargetNumber = 1,
-						partyTargetSubType = 1,
-						partyTargetType = "All",
+						partyTargetSubType = "Number",
+						partyTargetType = "Detection Target",
 						rangeCheckSourceSubType = "Nearest",
 						rangeCheckSourceType = "Self",
 						rangeSourceContentID = -1,
@@ -26146,7 +26158,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "73509035-eb7e-6d79-90b9-cefe12f80b5a",
+						uuid = "fc081c32-5061-dee4-9200-9d045418f9c0",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -26243,7 +26255,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "ad1fbdbd-29d5-93b5-97ec-279a1aa7e9d1",
+						uuid = "cf03292a-194f-324f-97a2-50ce4067dc72",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -26282,12 +26294,12 @@ local tbl =
 						{
 							
 							{
-								"ad1fbdbd-29d5-93b5-97ec-279a1aa7e9d1",
+								"cf03292a-194f-324f-97a2-50ce4067dc72",
 								true,
 							},
 							
 							{
-								"73509035-eb7e-6d79-90b9-cefe12f80b5a",
+								"fc081c32-5061-dee4-9200-9d045418f9c0",
 								true,
 							},
 						},
@@ -26350,10 +26362,9 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "ceadaa46-4c87-85ed-b164-aa8b7aff982a",
+						uuid = "843689a0-9044-af6a-a278-6e43c1351089",
 						version = 2,
 					},
-					inheritedIndex = 3,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -26448,7 +26459,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "71a60039-320c-35e7-bd8f-3cdb8d879634",
+						uuid = "8218683f-99fd-4914-9aba-1b335274059d",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -26476,10 +26487,10 @@ local tbl =
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
-			uuid = "17da6833-46b8-9b0f-981d-7d61a2f931f0",
+			uuid = "6e521d06-e8d2-e0b1-9a34-8fe1a8d7a48c",
 			version = 2,
 		},
-		inheritedIndex = 29,
+		inheritedIndex = 30,
 		inheritedObjectUUID = "",
 	},
 	
@@ -27109,7 +27120,7 @@ local tbl =
 			uuid = "90bfa047-b6b7-7284-9371-abaf5ae1b02e",
 			version = 2,
 		},
-		inheritedIndex = 32,
+		inheritedIndex = 34,
 		inheritedObjectUUID = "",
 	}, 
 	inheritedProfiles = 
