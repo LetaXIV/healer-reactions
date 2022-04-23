@@ -19781,75 +19781,6 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Skill",
-						actionID = 7439,
-						actionLua = "",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
-								true,
-							},
-							
-							{
-								"f0635090-e89f-2ae2-844c-c7f30531ad49",
-								true,
-							},
-							
-							{
-								"4838a5f2-e6ec-e56e-a71c-d5c8620b5353",
-								true,
-							},
-						},
-						endIfUsed = false,
-						fallthrough = false,
-						gVar = "",
-						gVarValue = 1,
-						ignoreWeaveRules = true,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Current Target",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "200c1a63-c20b-432a-bf5b-8ed1f91de7f9",
-						variableIsHover = false,
-						variableTogglesType = 1,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
 						aType = "Misc",
 						actionID = -1,
 						actionLua = "",
@@ -19990,7 +19921,7 @@ local tbl =
 					{
 						aType = "Lua",
 						actionID = -1,
-						actionLua = "ACR_RikuAST2_Hotbar_Lightspeed = true\ngStartCombat = true\nself.used = true",
+						actionLua = "gStartCombat = true\nself.used = true",
 						allowInterrupt = false,
 						atomicPriority = false,
 						castAtMouse = false,
@@ -20970,9 +20901,10 @@ local tbl =
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
-			uuid = "b1fbc167-2540-6d1e-91eb-a684126164e3",
+			uuid = "5866c047-25c7-1c3f-871b-0bd238595354",
 			version = 2,
 		},
+		inheritedIndex = 24,
 		inheritedObjectUUID = "",
 	},
 	
@@ -26916,7 +26848,7 @@ local tbl =
 			uuid = "dea8f455-beb0-39bc-80ca-3ec6aa0834ce",
 			version = 2,
 		},
-		inheritedIndex = 30,
+		inheritedIndex = 29,
 		inheritedObjectUUID = "",
 	},
 	
