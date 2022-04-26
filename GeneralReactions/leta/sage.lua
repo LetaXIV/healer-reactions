@@ -1045,6 +1045,156 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
+						actionID = 24310,
+						actionLua = "",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"2c852e6c-e530-83a9-8be8-d0044234f626",
+								true,
+							},
+							
+							{
+								"51e8a510-6e3c-2a72-9ea0-48f634b01b7d",
+								true,
+							},
+							
+							{
+								"aba84ada-d2ba-1e6b-a735-3e9c0e410f1b",
+								true,
+							},
+							
+							{
+								"d83092b1-5fa1-70f4-95a0-5a3928a12a34",
+								true,
+							},
+						},
+						endIfUsed = false,
+						fallthrough = false,
+						gVar = "ACR_RikuSGE_Healbar_Holos",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Self",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "beed4e37-5755-87ce-8799-31c16f6a0553",
+						variableIsHover = false,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 1,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = -1,
+						actionLua = "",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"2c852e6c-e530-83a9-8be8-d0044234f626",
+								true,
+							},
+							
+							{
+								"51e8a510-6e3c-2a72-9ea0-48f634b01b7d",
+								true,
+							},
+							
+							{
+								"aba84ada-d2ba-1e6b-a735-3e9c0e410f1b",
+								true,
+							},
+							
+							{
+								"c58e1d29-0a3f-27c8-82bf-0472162d8306",
+								true,
+							},
+						},
+						endIfUsed = false,
+						fallthrough = false,
+						gVar = "ACR_RikuSGE_Healbar_Ixochole",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Self",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "ababb071-de2b-474e-945e-0effbe20cacb",
+						variableIsHover = false,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 2,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
 						actionID = 24286,
 						actionLua = "",
 						allowInterrupt = false,
@@ -1072,6 +1222,11 @@ local tbl =
 							
 							{
 								"aba84ada-d2ba-1e6b-a735-3e9c0e410f1b",
+								true,
+							},
+							
+							{
+								"52f75701-9515-4b14-93dd-176483ffa8db",
 								true,
 							},
 						},
@@ -1671,7 +1826,7 @@ local tbl =
 						eventTargetName = "",
 						filterTargetSubtype = "Nearest",
 						filterTargetType = "Self",
-						gaugeIndex = 1,
+						gaugeIndex = 2,
 						gaugeValue = 1,
 						hpType = 1,
 						hpValue = 0,
@@ -1963,7 +2118,7 @@ local tbl =
 						eventTargetName = "",
 						filterTargetSubtype = "Nearest",
 						filterTargetType = "Self",
-						gaugeIndex = 1,
+						gaugeIndex = 2,
 						gaugeValue = 0,
 						hpType = 1,
 						hpValue = 0,
@@ -2001,6 +2156,103 @@ local tbl =
 						{
 						},
 						uuid = "52f75701-9515-4b14-93dd-176483ffa8db",
+						version = 2,
+					},
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = 24310,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Self",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 2,
+						conditionLua = "",
+						conditionType = 4,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = false,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "",
+						partyHpType = 1,
+						partyHpValue = 0,
+						partyMpType = 1,
+						partyMpValue = 0,
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "d83092b1-5fa1-70f4-95a0-5a3928a12a34",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -2372,11 +2624,6 @@ local tbl =
 							
 							{
 								"50377030-a9f6-db6e-bc5f-b18bcc7cf78b",
-								true,
-							},
-							
-							{
-								"f50258c7-9c83-f388-9577-9f13739c6815",
 								true,
 							},
 						},
