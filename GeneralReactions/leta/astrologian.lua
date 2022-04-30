@@ -23007,17 +23007,17 @@ local tbl =
 						{
 							
 							{
-								"e91513d2-2536-3656-bd88-227ab1af9bed",
-								true,
-							},
-							
-							{
 								"f19025a0-2d36-9a02-a611-2b6a6a8cc76d",
 								true,
 							},
 							
 							{
 								"b275caea-f4a0-dee7-87f0-9701e77da79f",
+								true,
+							},
+							
+							{
+								"5ac1b25a-d0ad-68b1-9d68-aabe08a89918",
 								true,
 							},
 						},
@@ -26525,7 +26525,7 @@ local tbl =
 						gaugeIndex = 1,
 						gaugeValue = 0,
 						hpType = 1,
-						hpValue = 15,
+						hpValue = 30,
 						inCombatType = 1,
 						inRangeValue = 0,
 						lastSkillID = -1,
@@ -26624,7 +26624,7 @@ local tbl =
 						eventTargetID = -1,
 						eventTargetName = "",
 						filterTargetSubtype = "Nearest",
-						filterTargetType = "Detection Target",
+						filterTargetType = "Main Tank",
 						gaugeIndex = 1,
 						gaugeValue = 0,
 						hpType = 1,
@@ -26961,7 +26961,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
-			timeout = 2,
+			timeout = 2.5,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -27483,7 +27483,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v3.2.5",
+			name = "v3.2.6",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
