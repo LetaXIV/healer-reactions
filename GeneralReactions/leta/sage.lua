@@ -2386,7 +2386,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
-			timeout = 5,
+			timeout = 2,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -5916,7 +5916,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
-			timeout = 5,
+			timeout = 2,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -9089,6 +9089,40 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			uuid = "99232b2f-f076-00e3-92a0-3738aaba1ce6",
+			version = 2,
+		},
+		inheritedObjectUUID = "",
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			eventType = 1,
+			execute = "",
+			executeType = 1,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 0,
+			name = "v3.2.4",
+			randomOffset = 0,
+			throttleTime = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 0,
+			timeout = 5,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			uuid = "f7e6dc9a-cc58-fa71-b51f-fa462e41d99e",
 			version = 2,
 		},
 		inheritedObjectUUID = "",

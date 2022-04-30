@@ -6645,7 +6645,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
-			timeout = 5,
+			timeout = 2,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -7159,6 +7159,41 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			uuid = "889e931b-f60f-e42b-9978-49b8e9526e8d",
+			version = 2,
+		},
+		inheritedIndex = 34,
+		inheritedObjectUUID = "",
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = true,
+			eventType = 1,
+			execute = "",
+			executeType = 1,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 0,
+			name = "v3.2.4",
+			randomOffset = 0,
+			throttleTime = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 0,
+			timeout = 5,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			uuid = "591aa599-4629-bc2a-9ff3-5f836a4b93da",
 			version = 2,
 		},
 		inheritedIndex = 36,
