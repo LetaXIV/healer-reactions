@@ -23007,17 +23007,17 @@ local tbl =
 						{
 							
 							{
+								"5ac1b25a-d0ad-68b1-9d68-aabe08a89918",
+								true,
+							},
+							
+							{
 								"f19025a0-2d36-9a02-a611-2b6a6a8cc76d",
 								true,
 							},
 							
 							{
 								"b275caea-f4a0-dee7-87f0-9701e77da79f",
-								true,
-							},
-							
-							{
-								"5ac1b25a-d0ad-68b1-9d68-aabe08a89918",
 								true,
 							},
 						},
@@ -23037,8 +23037,8 @@ local tbl =
 						stopMoving = false,
 						targetContentID = -1,
 						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Main Tank",
+						targetSubType = "Lowest HP",
+						targetType = "Tank",
 						untarget = false,
 						useForWeaving = false,
 						useItem = false,
@@ -23438,6 +23438,11 @@ local tbl =
 							
 							{
 								"93b340a1-9143-5cd6-beb2-53ac78d089a2",
+								true,
+							},
+							
+							{
+								"a84ebcea-7d32-8ffc-aff8-7bf2fa99fa87",
 								true,
 							},
 						},
@@ -26544,8 +26549,8 @@ local tbl =
 						partyTargetContentID = -1,
 						partyTargetName = "",
 						partyTargetNumber = 1,
-						partyTargetSubType = "Nearest",
-						partyTargetType = "Main Tank",
+						partyTargetSubType = "Lowest HP",
+						partyTargetType = "Tank",
 						rangeCheckSourceSubType = "Nearest",
 						rangeCheckSourceType = "Self",
 						rangeSourceContentID = -1,
@@ -26604,7 +26609,7 @@ local tbl =
 							},
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -26623,8 +26628,8 @@ local tbl =
 						eventTargetContentID = -1,
 						eventTargetID = -1,
 						eventTargetName = "",
-						filterTargetSubtype = "Nearest",
-						filterTargetType = "Main Tank",
+						filterTargetSubtype = "Lowest HP",
+						filterTargetType = "Tank",
 						gaugeIndex = 1,
 						gaugeValue = 0,
 						hpType = 1,
@@ -27483,7 +27488,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v3.2.6",
+			name = "v3.2.7",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
