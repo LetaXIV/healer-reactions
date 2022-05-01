@@ -22932,11 +22932,6 @@ local tbl =
 						{
 							
 							{
-								"b275caea-f4a0-dee7-87f0-9701e77da79f",
-								true,
-							},
-							
-							{
 								"22842182-fa88-4c11-950c-3445240d8aa5",
 								true,
 							},
@@ -22948,6 +22943,11 @@ local tbl =
 							
 							{
 								"2ae75993-5aca-8fce-90f0-da7742f5cff2",
+								true,
+							},
+							
+							{
+								"b275caea-f4a0-dee7-87f0-9701e77da79f",
 								true,
 							},
 						},
@@ -23077,12 +23077,12 @@ local tbl =
 						{
 							
 							{
-								"398d9f04-ccbf-4bc3-bddc-68965287ffdd",
+								"41a5210e-be2b-5580-963d-fde01efee8ee",
 								true,
 							},
 							
 							{
-								"41a5210e-be2b-5580-963d-fde01efee8ee",
+								"398d9f04-ccbf-4bc3-bddc-68965287ffdd",
 								true,
 							},
 							
@@ -23120,7 +23120,7 @@ local tbl =
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 3,
+					inheritedIndex = 4,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -23167,7 +23167,7 @@ local tbl =
 							},
 						},
 						endIfUsed = true,
-						fallthrough = false,
+						fallthrough = true,
 						gVar = "ACR_RikuAST2_Healbar_NeutralSect",
 						gVarValue = 1,
 						ignoreWeaveRules = false,
@@ -23236,7 +23236,7 @@ local tbl =
 								true,
 							},
 						},
-						endIfUsed = false,
+						endIfUsed = true,
 						fallthrough = false,
 						gVar = "ACR_RikuAST2_Healbar_AspectedHelios",
 						gVarValue = 1,
@@ -23297,6 +23297,11 @@ local tbl =
 							},
 							
 							{
+								"57038c09-0a46-210f-a776-73f7c800e38a",
+								true,
+							},
+							
+							{
 								"882aebe7-bd8d-37e4-9ad6-ab95c69dd632",
 								true,
 							},
@@ -23306,7 +23311,7 @@ local tbl =
 								true,
 							},
 						},
-						endIfUsed = false,
+						endIfUsed = true,
 						fallthrough = false,
 						gVar = "ACR_RikuAST2_Healbar_CelestialOpposition",
 						gVarValue = 1,
@@ -23335,7 +23340,7 @@ local tbl =
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 2,
+					inheritedIndex = 7,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -23371,7 +23376,7 @@ local tbl =
 								true,
 							},
 						},
-						endIfUsed = false,
+						endIfUsed = true,
 						fallthrough = false,
 						gVar = "ACR_RikuAST2_Healbar_Helios",
 						gVarValue = 1,
@@ -26950,6 +26955,99 @@ local tbl =
 					{
 					},
 				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = 3616,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Self",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 2,
+						conditionLua = "",
+						conditionType = 4,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = true,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "",
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "57038c09-0a46-210f-a776-73f7c800e38a",
+						version = 2,
+					},
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
 			},
 			enabled = true,
 			eventType = 1,
@@ -26966,7 +27064,7 @@ local tbl =
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
-			timeout = 2.5,
+			timeout = 3,
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
@@ -27488,7 +27586,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v3.2.7",
+			name = "v3.2.8",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
