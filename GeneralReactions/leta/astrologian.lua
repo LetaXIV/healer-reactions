@@ -25645,14 +25645,14 @@ local tbl =
 						channelCheckSpellIDList = 
 						{
 						},
-						channelCheckTimeRemain = 0,
+						channelCheckTimeRemain = 3,
 						channelCheckType = 3,
 						clusterMinPercent = false,
 						clusterMinTarget = 1,
 						clusterOriginalTarget = false,
 						clusterRadius = 8,
 						clusterRange = 30,
-						comparator = 1,
+						comparator = 2,
 						conditionLua = "",
 						conditionType = 7,
 						conditions = 
@@ -26200,7 +26200,7 @@ local tbl =
 				{
 					data = 
 					{
-						actionCDValue = 0,
+						actionCDValue = 40,
 						actionID = 3614,
 						buffCheckType = 1,
 						buffDuration = 0,
@@ -27586,7 +27586,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v3.2.9",
+			name = "v3.2.91",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
