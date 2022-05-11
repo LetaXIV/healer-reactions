@@ -4101,12 +4101,12 @@ local tbl =
 							},
 							
 							{
-								"798af9f8-33c5-16df-bdb9-2fd7bd435b0a",
+								"c0dd5e5e-7b0d-327c-848e-56ac09155002",
 								true,
 							},
 							
 							{
-								"c0dd5e5e-7b0d-327c-848e-56ac09155002",
+								"798af9f8-33c5-16df-bdb9-2fd7bd435b0a",
 								true,
 							},
 							
@@ -10104,7 +10104,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.2",
+			name = "v4.0.3",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
