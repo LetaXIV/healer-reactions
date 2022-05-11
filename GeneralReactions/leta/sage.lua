@@ -4101,12 +4101,12 @@ local tbl =
 							},
 							
 							{
-								"c0dd5e5e-7b0d-327c-848e-56ac09155002",
+								"798af9f8-33c5-16df-bdb9-2fd7bd435b0a",
 								true,
 							},
 							
 							{
-								"798af9f8-33c5-16df-bdb9-2fd7bd435b0a",
+								"c70b2c8a-9157-a1d2-a04e-be92355b9646",
 								true,
 							},
 							
@@ -6027,14 +6027,14 @@ local tbl =
 					data = 
 					{
 						actionCDValue = 0,
-						actionID = 24302,
+						actionID = -1,
 						buffCheckType = 1,
 						buffDuration = 0,
 						buffID = -1,
 						buffIDList = 
 						{
 						},
-						category = "Self",
+						category = "Lua",
 						channelCheckSpellID = -1,
 						channelCheckSpellIDList = 
 						{
@@ -6046,9 +6046,9 @@ local tbl =
 						clusterOriginalTarget = false,
 						clusterRadius = 8,
 						clusterRange = 30,
-						comparator = 2,
-						conditionLua = "",
-						conditionType = 4,
+						comparator = 1,
+						conditionLua = "local ac = ActionList:Get(1, 24302) -- physis 2\nif TensorCore.mGetPlayer().level < 60 then\n  ac = ActionList:Get(1, 24288) -- physis 1\nend\nreturn ac.cdmax - ac.cd <= 1",
+						conditionType = 1,
 						conditions = 
 						{
 						},
@@ -6092,7 +6092,7 @@ local tbl =
 						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
-						name = "CD - Physis II <= 0s",
+						name = "CD - Physis <= 0s",
 						partyTargetContentID = -1,
 						partyTargetName = "",
 						partyTargetNumber = 1,
@@ -6107,10 +6107,10 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "c0dd5e5e-7b0d-327c-848e-56ac09155002",
+						uuid = "c70b2c8a-9157-a1d2-a04e-be92355b9646",
 						version = 2,
 					},
-					inheritedIndex = 12,
+					inheritedIndex = 13,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -10104,7 +10104,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.3",
+			name = "v4.0.4",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
