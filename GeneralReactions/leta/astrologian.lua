@@ -4,6 +4,76 @@ local tbl =
 	{
 		data = 
 		{
+			name = "P4S Knockback",
+			uuid = "070d41f8-bc8a-7f76-91bd-39fd63c619d7",
+			version = 2,
+		},
+		inheritedObjectUUID = "cd9e7a35-65cc-0162-ba5d-97bfc02e681d",
+		inheritedOverwrites = 
+		{
+			actions = 
+			{
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "f946eddf-21d4-754c-82de-d4138a7c9c4b",
+							version = 2,
+						},
+						inheritedObjectUUID = "d665cc89-4986-7b77-ba89-338d1a9d9aac",
+						inheritedOverwrites = 
+						{
+							actionID = 143,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "87601e48-b5c7-3d16-8a76-ae3bc4d19ccb",
+							version = 2,
+						},
+						inheritedObjectUUID = "c795ac48-d1c7-6996-b28c-fbffe62e41e7",
+						inheritedOverwrites = 
+						{
+							actionID = 143,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "c0d8994e-227e-beec-9187-cfbb1db17163",
+							version = 2,
+						},
+						inheritedObjectUUID = "82c1d6b3-f83d-2908-89b7-51300b560dfc",
+						inheritedOverwrites = 
+						{
+							actionID = 143,
+						},
+					},
+				},
+			},
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 			},
@@ -9629,7 +9699,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.4",
+			name = "v4.0.5",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
