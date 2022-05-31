@@ -91,11 +91,39 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Draw quotes",
+			uuid = "336d326e-1a7a-bb86-8f93-3fe16423dae9",
+			version = 2,
+		},
+		inheritedIndex = 11,
+		inheritedObjectUUID = "79d07751-0776-e532-a750-6421eeb9169b",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Channel Reactions",
+			uuid = "25b8fb2a-d036-741a-9e20-198827e329cf",
+			version = 2,
+		},
+		inheritedIndex = 12,
+		inheritedObjectUUID = "18e6def3-7035-6610-b991-ec788d1c73aa",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			name = "UCoB draws",
 			uuid = "fa31586f-4493-63a1-be64-b850bb0b36ec",
 			version = 2,
 		},
-		inheritedIndex = 11,
+		inheritedIndex = 13,
 		inheritedObjectUUID = "eefa7bbd-2ced-e0ef-833a-6ece8da17af1",
 		inheritedOverwrites = 
 		{
@@ -109,22 +137,8 @@ local tbl =
 			uuid = "d146bd16-82bd-3c5c-b5c7-7be477e79c4d",
 			version = 2,
 		},
-		inheritedIndex = 12,
-		inheritedObjectUUID = "194a6e42-e70e-a692-b01e-0adb00f30f86",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Draw quotes",
-			uuid = "336d326e-1a7a-bb86-8f93-3fe16423dae9",
-			version = 2,
-		},
 		inheritedIndex = 14,
-		inheritedObjectUUID = "79d07751-0776-e532-a750-6421eeb9169b",
+		inheritedObjectUUID = "194a6e42-e70e-a692-b01e-0adb00f30f86",
 		inheritedOverwrites = 
 		{
 		},
@@ -137,8 +151,22 @@ local tbl =
 			uuid = "1e4b3dfe-cf0f-51b4-9c58-4c2f30f54e83",
 			version = 2,
 		},
-		inheritedIndex = 22,
+		inheritedIndex = 21,
 		inheritedObjectUUID = "5dd6e9dd-4048-49c6-b96a-a087235d067a",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "onEntityChannel - extreme",
+			uuid = "56dc7eeb-8677-00a7-a362-e712c06377c5",
+			version = 2,
+		},
+		inheritedIndex = 22,
+		inheritedObjectUUID = "e35e471d-a382-ccf9-b05f-211c0a8f8fc0",
 		inheritedOverwrites = 
 		{
 		},
@@ -10104,7 +10132,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.6",
+			name = "v4.0.7",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
