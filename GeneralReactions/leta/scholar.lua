@@ -102,6 +102,34 @@ local tbl =
 	{
 		data = 
 		{
+			name = "OnWipe Reaction",
+			uuid = "aaeb206a-3a25-d6ed-a73a-8c7188fd43be",
+			version = 2,
+		},
+		inheritedIndex = 28,
+		inheritedObjectUUID = "17e714bc-2572-57a6-a498-a398a8e274c1",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "OnDeath Reaction",
+			uuid = "9eef6a42-2271-b232-a9a4-8cce0aee29be",
+			version = 2,
+		},
+		inheritedIndex = 29,
+		inheritedObjectUUID = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 				
@@ -6595,7 +6623,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.7",
+			name = "v4.0.8",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
