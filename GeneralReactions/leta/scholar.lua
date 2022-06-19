@@ -767,7 +767,7 @@ local tbl =
 						inheritedOverwrites = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWHM2_Hotbar_Surecast",
+							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
 							variableIsHover = false,
 						},
 					},
