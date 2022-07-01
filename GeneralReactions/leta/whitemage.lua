@@ -54,62 +54,6 @@ local tbl =
 	{
 		data = 
 		{
-			name = "--pvp",
-			uuid = "42474d1c-1f73-bb8b-9699-57fc838419ff",
-			version = 2,
-		},
-		inheritedIndex = 37,
-		inheritedObjectUUID = "bf0203c6-5698-5511-a954-6c3da72e3b31",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Silence Burst (Channeled)",
-			uuid = "2e251d5e-d1fb-97ef-bca9-72d7661afcc1",
-			version = 2,
-		},
-		inheritedIndex = 38,
-		inheritedObjectUUID = "70ea9af9-d3c4-2b1b-bccc-275237832996",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Silence Burst",
-			uuid = "91b1ab5f-6c6f-e8d7-b9fb-2f48ed00ddaa",
-			version = 2,
-		},
-		inheritedIndex = 39,
-		inheritedObjectUUID = "1ab51ad0-55c9-767d-865a-5c46475ad7d8",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "TTS Warrior Limit Break",
-			uuid = "615cf789-fb70-f8c8-8659-8e7a720071a2",
-			version = 2,
-		},
-		inheritedIndex = 40,
-		inheritedObjectUUID = "72ead624-26b2-190d-aaaf-572e004ce8fb",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
 			actions = 
 			{
 				
@@ -5618,7 +5562,7 @@ local tbl =
 			uuid = "e53fb64c-27d7-5825-b6ed-7d69e5d1e97b",
 			version = 2,
 		},
-		inheritedIndex = 36,
+		inheritedIndex = 25,
 		inheritedObjectUUID = "",
 	},
 	
@@ -5640,7 +5584,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.9.4",
+			name = "v4.0.9.5",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
@@ -5659,7 +5603,6 @@ local tbl =
 	inheritedProfiles = 
 	{
 		"store\\anyone\\whitemage",
-		"store\\anyone\\pvp",
 	},
 }
 
