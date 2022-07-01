@@ -8,7 +8,7 @@ local tbl =
 			uuid = "39f60417-9bf9-06fd-b380-18fafc93bee3",
 			version = 2,
 		},
-		inheritedIndex = 16,
+		inheritedIndex = 10,
 		inheritedObjectUUID = "eefa7bbd-2ced-e0ef-833a-6ece8da17af1",
 		inheritedOverwrites = 
 		{
@@ -18,12 +18,90 @@ local tbl =
 	{
 		data = 
 		{
-			name = "Prepull Helper",
-			uuid = "4ff1cc55-9ef9-f8c2-b1c5-89ff7456f58e",
+			name = "Multitool",
+			uuid = "62815923-9540-1e5e-8ad5-18ef1047f6af",
 			version = 2,
 		},
-		inheritedIndex = 27,
-		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
+		inheritedObjectUUID = "99232b2f-f076-00e3-92a0-3738aaba1ce6",
+		inheritedOverwrites = 
+		{
+			actions = 
+			{
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "88c756be-144a-c358-973c-3b6b9939b857",
+							version = 2,
+						},
+						inheritedObjectUUID = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
+						inheritedOverwrites = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWHM2_Hotbar_Surecast",
+							variableIsHover = false,
+						},
+					},
+				},
+			},
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "--pvp",
+			uuid = "42474d1c-1f73-bb8b-9699-57fc838419ff",
+			version = 2,
+		},
+		inheritedIndex = 37,
+		inheritedObjectUUID = "bf0203c6-5698-5511-a954-6c3da72e3b31",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Silence Burst (Channeled)",
+			uuid = "2e251d5e-d1fb-97ef-bca9-72d7661afcc1",
+			version = 2,
+		},
+		inheritedIndex = 38,
+		inheritedObjectUUID = "70ea9af9-d3c4-2b1b-bccc-275237832996",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Silence Burst",
+			uuid = "91b1ab5f-6c6f-e8d7-b9fb-2f48ed00ddaa",
+			version = 2,
+		},
+		inheritedIndex = 39,
+		inheritedObjectUUID = "1ab51ad0-55c9-767d-865a-5c46475ad7d8",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "TTS Warrior Limit Break",
+			uuid = "615cf789-fb70-f8c8-8659-8e7a720071a2",
+			version = 2,
+		},
+		inheritedIndex = 40,
+		inheritedObjectUUID = "72ead624-26b2-190d-aaaf-572e004ce8fb",
 		inheritedOverwrites = 
 		{
 		},
@@ -631,42 +709,6 @@ local tbl =
 		},
 		inheritedIndex = 31,
 		inheritedObjectUUID = "",
-	},
-	
-	{
-		data = 
-		{
-			name = "Multitool",
-			uuid = "62815923-9540-1e5e-8ad5-18ef1047f6af",
-			version = 2,
-		},
-		inheritedObjectUUID = "99232b2f-f076-00e3-92a0-3738aaba1ce6",
-		inheritedOverwrites = 
-		{
-			actions = 
-			{
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "88c756be-144a-c358-973c-3b6b9939b857",
-							version = 2,
-						},
-						inheritedObjectUUID = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
-						inheritedOverwrites = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuWHM2_Hotbar_Surecast",
-							variableIsHover = false,
-						},
-					},
-				},
-			},
-		},
 	},
 	
 	{
@@ -4398,6 +4440,20 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Prepull Helper",
+			uuid = "4ff1cc55-9ef9-f8c2-b1c5-89ff7456f58e",
+			version = 2,
+		},
+		inheritedIndex = 27,
+		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 				
@@ -5569,62 +5625,6 @@ local tbl =
 	{
 		data = 
 		{
-			name = "--pvp",
-			uuid = "42474d1c-1f73-bb8b-9699-57fc838419ff",
-			version = 2,
-		},
-		inheritedIndex = 37,
-		inheritedObjectUUID = "bf0203c6-5698-5511-a954-6c3da72e3b31",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Silence Burst (Channeled)",
-			uuid = "2e251d5e-d1fb-97ef-bca9-72d7661afcc1",
-			version = 2,
-		},
-		inheritedIndex = 38,
-		inheritedObjectUUID = "70ea9af9-d3c4-2b1b-bccc-275237832996",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Silence Burst",
-			uuid = "91b1ab5f-6c6f-e8d7-b9fb-2f48ed00ddaa",
-			version = 2,
-		},
-		inheritedIndex = 39,
-		inheritedObjectUUID = "1ab51ad0-55c9-767d-865a-5c46475ad7d8",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "TTS Warrior Limit Break",
-			uuid = "615cf789-fb70-f8c8-8659-8e7a720071a2",
-			version = 2,
-		},
-		inheritedIndex = 40,
-		inheritedObjectUUID = "72ead624-26b2-190d-aaaf-572e004ce8fb",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
 			actions = 
 			{
 			},
@@ -5640,7 +5640,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.9.3",
+			name = "v4.0.9.4",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
@@ -5653,7 +5653,7 @@ local tbl =
 			uuid = "45f46047-a0e0-51d4-adfb-770b4bfbfa8c",
 			version = 2,
 		},
-		inheritedIndex = 41,
+		inheritedIndex = 30,
 		inheritedObjectUUID = "",
 	}, 
 	inheritedProfiles = 
