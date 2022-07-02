@@ -821,7 +821,7 @@ local tbl =
 			uuid = "196f3e88-a90e-1ce3-b8b0-974fc7ea9b64",
 			version = 2,
 		},
-		inheritedIndex = 33,
+		inheritedIndex = 22,
 		inheritedObjectUUID = "",
 	},
 	
@@ -6550,7 +6550,7 @@ local tbl =
 			uuid = "889e931b-f60f-e42b-9978-49b8e9526e8d",
 			version = 2,
 		},
-		inheritedIndex = 35,
+		inheritedIndex = 24,
 		inheritedObjectUUID = "",
 	},
 	
@@ -6572,7 +6572,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.9.5",
+			name = "v4.0.9.6",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
@@ -6585,7 +6585,7 @@ local tbl =
 			uuid = "591aa599-4629-bc2a-9ff3-5f836a4b93da",
 			version = 2,
 		},
-		inheritedIndex = 36,
+		inheritedIndex = 25,
 		inheritedObjectUUID = "",
 	}, 
 	inheritedProfiles = 
