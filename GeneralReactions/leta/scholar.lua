@@ -914,81 +914,6 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
-						actionID = -1,
-						actionLua = "",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"2a0a8f03-d83e-7649-9801-92217e022fca",
-								true,
-							},
-							
-							{
-								"c8fb4f78-d57b-daaf-ab0e-1eed0930a6ac",
-								true,
-							},
-							
-							{
-								"2f4a5e7a-c4b0-96ee-95eb-d29d06ec68d0",
-								true,
-							},
-							
-							{
-								"fc1caea4-4ba6-b6b2-bd06-13f54359717e",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuSCH2_Healbar_FeyIllumination",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Self",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "ada7b9e7-a410-ce06-b19e-059f703c23d5",
-						variableIsHover = false,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 3,
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
 						aType = "Skill",
 						actionID = 186,
 						actionLua = "",
@@ -1086,6 +1011,81 @@ local tbl =
 							},
 							
 							{
+								"c8fb4f78-d57b-daaf-ab0e-1eed0930a6ac",
+								true,
+							},
+							
+							{
+								"2f4a5e7a-c4b0-96ee-95eb-d29d06ec68d0",
+								true,
+							},
+							
+							{
+								"a989fa63-8ea9-5dcf-93e2-19682c55de1d",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = true,
+						gVar = "ACR_RikuSCH2_Healbar_FeyIllumination",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Self",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "ada7b9e7-a410-ce06-b19e-059f703c23d5",
+						variableIsHover = false,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 3,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = -1,
+						actionLua = "",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"2a0a8f03-d83e-7649-9801-92217e022fca",
+								true,
+							},
+							
+							{
 								"d0992e28-2329-6985-a053-6e73ec380a6e",
 								true,
 							},
@@ -1101,7 +1101,7 @@ local tbl =
 							},
 						},
 						endIfUsed = true,
-						fallthrough = false,
+						fallthrough = true,
 						gVar = "ACR_RikuSCH2_Healbar_SummonSeraph",
 						gVarValue = 1,
 						ignoreWeaveRules = false,
@@ -6572,7 +6572,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.9.9",
+			name = "v4.0.9.91",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
