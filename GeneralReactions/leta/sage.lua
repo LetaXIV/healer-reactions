@@ -5348,7 +5348,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
-						conditionLua = "return AnyoneCore.AOEMitigation[eventArgs.spellID] == true",
+						conditionLua = "return TensorCore.Avoidance.inUnavoidableAOE(Argus.getCurrentAOEs(), TensorCore.mGetPlayer())",
 						conditionType = 1,
 						conditions = 
 						{
@@ -5393,7 +5393,7 @@ local tbl =
 						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
-						name = "check aoe mitigation table",
+						name = "unavoidable aoe",
 						partyTargetContentID = -1,
 						partyTargetName = "",
 						partyTargetNumber = 1,
@@ -9852,7 +9852,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v4.0.9.91",
+			name = "v4.1",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
