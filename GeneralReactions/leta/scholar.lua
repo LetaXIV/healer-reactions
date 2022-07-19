@@ -253,86 +253,6 @@ local tbl =
 					{
 					},
 				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 25868,
-						actionLua = "",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"046f3f31-af02-816a-856a-98cd5c152f15",
-								true,
-							},
-							
-							{
-								"98e31659-7a4d-ec84-a55d-80100dc099f1",
-								true,
-							},
-							
-							{
-								"72f04211-140d-c093-8a97-dec98c1c6349",
-								true,
-							},
-							
-							{
-								"6758e6dc-d6d0-ada7-bcdd-cc2b336460ff",
-								true,
-							},
-							
-							{
-								"7fa956a3-79f2-1f24-96ca-951c33bc5ab8",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuSCH2_Hotbar_Expedient",
-						gVarValue = 1,
-						ignoreWeaveRules = true,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Self",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "4ab35de7-811c-c993-8bba-a8d46f8e3f28",
-						variableIsHover = true,
-						variableTogglesType = 2,
-						version = 2,
-					},
-					inheritedIndex = 2,
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
 			},
 			conditions = 
 			{
@@ -9106,7 +9026,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.0",
+			name = "v5.0.0.1",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,

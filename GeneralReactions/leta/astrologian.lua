@@ -1874,81 +1874,6 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
-						actionID = 3613,
-						actionLua = "",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
-								true,
-							},
-							
-							{
-								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
-								true,
-							},
-							
-							{
-								"1c4bfd9f-e86c-2388-b2f1-93a7ad8ad845",
-								true,
-							},
-							
-							{
-								"240d5878-d691-0458-bbb0-92a142116746",
-								true,
-							},
-						},
-						endIfUsed = false,
-						fallthrough = false,
-						gVar = "ACR_RikuAST2_Healbar_CollectiveUnconscious",
-						gVarValue = 1,
-						ignoreWeaveRules = true,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Self",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "bce3a620-2bcf-f2f4-87e1-b335a0d7e941",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 1,
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
 						actionID = 16556,
 						actionLua = "",
 						allowInterrupt = false,
@@ -12245,7 +12170,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.0",
+			name = "v5.0.0.1",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,

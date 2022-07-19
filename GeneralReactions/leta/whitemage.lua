@@ -75,80 +75,6 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
-						actionID = 16536,
-						actionLua = "",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"ac66014a-7944-c91a-8d8b-98ed0a8adbb1",
-								true,
-							},
-							
-							{
-								"0f531a28-dc57-d12a-aac6-79b8a7943d8f",
-								true,
-							},
-							
-							{
-								"d0f564eb-0db4-c2c5-bb42-779c38eaa5ff",
-								true,
-							},
-							
-							{
-								"992c3fa6-3a6e-d746-9e47-b4261cf79e54",
-								true,
-							},
-						},
-						endIfUsed = false,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Hotbar_Temperance",
-						gVarValue = 1,
-						ignoreWeaveRules = true,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Self",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "6f9bd596-14bc-7946-ac9f-049f1ffa4dd1",
-						variableIsHover = false,
-						variableTogglesType = 2,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
 						actionID = 7432,
 						actionLua = "",
 						allowInterrupt = false,
@@ -8109,7 +8035,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.0",
+			name = "v5.0.0.1",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
