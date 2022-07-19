@@ -2202,7 +2202,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
-						conditionLua = "return TensorCore.Avoidance.inUnavoidableAOE(Argus.getCurrentAOEs(), TensorCore.mGetPlayer())",
+						conditionLua = "return Argus ~= nil and TensorCore.Avoidance.inUnavoidableAOE(Argus.getCurrentAOEs(), TensorCore.mGetPlayer())",
 						conditionType = 1,
 						conditions = 
 						{
@@ -8035,7 +8035,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.0.0.1",
+			name = "v5.0.0.2",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
