@@ -223,11 +223,11 @@ local tbl =
 								true,
 							},
 						},
-						endIfUsed = true,
+						endIfUsed = false,
 						fallthrough = false,
 						gVar = "",
 						gVarValue = 1,
-						ignoreWeaveRules = true,
+						ignoreWeaveRules = false,
 						isAreaTarget = false,
 						luaNeedsWeaveWindow = false,
 						luaReturnsAction = false,
@@ -480,7 +480,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -538,192 +538,6 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 3,
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 0,
-						actionID = -1,
-						buffCheckType = 1,
-						buffDuration = 0,
-						buffID = -1,
-						buffIDList = 
-						{
-						},
-						category = "Lua",
-						channelCheckSpellID = -1,
-						channelCheckSpellIDList = 
-						{
-						},
-						channelCheckTimeRemain = 0,
-						channelCheckType = 1,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterOriginalTarget = false,
-						clusterRadius = 8,
-						clusterRange = 30,
-						comparator = 1,
-						conditionLua = "return AnyoneCore.AOEMitigation[eventArgs.spellID] == true",
-						conditionType = 1,
-						conditions = 
-						{
-						},
-						contentid = -1,
-						dequeueIfLuaFalse = true,
-						enmityValue = 0,
-						eventArgOptionType = 1,
-						eventArgType = 1,
-						eventBuffDuration = 0,
-						eventBuffID = -1,
-						eventChatLine = "",
-						eventEntityContentID = -1,
-						eventEntityID = -1,
-						eventEntityName = "",
-						eventMarkerID = -1,
-						eventOwnerContentID = -1,
-						eventOwnerID = -1,
-						eventOwnerName = "",
-						eventSpellID = -1,
-						eventSpellName = -1,
-						eventTargetContentID = -1,
-						eventTargetID = -1,
-						eventTargetName = "",
-						filterTargetSubtype = "Nearest",
-						filterTargetType = "Self",
-						gaugeIndex = 1,
-						gaugeValue = 0,
-						hpType = 1,
-						hpValue = 0,
-						inCombatType = 1,
-						inRangeValue = 0,
-						lastSkillID = -1,
-						localMapIDList = 
-						{
-						},
-						localmapid = -1,
-						markerIDList = 
-						{
-						},
-						matchAnyBuff = false,
-						minTargetPercent = false,
-						mpType = 1,
-						mpValue = 0,
-						name = "",
-						partyTargetContentID = -1,
-						partyTargetName = "",
-						partyTargetNumber = 1,
-						partyTargetSubType = "Nearest",
-						partyTargetType = "All",
-						rangeCheckSourceSubType = "Nearest",
-						rangeCheckSourceType = "Self",
-						rangeSourceContentID = -1,
-						rangeSourceName = "",
-						setEventTargetSubtype = 1,
-						setFirstMatch = false,
-						spellIDList = 
-						{
-						},
-						uuid = "72f04211-140d-c093-8a97-dec98c1c6349",
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 0,
-						actionID = -1,
-						buffCheckType = 1,
-						buffDuration = 0,
-						buffID = -1,
-						buffIDList = 
-						{
-						},
-						category = "Party",
-						channelCheckSpellID = -1,
-						channelCheckSpellIDList = 
-						{
-						},
-						channelCheckTimeRemain = 5,
-						channelCheckType = 3,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterOriginalTarget = false,
-						clusterRadius = 8,
-						clusterRange = 30,
-						comparator = 2,
-						conditionLua = "",
-						conditionType = 5,
-						conditions = 
-						{
-						},
-						contentid = -1,
-						dequeueIfLuaFalse = false,
-						enmityValue = 0,
-						eventArgOptionType = 1,
-						eventArgType = 1,
-						eventBuffDuration = 0,
-						eventBuffID = -1,
-						eventChatLine = "",
-						eventEntityContentID = -1,
-						eventEntityID = -1,
-						eventEntityName = "",
-						eventMarkerID = -1,
-						eventOwnerContentID = -1,
-						eventOwnerID = -1,
-						eventOwnerName = "",
-						eventSpellID = -1,
-						eventSpellName = -1,
-						eventTargetContentID = -1,
-						eventTargetID = -1,
-						eventTargetName = "",
-						filterTargetSubtype = "Nearest",
-						filterTargetType = "Self",
-						gaugeIndex = 1,
-						gaugeValue = 0,
-						hpType = 1,
-						hpValue = 0,
-						inCombatType = 1,
-						inRangeValue = 0,
-						lastSkillID = -1,
-						localMapIDList = 
-						{
-						},
-						localmapid = -1,
-						markerIDList = 
-						{
-						},
-						matchAnyBuff = false,
-						minTargetPercent = false,
-						mpType = 1,
-						mpValue = 0,
-						name = "",
-						partyTargetContentID = -1,
-						partyTargetName = "",
-						partyTargetNumber = 1,
-						partyTargetSubType = "Nearest",
-						partyTargetType = "Event Entity",
-						rangeCheckSourceSubType = "Nearest",
-						rangeCheckSourceType = "Self",
-						rangeSourceContentID = -1,
-						rangeSourceName = "",
-						setEventTargetSubtype = 1,
-						setFirstMatch = false,
-						spellIDList = 
-						{
-						},
-						uuid = "6758e6dc-d6d0-ada7-bcdd-cc2b336460ff",
-						version = 2,
-					},
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -817,100 +631,6 @@ local tbl =
 						uuid = "b3791166-48da-36ce-a462-e1a6304f78c2",
 						version = 2,
 					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 0,
-						actionID = 25868,
-						buffCheckType = 1,
-						buffDuration = 0,
-						buffID = -1,
-						buffIDList = 
-						{
-						},
-						category = "Self",
-						channelCheckSpellID = -1,
-						channelCheckSpellIDList = 
-						{
-						},
-						channelCheckTimeRemain = 0,
-						channelCheckType = 1,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterOriginalTarget = false,
-						clusterRadius = 8,
-						clusterRange = 30,
-						comparator = 2,
-						conditionLua = "",
-						conditionType = 4,
-						conditions = 
-						{
-						},
-						contentid = -1,
-						dequeueIfLuaFalse = false,
-						enmityValue = 0,
-						eventArgOptionType = 1,
-						eventArgType = 1,
-						eventBuffDuration = 0,
-						eventBuffID = -1,
-						eventChatLine = "",
-						eventEntityContentID = -1,
-						eventEntityID = -1,
-						eventEntityName = "",
-						eventMarkerID = -1,
-						eventOwnerContentID = -1,
-						eventOwnerID = -1,
-						eventOwnerName = "",
-						eventSpellID = -1,
-						eventSpellName = -1,
-						eventTargetContentID = -1,
-						eventTargetID = -1,
-						eventTargetName = "",
-						filterTargetSubtype = "Nearest",
-						filterTargetType = "Self",
-						gaugeIndex = 1,
-						gaugeValue = 0,
-						hpType = 1,
-						hpValue = 0,
-						inCombatType = 1,
-						inRangeValue = 0,
-						lastSkillID = -1,
-						localMapIDList = 
-						{
-						},
-						localmapid = -1,
-						markerIDList = 
-						{
-						},
-						matchAnyBuff = false,
-						minTargetPercent = false,
-						mpType = 1,
-						mpValue = 0,
-						name = "CD - Expedient <= 0s",
-						partyTargetContentID = -1,
-						partyTargetName = "",
-						partyTargetNumber = 1,
-						partyTargetSubType = "Nearest",
-						partyTargetType = "All",
-						rangeCheckSourceSubType = "Nearest",
-						rangeCheckSourceType = "Self",
-						rangeSourceContentID = -1,
-						rangeSourceName = "",
-						setEventTargetSubtype = 1,
-						setFirstMatch = false,
-						spellIDList = 
-						{
-						},
-						uuid = "7fa956a3-79f2-1f24-96ca-951c33bc5ab8",
-						version = 2,
-					},
-					inheritedIndex = 6,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -1110,6 +830,11 @@ local tbl =
 							
 							{
 								"95f9ba88-b46e-9476-8a27-dcf67a9a3b56",
+								true,
+							},
+							
+							{
+								"e3f3363f-aeb8-f6c4-a81b-75d940273421",
 								true,
 							},
 							
@@ -2277,8 +2002,8 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
-						actionID = -1,
+						aType = "Skill",
+						actionID = 7437,
 						actionLua = "",
 						allowInterrupt = false,
 						atomicPriority = false,
@@ -2314,11 +2039,6 @@ local tbl =
 							},
 							
 							{
-								"ab83e38f-5840-5ab8-9be7-e88e114624c6",
-								true,
-							},
-							
-							{
 								"aab1baf8-05ba-8084-9377-863b697f26c8",
 								true,
 							},
@@ -2330,6 +2050,11 @@ local tbl =
 							
 							{
 								"2f4a5e7a-c4b0-96ee-95eb-d29d06ec68d0",
+								true,
+							},
+							
+							{
+								"cf3b2e88-96c1-8320-8211-e681e5d4e588",
 								true,
 							},
 						},
@@ -2350,7 +2075,7 @@ local tbl =
 						targetContentID = -1,
 						targetName = "",
 						targetSubType = "Nearest",
-						targetType = "Main Tank",
+						targetType = "Detection Target",
 						untarget = false,
 						useForWeaving = false,
 						useItem = false,
@@ -6409,6 +6134,100 @@ local tbl =
 						actionID = -1,
 						buffCheckType = 2,
 						buffDuration = 0,
+						buffID = 1223,
+						buffIDList = 
+						{
+						},
+						category = "Party",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
+						conditionLua = "",
+						conditionType = 1,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = false,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "Buff - Fey Union",
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "Main Tank",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "31b5ce85-b38e-0f6c-aef2-e897c02fe790",
+						version = 2,
+					},
+					inheritedIndex = 43,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 2,
+						buffDuration = 0,
 						buffID = 792,
 						buffIDList = 
 						{
@@ -6926,6 +6745,110 @@ local tbl =
 						channelCheckTimeRemain = 0,
 						channelCheckType = 1,
 						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
+						conditionLua = "",
+						conditionType = 1,
+						conditions = 
+						{
+							
+							{
+								"ab83e38f-5840-5ab8-9be7-e88e114624c6",
+								true,
+							},
+							
+							{
+								"31b5ce85-b38e-0f6c-aef2-e897c02fe790",
+								true,
+							},
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = true,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Main Tank",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "F - Fey Union",
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "cf3b2e88-96c1-8320-8211-e681e5d4e588",
+						version = 2,
+					},
+					inheritedIndex = 48,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Filter",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
 						clusterMinTarget = 2,
 						clusterOriginalTarget = false,
 						clusterRadius = 10,
@@ -7165,7 +7088,7 @@ local tbl =
 						eventTargetID = -1,
 						eventTargetName = "",
 						filterTargetSubtype = "Lowest HP",
-						filterTargetType = "Tank",
+						filterTargetType = "Main Tank",
 						gaugeIndex = 1,
 						gaugeValue = 0,
 						hpType = 1,
@@ -7203,110 +7126,6 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 41,
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 0,
-						actionID = -1,
-						buffCheckType = 1,
-						buffDuration = 0,
-						buffID = -1,
-						buffIDList = 
-						{
-						},
-						category = "Filter",
-						channelCheckSpellID = -1,
-						channelCheckSpellIDList = 
-						{
-						},
-						channelCheckTimeRemain = 0,
-						channelCheckType = 1,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterOriginalTarget = false,
-						clusterRadius = 8,
-						clusterRange = 30,
-						comparator = 1,
-						conditionLua = "",
-						conditionType = 1,
-						conditions = 
-						{
-							
-							{
-								"a1aa4c9a-ee40-8eba-9421-17d58f959b74",
-								true,
-							},
-							
-							{
-								"ab83e38f-5840-5ab8-9be7-e88e114624c6",
-								true,
-							},
-						},
-						contentid = -1,
-						dequeueIfLuaFalse = true,
-						enmityValue = 0,
-						eventArgOptionType = 1,
-						eventArgType = 1,
-						eventBuffDuration = 0,
-						eventBuffID = -1,
-						eventChatLine = "",
-						eventEntityContentID = -1,
-						eventEntityID = -1,
-						eventEntityName = "",
-						eventMarkerID = -1,
-						eventOwnerContentID = -1,
-						eventOwnerID = -1,
-						eventOwnerName = "",
-						eventSpellID = -1,
-						eventSpellName = -1,
-						eventTargetContentID = -1,
-						eventTargetID = -1,
-						eventTargetName = "",
-						filterTargetSubtype = "Lowest HP",
-						filterTargetType = "Tank",
-						gaugeIndex = 1,
-						gaugeValue = 0,
-						hpType = 1,
-						hpValue = 0,
-						inCombatType = 1,
-						inRangeValue = 0,
-						lastSkillID = -1,
-						localMapIDList = 
-						{
-						},
-						localmapid = -1,
-						markerIDList = 
-						{
-						},
-						matchAnyBuff = false,
-						minTargetPercent = false,
-						mpType = 1,
-						mpValue = 0,
-						name = "F - 85% Tank @ Fairy 30y",
-						partyTargetContentID = -1,
-						partyTargetName = "",
-						partyTargetNumber = 1,
-						partyTargetSubType = "Nearest",
-						partyTargetType = "All",
-						rangeCheckSourceSubType = "Nearest",
-						rangeCheckSourceType = "Self",
-						rangeSourceContentID = -1,
-						rangeSourceName = "",
-						setEventTargetSubtype = 1,
-						setFirstMatch = false,
-						spellIDList = 
-						{
-						},
-						uuid = "c42ae7c9-0520-3477-a71b-04eeab4cad0b",
-						version = 2,
-					},
-					inheritedIndex = 42,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -9125,7 +8944,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.0.0.5",
+			name = "v5.0.0.6",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
