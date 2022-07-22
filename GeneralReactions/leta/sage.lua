@@ -307,7 +307,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -401,7 +401,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -495,7 +495,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -11410,7 +11410,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.0.0.6",
+			name = "v5.0.0.7",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
