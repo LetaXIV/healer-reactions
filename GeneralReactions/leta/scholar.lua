@@ -3375,6 +3375,81 @@ local tbl =
 				{
 					data = 
 					{
+						aType = "Variable",
+						actionID = 7869,
+						actionLua = "",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"2a0a8f03-d83e-7649-9801-92217e022fca",
+								true,
+							},
+							
+							{
+								"1d300df6-2ae7-ef41-bd90-b005b955743d",
+								true,
+							},
+							
+							{
+								"52dfd5b9-3d58-0574-8110-01fb953db771",
+								true,
+							},
+							
+							{
+								"7426aae5-8fe4-7c35-91fd-bb2f36e7bb8e",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = false,
+						gVar = "ACR_RikuSCH2_Healbar_DissolveUnion",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Self",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "50745846-138a-896f-b8c2-af01ef0a2d2f",
+						variableIsHover = false,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 16,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
 						aType = "Skill",
 						actionID = 7437,
 						actionLua = "",
@@ -3829,6 +3904,100 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 2,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Self",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
+						conditionLua = "",
+						conditionType = 7,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = false,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 2,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "Self Not In Combat",
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "1d300df6-2ae7-ef41-bd90-b005b955743d",
+						version = 2,
+					},
+					inheritedIndex = 4,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -7569,7 +7738,7 @@ local tbl =
 						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
-						name = "Buff - Fey Union",
+						name = "Buff - Missing Fey Union",
 						partyTargetContentID = -1,
 						partyTargetName = "",
 						partyTargetNumber = 1,
@@ -7776,6 +7945,194 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 29,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = 1223,
+						buffIDList = 
+						{
+						},
+						category = "Party",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
+						conditionLua = "",
+						conditionType = 1,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = false,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "Buff - Has Fey Union",
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "Main Tank",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "49b78e94-6caf-36aa-92a7-04beb7aeae00",
+						version = 2,
+					},
+					inheritedIndex = 47,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = 1222,
+						buffIDList = 
+						{
+						},
+						category = "Party",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
+						conditionLua = "",
+						conditionType = 1,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = false,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "Buff - Pet Has Fey Union",
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "Pet",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "7426aae5-8fe4-7c35-91fd-bb2f36e7bb8e",
+						version = 2,
+					},
+					inheritedIndex = 48,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -10538,7 +10895,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2",
+			name = "v5.2.0.1",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,

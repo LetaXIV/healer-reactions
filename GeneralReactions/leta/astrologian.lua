@@ -4018,11 +4018,11 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
-						actionID = -1,
+						aType = "Skill",
+						actionID = 16559,
 						actionLua = "",
 						allowInterrupt = false,
-						atomicPriority = false,
+						atomicPriority = true,
 						castAtMouse = false,
 						castPosX = 0,
 						castPosY = 0,
@@ -4093,7 +4093,7 @@ local tbl =
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 5,
+					inheritedIndex = 6,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -12489,7 +12489,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2",
+			name = "v5.2.0.1",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
