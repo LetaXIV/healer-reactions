@@ -2652,6 +2652,11 @@ local tbl =
 							},
 							
 							{
+								"093c975e-db2d-b840-8522-f7100689992a",
+								true,
+							},
+							
+							{
 								"52dfd5b9-3d58-0574-8110-01fb953db771",
 								true,
 							},
@@ -10895,7 +10900,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1",
+			name = "v5.2.1.1",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
