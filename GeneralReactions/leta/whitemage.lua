@@ -1381,6 +1381,11 @@ local tbl =
 							},
 							
 							{
+								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
+								true,
+							},
+							
+							{
 								"69784c75-865f-114a-a91d-821e653cbede",
 								true,
 							},
@@ -1791,11 +1796,6 @@ local tbl =
 							},
 							
 							{
-								"813ae00c-5cc4-ef8a-b37f-88320a41d30d",
-								true,
-							},
-							
-							{
 								"fca86302-04d6-e671-9e3e-fbebd1d595fc",
 								true,
 							},
@@ -1862,6 +1862,11 @@ local tbl =
 							
 							{
 								"285098cb-d656-1f34-ad23-84d0d07e869c",
+								true,
+							},
+							
+							{
+								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
 								true,
 							},
 							
@@ -8247,7 +8252,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			eventType = 1,
 			execute = "",
 			executeType = 1,
@@ -8256,7 +8261,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1.1",
+			name = "v5.2.1.2",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,

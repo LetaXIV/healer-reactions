@@ -2398,7 +2398,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			eventType = 1,
 			execute = "",
 			executeType = 1,
@@ -2407,7 +2407,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1.1",
+			name = "v5.2.1.2",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
