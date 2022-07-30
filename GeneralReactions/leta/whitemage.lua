@@ -1221,6 +1221,21 @@ local tbl =
 							},
 							
 							{
+								"b39cd5df-64a9-0c52-a2c6-8f57da3933e8",
+								true,
+							},
+							
+							{
+								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
+								true,
+							},
+							
+							{
+								"69784c75-865f-114a-a91d-821e653cbede",
+								true,
+							},
+							
+							{
 								"439f4507-25be-6118-916c-cd663dbbcca9",
 								true,
 							},
@@ -1462,6 +1477,16 @@ local tbl =
 							
 							{
 								"285098cb-d656-1f34-ad23-84d0d07e869c",
+								true,
+							},
+							
+							{
+								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
+								true,
+							},
+							
+							{
+								"69784c75-865f-114a-a91d-821e653cbede",
 								true,
 							},
 							
@@ -1920,6 +1945,91 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 8,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = -1,
+						actionLua = "",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"285098cb-d656-1f34-ad23-84d0d07e869c",
+								true,
+							},
+							
+							{
+								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
+								true,
+							},
+							
+							{
+								"5ca72a84-937c-28e2-b803-b51e3f838d4f",
+								true,
+							},
+							
+							{
+								"439f4507-25be-6118-916c-cd663dbbcca9",
+								true,
+							},
+							
+							{
+								"94699a84-6d60-1bd5-b5be-4817bdb9a57b",
+								true,
+							},
+							
+							{
+								"938c512d-5c79-9f0f-b4ed-3819e586caad",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = true,
+						gVar = "ACR_RikuWHM2_Hotbar_ThinAir",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Self",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "ad7071b1-5b0c-958f-9f97-0e6631c1dbff",
+						variableIsHover = false,
+						variableTogglesType = 2,
+						version = 2,
+					},
+					inheritedIndex = 15,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -5443,11 +5553,6 @@ local tbl =
 								"afc4cfde-7b0b-ac3f-9afc-38cfb8c8cda8",
 								true,
 							},
-							
-							{
-								"06ccad9f-fd3b-e81d-ad4e-d8d793c7f3ad",
-								true,
-							},
 						},
 						contentid = -1,
 						dequeueIfLuaFalse = true,
@@ -8261,7 +8366,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1.3",
+			name = "v5.2.1.4",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
