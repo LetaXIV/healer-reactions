@@ -77,25 +77,11 @@ local tbl =
 	{
 		data = 
 		{
-			name = "--TEA",
-			uuid = "d146bd16-82bd-3c5c-b5c7-7be477e79c4d",
-			version = 2,
-		},
-		inheritedIndex = 9,
-		inheritedObjectUUID = "194a6e42-e70e-a692-b01e-0adb00f30f86",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
 			name = "Draw quotes",
 			uuid = "336d326e-1a7a-bb86-8f93-3fe16423dae9",
 			version = 2,
 		},
-		inheritedIndex = 10,
+		inheritedIndex = 4,
 		inheritedObjectUUID = "79d07751-0776-e532-a750-6421eeb9169b",
 		inheritedOverwrites = 
 		{
@@ -109,22 +95,8 @@ local tbl =
 			uuid = "25b8fb2a-d036-741a-9e20-198827e329cf",
 			version = 2,
 		},
-		inheritedIndex = 11,
+		inheritedIndex = 5,
 		inheritedObjectUUID = "18e6def3-7035-6610-b991-ec788d1c73aa",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "UCoB draws",
-			uuid = "fa31586f-4493-63a1-be64-b850bb0b36ec",
-			version = 2,
-		},
-		inheritedIndex = 12,
-		inheritedObjectUUID = "eefa7bbd-2ced-e0ef-833a-6ece8da17af1",
 		inheritedOverwrites = 
 		{
 		},
@@ -137,8 +109,92 @@ local tbl =
 			uuid = "46c96782-556f-50ab-84ce-ed8b18e30e5c",
 			version = 2,
 		},
-		inheritedIndex = 13,
+		inheritedIndex = 6,
 		inheritedObjectUUID = "95c88b0b-7bd5-c34b-acc7-a6ec9ec6d70a",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "UCoB draws",
+			uuid = "fa31586f-4493-63a1-be64-b850bb0b36ec",
+			version = 2,
+		},
+		inheritedIndex = 7,
+		inheritedObjectUUID = "eefa7bbd-2ced-e0ef-833a-6ece8da17af1",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Nail swap",
+			uuid = "55008053-5269-a60c-8ccc-d0f88c441939",
+			version = 2,
+		},
+		inheritedIndex = 9,
+		inheritedObjectUUID = "56280c2f-4e2f-9824-9c2d-5f763633ee13",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "UwU draws",
+			uuid = "6342f968-070b-4d94-a1c5-0026ba254249",
+			version = 2,
+		},
+		inheritedIndex = 10,
+		inheritedObjectUUID = "3f1d469c-639a-e2f6-8bf4-4a58abf0b185",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Titan jails",
+			uuid = "35a9085b-8505-40d8-aa6d-a2957dc8846e",
+			version = 2,
+		},
+		inheritedIndex = 11,
+		inheritedObjectUUID = "819d26bf-6119-260d-8bc9-33d8b0189ed4",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "--TEA",
+			uuid = "d146bd16-82bd-3c5c-b5c7-7be477e79c4d",
+			version = 2,
+		},
+		inheritedIndex = 12,
+		inheritedObjectUUID = "194a6e42-e70e-a692-b01e-0adb00f30f86",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Draw line to nisi partner",
+			uuid = "041cbe9d-19b2-b915-9b77-698708ca35a5",
+			version = 2,
+		},
+		inheritedIndex = 13,
+		inheritedObjectUUID = "d407b118-0ab8-7108-85e9-49965f87aded",
 		inheritedOverwrites = 
 		{
 		},
@@ -2375,7 +2431,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
-						conditionLua = "local time = eventArgs.line.line:match(AnyoneCore.Data.countdownstart)\nif time ~= nil then\n\tif data.countdownDuration == nil then\n        d(\"[AnyoneCore] Countdown started - engaging Prepull Helper.\")\n        AnyoneCore.Data.countdownTime = Now()\n        AnyoneCore.Data.countdownDuration = tonumber(time)\n        local time = tonumber(time)*1000\n        data.countdownTime = Now()\n        data.countdownDuration = time\n        data.pelotonDelay = math.random(time*0.1, time*0.5)\n        data.reassembleDelay = math.random(1000, 2000)\n        data.targetDelay = math.random(10, 250)\n        data.startCombat = gStartCombat\n        gStartCombat = false\n        AnyoneCore.JobCheck()\n        if AnyoneCore.Settings.PrepullHelper.twominpot == true and ACR_RikuSGE_Potion == true then\n            AnyoneCore.Data.PotsEnabled = true\n            ACR_RikuSGE_Potion = false\n            AnyoneCore.Toggle(\"pots\", false, (30000 + time))\n        end\n        local ac = ActionList:Get(1, 3596)\n        data.castTime = ac.casttime\n    end\n    return true\nend\nreturn false",
+						conditionLua = "local time = eventArgs.line.line:match(AnyoneCore.Data.countdownstart)\nif time ~= nil then\n\tif data.countdownDuration == nil then\n        d(\"[AnyoneCore] Countdown started - engaging Prepull Helper.\")\n        AnyoneCore.Data.countdownTime = Now()\n        AnyoneCore.Data.countdownDuration = tonumber(time)\n        local time = tonumber(time)*1000\n        data.countdownTime = Now()\n        data.countdownDuration = time\n        data.pelotonDelay = math.random(time*0.1, time*0.5)\n        data.reassembleDelay = math.random(1000, 2000)\n        data.targetDelay = math.random(10, 250)\n        data.startCombat = gStartCombat\n        gStartCombat = false\n        AnyoneCore.JobCheck()\n        if AnyoneCore.Settings.PrepullHelper.twominpot == true and ACR_RikuSGE_Potion == true then\n            AnyoneCore.Data.PotsEnabled = true\n            ACR_RikuSGE_Potion = false\n            AnyoneCore.Toggle(\"pots\", false, (30000 + time))\n        end\n        local ac = ActionList:Get(1, 24312)\n        data.castTime = ac.casttime\n    end\n    return true\nend\nreturn false",
 						conditionType = 1,
 						conditions = 
 						{
@@ -11735,7 +11791,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1.2",
+			name = "v5.2.1.3",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
