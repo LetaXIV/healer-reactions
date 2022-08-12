@@ -27,7 +27,9 @@ local tbl =
 						inheritedObjectUUID = "d665cc89-4986-7b77-ba89-338d1a9d9aac",
 						inheritedOverwrites = 
 						{
+							aType = "Variable",
 							actionID = 143,
+							gVar = "ACR_RikuAST2_Hotbar_Surecast",
 						},
 					},
 				},
@@ -45,7 +47,9 @@ local tbl =
 						inheritedObjectUUID = "c795ac48-d1c7-6996-b28c-fbffe62e41e7",
 						inheritedOverwrites = 
 						{
+							aType = "Variable",
 							actionID = 143,
+							gVar = "ACR_RikuAST2_Hotbar_Surecast",
 						},
 					},
 				},
@@ -63,7 +67,9 @@ local tbl =
 						inheritedObjectUUID = "82c1d6b3-f83d-2908-89b7-51300b560dfc",
 						inheritedOverwrites = 
 						{
+							aType = "Variable",
 							actionID = 143,
+							gVar = "ACR_RikuAST2_Hotbar_Surecast",
 						},
 					},
 				},
@@ -12702,7 +12708,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1.6",
+			name = "v5.2.1.7",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,

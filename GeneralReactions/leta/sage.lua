@@ -28,7 +28,7 @@ local tbl =
 						inheritedOverwrites = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWHM2_Hotbar_Surecast",
+							gVar = "ACR_RikuSGE_Hotbar_Surecast",
 						},
 					},
 				},
@@ -47,7 +47,7 @@ local tbl =
 						inheritedOverwrites = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWHM2_Hotbar_Surecast",
+							gVar = "ACR_RikuSGE_Hotbar_Surecast",
 						},
 					},
 				},
@@ -66,7 +66,7 @@ local tbl =
 						inheritedOverwrites = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuWHM2_Hotbar_Surecast",
+							gVar = "ACR_RikuSGE_Hotbar_Surecast",
 						},
 					},
 				},
@@ -12112,7 +12112,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1.6",
+			name = "v5.2.1.7",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
