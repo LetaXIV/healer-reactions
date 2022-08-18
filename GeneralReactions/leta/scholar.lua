@@ -4,6 +4,76 @@ local tbl =
 	{
 		data = 
 		{
+			name = "P4S Knockback",
+			uuid = "f4ae6846-b1d1-77a6-a043-a2d75228d746",
+			version = 2,
+		},
+		inheritedObjectUUID = "7acc5b9f-e9a9-6c7b-9703-0d3f3cbb4756",
+		inheritedOverwrites = 
+		{
+			actions = 
+			{
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "3487499b-d6ff-986b-a8c9-38fe731fe3e2",
+							version = 2,
+						},
+						inheritedObjectUUID = "50332d8a-58d7-8771-a47b-6b5341b8c217",
+						inheritedOverwrites = 
+						{
+							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "e8d4f601-07f8-cc22-91aa-d946f6f6a96d",
+							version = 2,
+						},
+						inheritedObjectUUID = "5c8ff4b0-47af-9776-ac78-84cce024a2e5",
+						inheritedOverwrites = 
+						{
+							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "5a5ce21f-2b8d-dd7f-bacf-618bfc5af56d",
+							version = 2,
+						},
+						inheritedObjectUUID = "21e23866-3f8b-fca3-b259-4a842ced68bd",
+						inheritedOverwrites = 
+						{
+							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
+						},
+					},
+				},
+			},
+		},
+	},
+	
+	{
+		data = 
+		{
 			name = "--TEA",
 			uuid = "4f72dcc6-4836-34dc-8934-99f76e045db2",
 			version = 2,
@@ -11211,7 +11281,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1.8",
+			name = "v5.2.1.9",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,

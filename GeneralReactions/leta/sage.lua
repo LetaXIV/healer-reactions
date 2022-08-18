@@ -53,6 +53,7 @@ local tbl =
 				},
 				
 				{
+					position = 3,
 					type = "add",
 					value = 
 					{
@@ -62,6 +63,7 @@ local tbl =
 							uuid = "21e23866-3f8b-fca3-b259-4a842ced68bd",
 							version = 2,
 						},
+						inheritedIndex = 3,
 						inheritedObjectUUID = "82c1d6b3-f83d-2908-89b7-51300b560dfc",
 						inheritedOverwrites = 
 						{
@@ -11149,7 +11151,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -11243,7 +11245,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -12112,7 +12114,7 @@ local tbl =
 			luaNeedsWeaveWindow = false,
 			luaReturnsAction = false,
 			mechanicTime = 0,
-			name = "v5.2.1.8",
+			name = "v5.2.1.9",
 			randomOffset = 0,
 			throttleTime = 0,
 			timeRandomRange = false,
