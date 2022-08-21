@@ -1632,7 +1632,6 @@ local tbl =
 					data = 
 					{
 						category = "Lua",
-						conditionLua = "return Argus ~= nil and TensorCore.Avoidance.inUnavoidableAOE(Argus.getCurrentAOEs(), TensorCore.mGetPlayer())",
 						dequeueIfLuaFalse = true,
 						name = "unavoidable aoe",
 						uuid = "95f9ba88-b46e-9476-8a27-dcf67a9a3b56",
@@ -3039,7 +3038,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2",
+			name = "v5.2.2.1",
 			uuid = "591aa599-4629-bc2a-9ff3-5f836a4b93da",
 			version = 2,
 		},
