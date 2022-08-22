@@ -68,6 +68,97 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Prepull Helper",
+			uuid = "4555a084-8304-5ed2-9eba-b620f8372c0a",
+			version = 2,
+		},
+		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
+		inheritedOverwrites = 
+		{
+			actions = 
+			{
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "cancel prepull helper",
+							uuid = "cf5d77c9-441e-158b-a74b-f9a92a68a115",
+							version = 2,
+						},
+						inheritedObjectUUID = "451a1cc6-ace3-1170-96e9-aeff38c3affb",
+						inheritedOverwrites = 
+						{
+							conditions = 
+							{
+								
+								{
+									type = "remove",
+									value = 
+									{
+										"50124129-980a-3a46-b291-5a37b9f25ce2",
+										true,
+									},
+								},
+								
+								{
+									type = "add",
+									value = 
+									{
+										"979de1fd-6b74-f449-9106-6d0c5c66619c",
+										true,
+									},
+								},
+							},
+						},
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "is countdown cancelled",
+							uuid = "32b04a46-1fb8-47ab-8cdd-76e253d7aa7a",
+							version = 2,
+						},
+						inheritedObjectUUID = "50124129-980a-3a46-b291-5a37b9f25ce2",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					position = 6,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Lua",
+							conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.countdowncancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
+							name = "is countdown canceled",
+							uuid = "979de1fd-6b74-f449-9106-6d0c5c66619c",
+							version = 2,
+						},
+						inheritedIndex = 6,
+					},
+				},
+			},
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 				
@@ -1104,7 +1195,8 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Self",
+						category = "Lua",
+						conditionLua = "return Argus ~= nil and TensorCore.Avoidance.inUnavoidableAOE(TensorCore.mGetPlayer().id)",
 						conditionType = 2,
 						dequeueIfLuaFalse = true,
 						hpValue = 101,
@@ -2454,7 +2546,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.3",
+			name = "v5.2.2.4",
 			uuid = "45f46047-a0e0-51d4-adfb-770b4bfbfa8c",
 			version = 2,
 		},

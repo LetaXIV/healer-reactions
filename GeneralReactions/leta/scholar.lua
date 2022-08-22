@@ -416,7 +416,7 @@ local tbl =
 					data = 
 					{
 						category = "Lua",
-						conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.Data.prepullcancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
+						conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.countdowncancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
 						dequeueIfLuaFalse = true,
 						name = "is countdown cancelled",
 						uuid = "50124129-980a-3a46-b291-5a37b9f25ce2",
@@ -1631,7 +1631,8 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Self",
+						category = "Lua",
+						conditionLua = "return Argus ~= nil and TensorCore.Avoidance.inUnavoidableAOE(TensorCore.mGetPlayer().id)",
 						conditionType = 2,
 						dequeueIfLuaFalse = true,
 						hpValue = 101,
@@ -3040,7 +3041,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.3",
+			name = "v5.2.2.4",
 			uuid = "591aa599-4629-bc2a-9ff3-5f836a4b93da",
 			version = 2,
 		},
