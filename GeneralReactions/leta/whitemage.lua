@@ -2454,7 +2454,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.2",
+			name = "v5.2.2.3",
 			uuid = "45f46047-a0e0-51d4-adfb-770b4bfbfa8c",
 			version = 2,
 		},

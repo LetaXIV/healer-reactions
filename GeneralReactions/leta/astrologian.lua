@@ -591,155 +591,6 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
-						actionID = 16556,
-						conditions = 
-						{
-							
-							{
-								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
-								true,
-							},
-							
-							{
-								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
-								true,
-							},
-							
-							{
-								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
-								true,
-							},
-						},
-						fallthrough = true,
-						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
-						ignoreWeaveRules = true,
-						targetType = "Main Tank",
-						uuid = "20b4ce27-5df0-af96-9a44-779646f5b2c3",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 25873,
-						conditions = 
-						{
-							
-							{
-								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
-								true,
-							},
-							
-							{
-								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
-								true,
-							},
-							
-							{
-								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
-								true,
-							},
-						},
-						gVar = "ACR_RikuAST2_Healbar_Exaltation",
-						ignoreWeaveRules = true,
-						targetType = "Main Tank",
-						uuid = "03da3a64-1df3-b89c-8e9c-f8b8fce59beb",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 3,
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Heal\"].bool",
-						dequeueIfLuaFalse = true,
-						name = "Toggle Heal",
-						uuid = "21d6245b-d8dc-3d19-bf63-6b5a717402a2",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Mitigation\"].bool",
-						dequeueIfLuaFalse = true,
-						name = "Toggle Mitigation",
-						uuid = "0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
-						version = 2,
-					},
-					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.AOEMitigation[eventArgs.spellID] == true",
-						dequeueIfLuaFalse = true,
-						uuid = "1c4bfd9f-e86c-2388-b2f1-93a7ad8ad845",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Party",
-						channelCheckTimeRemain = 3,
-						channelCheckType = 3,
-						comparator = 2,
-						conditionType = 5,
-						partyTargetType = "Event Entity",
-						uuid = "240d5878-d691-0458-bbb0-92a142116746",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.TankMitigation[eventArgs.spellID] == true",
-						dequeueIfLuaFalse = true,
-						uuid = "33ce2f41-d38b-61c6-a589-2bbe063ae2db",
-						version = 2,
-					},
-				},
-			},
-			eventType = 3,
-			name = "Duty Helper",
-			throttleTime = 1000,
-			timeout = 3,
-			uuid = "1404436e-9a2e-7e7e-b09c-50839e46b22a",
-			version = 2,
-		},
-		inheritedIndex = 31,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Variable",
 						actionID = 7559,
 						conditions = 
 						{
@@ -897,7 +748,156 @@ local tbl =
 			uuid = "d066fbce-6e78-3a2a-b789-d7db896d5b3b",
 			version = 2,
 		},
-		inheritedIndex = 32,
+		inheritedIndex = 20,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 16556,
+						conditions = 
+						{
+							
+							{
+								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
+								true,
+							},
+							
+							{
+								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
+								true,
+							},
+							
+							{
+								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
+								true,
+							},
+						},
+						fallthrough = true,
+						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
+						ignoreWeaveRules = true,
+						targetType = "Main Tank",
+						uuid = "20b4ce27-5df0-af96-9a44-779646f5b2c3",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 25873,
+						conditions = 
+						{
+							
+							{
+								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
+								true,
+							},
+							
+							{
+								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
+								true,
+							},
+							
+							{
+								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
+								true,
+							},
+						},
+						gVar = "ACR_RikuAST2_Healbar_Exaltation",
+						ignoreWeaveRules = true,
+						targetType = "Main Tank",
+						uuid = "03da3a64-1df3-b89c-8e9c-f8b8fce59beb",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 3,
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Heal\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Heal",
+						uuid = "21d6245b-d8dc-3d19-bf63-6b5a717402a2",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Mitigation\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Mitigation",
+						uuid = "0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
+						version = 2,
+					},
+					inheritedIndex = 2,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.AOEMitigation[eventArgs.spellID] == true",
+						dequeueIfLuaFalse = true,
+						uuid = "1c4bfd9f-e86c-2388-b2f1-93a7ad8ad845",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Party",
+						channelCheckTimeRemain = 3,
+						channelCheckType = 3,
+						comparator = 2,
+						conditionType = 5,
+						partyTargetType = "Event Entity",
+						uuid = "240d5878-d691-0458-bbb0-92a142116746",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.TankMitigation[eventArgs.spellID] == true",
+						dequeueIfLuaFalse = true,
+						uuid = "33ce2f41-d38b-61c6-a589-2bbe063ae2db",
+						version = 2,
+					},
+				},
+			},
+			eventType = 3,
+			name = "Duty Helper",
+			throttleTime = 1000,
+			timeout = 3,
+			uuid = "1404436e-9a2e-7e7e-b09c-50839e46b22a",
+			version = 2,
+		},
+		inheritedIndex = 31,
 	},
 	
 	{
@@ -1155,7 +1155,6 @@ local tbl =
 					data = 
 					{
 						actionID = 16559,
-						atomicPriority = true,
 						conditions = 
 						{
 							
@@ -1180,18 +1179,14 @@ local tbl =
 							},
 							
 							{
-								"72c8c9d1-909c-de7e-8eb6-23a01c47f072",
-								true,
-							},
-							
-							{
-								"230c14ce-e3fa-58a9-99a3-ccd9aaf6f8ee",
+								"2ac7e583-4ad9-a5e5-ba7b-8705ef0dafc0",
 								true,
 							},
 						},
 						endIfUsed = true,
 						fallthrough = true,
 						gVar = "ACR_RikuAST2_Healbar_NeutralSect",
+						ignoreWeaveRules = true,
 						uuid = "ab5797d3-0fd6-20c1-a25c-cad0eed77625",
 						variableTogglesType = 3,
 						version = 2,
@@ -1953,7 +1948,7 @@ local tbl =
 						uuid = "2ae75993-5aca-8fce-90f0-da7742f5cff2",
 						version = 2,
 					},
-					inheritedIndex = 4,
+					inheritedIndex = 15,
 				},
 				
 				{
@@ -2334,17 +2329,17 @@ local tbl =
 						{
 							
 							{
+								"4680bdcb-1130-a61a-b40e-5483cb156b14",
+								true,
+							},
+							
+							{
 								"188fbd23-4fe4-8453-b535-4ced10923e67",
 								true,
 							},
 							
 							{
 								"9c7ffa75-1928-8114-87a7-a5c85edc4e5c",
-								true,
-							},
-							
-							{
-								"4680bdcb-1130-a61a-b40e-5483cb156b14",
 								true,
 							},
 						},
@@ -2489,6 +2484,38 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 33,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"4680bdcb-1130-a61a-b40e-5483cb156b14",
+								true,
+							},
+							
+							{
+								"188fbd23-4fe4-8453-b535-4ced10923e67",
+								true,
+							},
+							
+							{
+								"9c7ffa75-1928-8114-87a7-a5c85edc4e5c",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetSubtype = "Lowest HP",
+						filterTargetType = "Party",
+						name = "F - Neutral Sect",
+						uuid = "2ac7e583-4ad9-a5e5-ba7b-8705ef0dafc0",
+						version = 2,
+					},
+					inheritedIndex = 46,
 				},
 				
 				{
@@ -3361,7 +3388,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.2",
+			name = "v5.2.2.3",
 			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
 			version = 2,
 		},
