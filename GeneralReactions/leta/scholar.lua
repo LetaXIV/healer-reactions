@@ -1631,8 +1631,10 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Lua",
+						category = "Self",
+						conditionType = 2,
 						dequeueIfLuaFalse = true,
+						hpValue = 101,
 						name = "unavoidable aoe",
 						uuid = "95f9ba88-b46e-9476-8a27-dcf67a9a3b56",
 						version = 2,
@@ -3038,7 +3040,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.1",
+			name = "v5.2.2.2",
 			uuid = "591aa599-4629-bc2a-9ff3-5f836a4b93da",
 			version = 2,
 		},

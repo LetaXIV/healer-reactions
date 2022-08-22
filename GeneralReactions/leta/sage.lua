@@ -536,17 +536,6 @@ local tbl =
 					data = 
 					{
 						category = "Lua",
-						dequeueIfLuaFalse = true,
-						name = "unavoidable aoe",
-						uuid = "da5fee50-b369-8f2f-ab6e-6dd89ae3952f",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
 						conditionLua = "return AnyoneCore.Settings.DutyHelper.mitigation == true",
 						dequeueIfLuaFalse = true,
 						name = "check mitigation settings",
@@ -815,7 +804,7 @@ local tbl =
 					data = 
 					{
 						category = "Lua",
-						conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.Data.prepullcancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
+						conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.countdowncancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
 						dequeueIfLuaFalse = true,
 						name = "is countdown cancelled",
 						uuid = "50124129-980a-3a46-b291-5a37b9f25ce2",
@@ -1875,8 +1864,10 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Lua",
+						category = "Self",
+						conditionType = 2,
 						dequeueIfLuaFalse = true,
+						hpValue = 101,
 						name = "unavoidable aoe",
 						uuid = "95f9ba88-b46e-9476-8a27-dcf67a9a3b56",
 						version = 2,
@@ -3193,7 +3184,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.1",
+			name = "v5.2.2.2",
 			uuid = "f7e6dc9a-cc58-fa71-b51f-fa462e41d99e",
 			version = 2,
 		},

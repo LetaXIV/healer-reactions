@@ -513,7 +513,7 @@ local tbl =
 					data = 
 					{
 						category = "Lua",
-						conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.Data.prepullcancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
+						conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.countdowncancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
 						dequeueIfLuaFalse = true,
 						name = "is countdown cancelled",
 						uuid = "50124129-980a-3a46-b291-5a37b9f25ce2",
@@ -874,17 +874,6 @@ local tbl =
 						dequeueIfLuaFalse = true,
 						name = "not a player",
 						uuid = "9344e544-8aa7-e303-ae49-c8a23dec9d2e",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						dequeueIfLuaFalse = true,
-						name = "unavoidable aoe",
-						uuid = "da5fee50-b369-8f2f-ab6e-6dd89ae3952f",
 						version = 2,
 					},
 				},
@@ -1788,8 +1777,10 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Lua",
+						category = "Self",
+						conditionType = 2,
 						dequeueIfLuaFalse = true,
+						hpValue = 101,
 						name = "unavoidable aoe",
 						uuid = "b2a953b4-50ff-9d87-a9cf-ab9d093bff3a",
 						version = 2,
@@ -3370,7 +3361,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.1",
+			name = "v5.2.2.2",
 			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
 			version = 2,
 		},
