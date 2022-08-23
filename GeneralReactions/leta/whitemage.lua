@@ -184,6 +184,11 @@ local tbl =
 								"797c3e27-31a6-296a-92f5-3285385934b3",
 								true,
 							},
+							
+							{
+								"91aefcfa-2a26-c1ef-8f32-d659a92898d7",
+								true,
+							},
 						},
 						fallthrough = true,
 						gVar = "ACR_RikuWHM2_Healbar_DivineBenison",
@@ -216,6 +221,11 @@ local tbl =
 							
 							{
 								"797c3e27-31a6-296a-92f5-3285385934b3",
+								true,
+							},
+							
+							{
+								"0171b500-4f08-4c71-a372-8e8dc5a84a7d",
 								true,
 							},
 						},
@@ -290,6 +300,33 @@ local tbl =
 						conditionLua = "return AnyoneCore.TankMitigation[eventArgs.spellID] == true",
 						dequeueIfLuaFalse = true,
 						uuid = "797c3e27-31a6-296a-92f5-3285385934b3",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 30,
+						actionID = 7432,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Benison <= 30s",
+						uuid = "91aefcfa-2a26-c1ef-8f32-d659a92898d7",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionID = 25861,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Aquaveil <= 0s",
+						uuid = "0171b500-4f08-4c71-a372-8e8dc5a84a7d",
 						version = 2,
 					},
 				},
@@ -2013,6 +2050,11 @@ local tbl =
 								"73fbdb86-eb4d-fd59-bbb5-7ef1b876d19c",
 								true,
 							},
+							
+							{
+								"39086399-cc48-b7e3-80a3-393a5e4cdbc1",
+								true,
+							},
 						},
 						endIfUsed = true,
 						fallthrough = true,
@@ -2051,6 +2093,11 @@ local tbl =
 							
 							{
 								"e322e744-6977-0886-83ae-42fbddaa5313",
+								true,
+							},
+							
+							{
+								"9353792e-b7b2-a516-8e36-741beee21def",
 								true,
 							},
 						},
@@ -2098,6 +2145,11 @@ local tbl =
 								"73fbdb86-eb4d-fd59-bbb5-7ef1b876d19c",
 								true,
 							},
+							
+							{
+								"39086399-cc48-b7e3-80a3-393a5e4cdbc1",
+								true,
+							},
 						},
 						fallthrough = true,
 						gVar = "ACR_RikuWHM2_Healbar_DivineBenison",
@@ -2135,6 +2187,11 @@ local tbl =
 							
 							{
 								"e322e744-6977-0886-83ae-42fbddaa5313",
+								true,
+							},
+							
+							{
+								"9353792e-b7b2-a516-8e36-741beee21def",
 								true,
 							},
 						},
@@ -2232,6 +2289,33 @@ local tbl =
 						category = "Party",
 						partyTargetType = "Main Tank",
 						uuid = "73fbdb86-eb4d-fd59-bbb5-7ef1b876d19c",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 30,
+						actionID = 7432,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Benison <= 30s",
+						uuid = "39086399-cc48-b7e3-80a3-393a5e4cdbc1",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionID = 25861,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Aquaveil <= 0s",
+						uuid = "9353792e-b7b2-a516-8e36-741beee21def",
 						version = 2,
 					},
 				},
@@ -2546,7 +2630,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.4",
+			name = "v5.2.2.5",
 			uuid = "45f46047-a0e0-51d4-adfb-770b4bfbfa8c",
 			version = 2,
 		},

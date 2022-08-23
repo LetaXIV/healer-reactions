@@ -779,6 +779,11 @@ local tbl =
 								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
 								true,
 							},
+							
+							{
+								"85ede217-57a0-e66f-b519-1329950dcc66",
+								true,
+							},
 						},
 						fallthrough = true,
 						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
@@ -811,6 +816,11 @@ local tbl =
 							
 							{
 								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
+								true,
+							},
+							
+							{
+								"7d4c92e8-17d4-522f-a811-8f53c6dd2608",
 								true,
 							},
 						},
@@ -886,6 +896,33 @@ local tbl =
 						conditionLua = "return AnyoneCore.TankMitigation[eventArgs.spellID] == true",
 						dequeueIfLuaFalse = true,
 						uuid = "33ce2f41-d38b-61c6-a589-2bbe063ae2db",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 30,
+						actionID = 16556,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Cel Intersection <= 0s",
+						uuid = "85ede217-57a0-e66f-b519-1329950dcc66",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionID = 25873,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Exaltation <= 0s",
+						uuid = "7d4c92e8-17d4-522f-a811-8f53c6dd2608",
 						version = 2,
 					},
 				},
@@ -3081,6 +3118,11 @@ local tbl =
 								"a972cced-623f-da83-8a85-3cf06b5c2700",
 								true,
 							},
+							
+							{
+								"3f885a01-ce64-c092-9d94-d2b6fd2c3159",
+								true,
+							},
 						},
 						endIfUsed = true,
 						fallthrough = true,
@@ -3119,6 +3161,11 @@ local tbl =
 							
 							{
 								"784fed7d-366a-1861-bffd-48dcd57c1ae8",
+								true,
+							},
+							
+							{
+								"f516f3c5-ecd7-2ab4-b474-473d78d32ec1",
 								true,
 							},
 						},
@@ -3164,6 +3211,11 @@ local tbl =
 							
 							{
 								"a972cced-623f-da83-8a85-3cf06b5c2700",
+								true,
+							},
+							
+							{
+								"3f885a01-ce64-c092-9d94-d2b6fd2c3159",
 								true,
 							},
 						},
@@ -3260,6 +3312,33 @@ local tbl =
 						category = "Party",
 						partyTargetType = "Main Tank",
 						uuid = "a972cced-623f-da83-8a85-3cf06b5c2700",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 30,
+						actionID = 16556,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Cel Intersection <= 0s",
+						uuid = "3f885a01-ce64-c092-9d94-d2b6fd2c3159",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionID = 25873,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Exaltation <= 0s",
+						uuid = "f516f3c5-ecd7-2ab4-b474-473d78d32ec1",
 						version = 2,
 					},
 				},
@@ -3389,7 +3468,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.4",
+			name = "v5.2.2.5",
 			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
 			version = 2,
 		},
