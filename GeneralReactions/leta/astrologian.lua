@@ -501,7 +501,7 @@ local tbl =
 					data = 
 					{
 						category = "Lua",
-						conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 20000 - data.targetDelay",
+						conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 15000 - data.targetDelay",
 						name = "target boss timer",
 						partyTargetSubType = 1,
 						uuid = "4838a5f2-e6ec-e56e-a71c-d5c8620b5353",
@@ -3468,7 +3468,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.5",
+			name = "v5.2.2.6",
 			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
 			version = 2,
 		},
