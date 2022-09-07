@@ -1351,7 +1351,6 @@ local tbl =
 							},
 						},
 						endIfUsed = true,
-						fallthrough = true,
 						gVar = "ACR_RikuSGE_Healbar_Soteria",
 						uuid = "14933323-0697-28e4-8111-28bc3d609e7c",
 						variableTogglesType = 3,
@@ -3216,7 +3215,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.7",
+			name = "v5.2.2.8",
 			uuid = "f7e6dc9a-cc58-fa71-b51f-fa462e41d99e",
 			version = 2,
 		},

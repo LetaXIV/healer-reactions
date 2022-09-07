@@ -1222,6 +1222,7 @@ local tbl =
 				{
 					data = 
 					{
+						aType = "Variable",
 						actionID = 16559,
 						conditions = 
 						{
@@ -1247,12 +1248,16 @@ local tbl =
 							},
 							
 							{
+								"72c8c9d1-909c-de7e-8eb6-23a01c47f072",
+								true,
+							},
+							
+							{
 								"2ac7e583-4ad9-a5e5-ba7b-8705ef0dafc0",
 								true,
 							},
 						},
 						endIfUsed = true,
-						fallthrough = true,
 						gVar = "ACR_RikuAST2_Healbar_NeutralSect",
 						ignoreWeaveRules = true,
 						uuid = "ab5797d3-0fd6-20c1-a25c-cad0eed77625",
@@ -3250,6 +3255,7 @@ local tbl =
 								true,
 							},
 						},
+						endIfUsed = true,
 						fallthrough = true,
 						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
 						targetType = "Main Tank",
@@ -3499,7 +3505,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.7",
+			name = "v5.2.2.8",
 			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
 			version = 2,
 		},

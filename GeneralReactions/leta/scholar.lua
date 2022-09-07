@@ -869,7 +869,6 @@ local tbl =
 							},
 						},
 						endIfUsed = true,
-						fallthrough = true,
 						gVar = "ACR_RikuSCH2_Healbar_FeyIllumination",
 						uuid = "ada7b9e7-a410-ce06-b19e-059f703c23d5",
 						variableTogglesType = 3,
@@ -3041,7 +3040,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.7",
+			name = "v5.2.2.8",
 			uuid = "591aa599-4629-bc2a-9ff3-5f836a4b93da",
 			version = 2,
 		},
