@@ -866,7 +866,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "Player:ClearTarget()\nAnyoneCore.Data.Toggle = {}\nTensorDrift_SlidecastForceHold = false\nAnyoneCore.JobCheck()\n\nif eventArgs.oldData ~= nil and eventArgs.oldData.startCombat ~= nil then\n\t\tgStartCombat = false\n\t\tdata.startCombat = nil\nend\n\nself.used = true",
+						actionLua = "Player:ClearTarget()\nAnyoneCore.Data.Toggle = {}\nTensorDrift_SlidecastForceHold = false\nAnyoneCore.JobCheck()\n\nif eventArgs.oldData ~= nil and eventArgs.oldData.startCombat ~= nil then\n\t\tgStartCombat = false\n\t\tdata.startCombat = nil\nend\n\nif AnyoneCore.Settings.endACTLog then\n        SendTextCommand(\"/e end\")\nend\nArgus.deleteTimedShape()\n\nself.used = true",
 						name = "Misc",
 						uuid = "59680516-386f-c190-a4bb-b275d6fb3aaa",
 						version = 2,
@@ -891,6 +891,25 @@ local tbl =
 						version = 2,
 					},
 				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "if AnyoneCore.Settings.nidhogPot == true then\n\t\tACR_RikuSGE_Potion = false\nend\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"7cda9344-77b3-3aac-8533-72485ec52945",
+								true,
+							},
+						},
+						name = "DSW",
+						uuid = "98ff5a1f-d090-4a0f-b645-ba8d8acd7de7",
+						version = 2,
+					},
+				},
 			},
 			conditions = 
 			{
@@ -903,6 +922,18 @@ local tbl =
 						dequeueIfLuaFalse = true,
 						localmapid = 777,
 						uuid = "3988c287-26d3-dc52-adfb-64877644f41a",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 8,
+						dequeueIfLuaFalse = true,
+						localmapid = 968,
+						uuid = "7cda9344-77b3-3aac-8533-72485ec52945",
 						version = 2,
 					},
 				},
@@ -3185,7 +3216,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.6",
+			name = "v5.2.2.7",
 			uuid = "f7e6dc9a-cc58-fa71-b51f-fa462e41d99e",
 			version = 2,
 		},
