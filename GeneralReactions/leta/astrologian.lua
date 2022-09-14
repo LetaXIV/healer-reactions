@@ -285,29 +285,53 @@ local tbl =
 				{
 					data = 
 					{
+						aType = "Lua",
+						actionLua = "d(\"[AnyoneCore] Countdown started - engaging Prepull Helper.\")\nAnyoneCore.Data.countdownTime = Now()\nAnyoneCore.Data.countdownDuration = tonumber(eventArgs.time)\ndata.startCombat = gStartCombat\ngStartCombat = false\nAnyoneCore.JobCheck()\nif AnyoneCore.Settings.PrepullHelper.twominpot == true and ACR_RikuAST2_Potion == true then\n    AnyoneCore.Data.PotsEnabled = true\n    ACR_RikuAST2_Potion = false\n    AnyoneCore.Toggle(\"pots\", false, (30000 + eventArgs.time))\nend\nlocal ac = ActionList:Get(1, 3596)\ndata.castTime = ac.casttime\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+						},
+						name = "Set Variables",
+						uuid = "8ceba036-70b3-14a9-8147-e299a38d5ccd",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
 						aType = "Misc",
 						conditions = 
 						{
 							
 							{
-								"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
 								true,
 							},
 							
 							{
-								"f0635090-e89f-2ae2-844c-c7f30531ad49",
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 								true,
 							},
 							
 							{
-								"4838a5f2-e6ec-e56e-a71c-d5c8620b5353",
+								"a4232360-944a-f0ae-931c-be1356c00e74",
 								true,
 							},
 						},
-						name = "target nearest",
+						name = "Target Nearest",
 						setTarget = true,
 						targetType = "Enemy",
-						uuid = "b0e66759-e311-9c80-a57f-2e93ff99d4d1",
+						uuid = "ad3c6f9c-68b3-dd49-844f-28b4f9aca282",
 						version = 2,
 					},
 				},
@@ -320,31 +344,25 @@ local tbl =
 						{
 							
 							{
-								"f0635090-e89f-2ae2-844c-c7f30531ad49",
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
 								true,
 							},
 							
 							{
-								"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 								true,
 							},
 							
 							{
-								"4838a5f2-e6ec-e56e-a71c-d5c8620b5353",
-								true,
-							},
-							
-							{
-								"32a3b72f-b120-d66c-b0e1-e6fddae27ee6",
+								"a4232360-944a-f0ae-931c-be1356c00e74",
 								true,
 							},
 						},
 						ignoreWeaveRules = true,
 						targetType = "Current Target",
-						uuid = "28600a5f-4c96-8430-b70d-e06aa0604e28",
+						uuid = "b53dc225-f69e-ac47-972a-1939759c1daf",
 						version = 2,
 					},
-					inheritedIndex = 2,
 				},
 				
 				{
@@ -355,23 +373,29 @@ local tbl =
 						{
 							
 							{
-								"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
 								true,
 							},
 							
 							{
-								"f0635090-e89f-2ae2-844c-c7f30531ad49",
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 								true,
 							},
 							
 							{
-								"158de54e-eb59-5356-ba1d-09ae0a4755b8",
+								"4d99bb4c-c4e3-ffa8-8ef9-3986149fe367",
+								true,
+							},
+							
+							{
+								"e6471513-bfa1-e742-b9b1-e00178af95b2",
 								true,
 							},
 						},
+						ignoreWeaveRules = true,
 						potType = 3,
 						usePot = true,
-						uuid = "c5464876-939e-a612-99c9-88099e6a26a4",
+						uuid = "d866e92f-6633-4656-8b99-fbd68459e767",
 						version = 2,
 					},
 				},
@@ -379,29 +403,88 @@ local tbl =
 				{
 					data = 
 					{
-						actionID = 3596,
+						actionID = 25871,
 						atomicPriority = true,
 						conditions = 
 						{
 							
 							{
-								"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
 								true,
 							},
 							
 							{
-								"f0635090-e89f-2ae2-844c-c7f30531ad49",
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 								true,
 							},
 							
 							{
-								"a962d9e7-4b65-edcd-9471-ef375fc9f1d2",
+								"de7d078f-d3ad-7b91-8f56-2780e2a467b7",
 								true,
 							},
 						},
 						ignoreWeaveRules = true,
 						targetType = "Current Target",
-						uuid = "babc2a60-fe4c-73de-902d-be209d2cb7f6",
+						uuid = "c57036ed-3b36-a78b-898e-32119d4b1446",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"f29b914f-cece-d670-b855-f37856f50c03",
+								true,
+							},
+						},
+						gVar = "ACR_RikuAST2_Hotbar_Lightspeed",
+						uuid = "a8ba1ff5-1248-2b21-b7e5-62d6339d2baf",
+						variableTogglesType = 2,
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Misc",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"f29b914f-cece-d670-b855-f37856f50c03",
+								true,
+							},
+						},
+						name = "Target Nearest",
+						setTarget = true,
+						targetType = "Enemy",
+						uuid = "d74a784f-c225-fd1e-bd26-938e349d5f8a",
 						version = 2,
 					},
 				},
@@ -410,27 +493,27 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "gStartCombat = true\nACR_RikuAST2_Hotbar_Lightspeed = true\nself.used = true\n",
+						actionLua = "TensorCore.API.RikuAST2.holdActionUntil(16652, Now() + 8000) -- divination\ngStartCombat = true\nself.used = true",
 						conditions = 
 						{
 							
 							{
-								"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
 								true,
 							},
 							
 							{
-								"f0635090-e89f-2ae2-844c-c7f30531ad49",
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 								true,
 							},
 							
 							{
-								"d6e5f76d-373f-5144-b6fa-a511c76c8e00",
+								"f29b914f-cece-d670-b855-f37856f50c03",
 								true,
 							},
 						},
-						name = "enable start combat",
-						uuid = "acd6dbc0-16e7-981a-a0e6-d73faa863359",
+						name = "Engage",
+						uuid = "d763d3f0-694b-230a-853e-18910819588e",
 						version = 2,
 					},
 				},
@@ -439,38 +522,27 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "if data.countdownCanceled == true or (data.countdownTime ~= nil and data.countdownDuration ~= nil and data.countdownDuration - TimeSince(data.countdownTime) <= -2500) then\n    d(\"[AnyoneCore] Countdown finished.\")\n\t\t\t\tif data.countdownCanceled == true then\n\t\t\t\t\t\tPlayer:ClearTarget()\n\t\t\t\t\t\tAnyoneCore.Data.countdownTime = nil\n\t\t\t\t\t\tAnyoneCore.Data.countdownDuration = nil\n\t\t\t\tend\n\t\t\t\tdata.countdownCanceled = nil\n\t\t\t\tgStartCombat = data.startCombat\n\t\t\t\tdata.countdownTime = nil\n\t\t\t\tdata.countdownDuration = nil\n    self.used = true\nend",
+						actionLua = "d(\"[AnyoneCore] Countdown finished, engaging boss.\")\ngStartCombat = data.startCombat\nAnyoneCore.Data.countdownTime = nil\nAnyoneCore.Data.countdownDuration = nil\nself.used = true",
 						conditions = 
 						{
 							
 							{
-								"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
 								true,
 							},
-						},
-						endIfUsed = true,
-						name = "end reaction",
-						uuid = "dab7f400-ecf4-4294-a745-e2f7ac5a1b22",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "data.countdownCanceled = true\nAnyoneCore.Data.countdownCanceled = true\nAnyoneCore.log(\"Countdown was canceled.\")\nself.used = true",
-						conditions = 
-						{
 							
 							{
-								"50124129-980a-3a46-b291-5a37b9f25ce2",
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"d880da65-e049-0e94-b956-f1df2e89d4ac",
 								true,
 							},
 						},
-						endIfUsed = true,
-						name = "cancel prepull helper",
-						uuid = "451a1cc6-ace3-1170-96e9-aeff38c3affb",
+						name = "End",
+						uuid = "203d44e2-1376-992c-b272-b19fb620f602",
 						version = 2,
 					},
 				},
@@ -482,10 +554,9 @@ local tbl =
 					data = 
 					{
 						category = "Lua",
-						conditionLua = "return TensorCore.mGetPlayer().job == 33 and (AnyoneCore.assistCallback()) and AnyoneCore ~= nil and AnyoneCore.Settings.PrepullHelper.enabled == true and data.countdownDuration ~= nil and data.countdownTime ~= nil",
-						name = "is bot running",
-						partyTargetSubType = 1,
-						uuid = "f0635090-e89f-2ae2-844c-c7f30531ad49",
+						conditionLua = "return FFXIV_Common_BotRunning and AnyoneCore.Settings.PrepullHelper.enabled",
+						name = "Check BotRunning",
+						uuid = "4a7db5d9-954b-bac7-9064-bbd7166b5052",
 						version = 2,
 					},
 				},
@@ -493,13 +564,36 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Lua",
-						conditionLua = "local time = eventArgs.line.line:match(AnyoneCore.Data.countdownstart)\nif time ~= nil then\n\tif data.countdownDuration == nil then\n        d(\"[AnyoneCore] Countdown started - engaging Prepull Helper.\")\n        AnyoneCore.Data.countdownTime = Now()\n        AnyoneCore.Data.countdownDuration = tonumber(time)\n        local time = tonumber(time)*1000\n        data.countdownTime = Now()\n        data.countdownDuration = time\n        data.pelotonDelay = math.random(time*0.1, time*0.5)\n        data.reassembleDelay = math.random(1000, 2000)\n        data.targetDelay = math.random(10, 250)\n        data.startCombat = gStartCombat\n        gStartCombat = false\n        AnyoneCore.JobCheck()\n        if AnyoneCore.Settings.PrepullHelper.twominpot == true and ACR_RikuAST2_Potion == true then\n            AnyoneCore.Data.PotsEnabled = true\n            ACR_RikuAST2_Potion = false\n            AnyoneCore.Toggle(\"pots\", false, (30000 + time))\n        end\n        local ac = ActionList:Get(1, 3596)\n        data.castTime = ac.casttime\n    end\n    return true\nend\nreturn false",
+						category = "Self",
+						conditionType = 13,
 						dequeueIfLuaFalse = true,
-						eventChatLine = "Battle commencing in 10 seconds!",
-						name = "is countdown started",
-						partyTargetSubType = 1,
-						uuid = "61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
+						jobValue = "ASTROLOGIAN",
+						name = "Astrologian",
+						uuid = "e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 15,
+						name = "Target + Earthly Star",
+						uuid = "a4232360-944a-f0ae-931c-be1356c00e74",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 3,
+						name = "Pot Timer",
+						uuid = "4d99bb4c-c4e3-ffa8-8ef9-3986149fe367",
 						version = 2,
 					},
 				},
@@ -508,10 +602,9 @@ local tbl =
 					data = 
 					{
 						category = "Lua",
-						conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= (1000 + AnyoneCore.Settings.PrepullHelper.BadTeamDelay)",
-						name = "engage boss timer",
-						partyTargetSubType = 1,
-						uuid = "d6e5f76d-373f-5144-b6fa-a511c76c8e00",
+						conditionLua = "return ACR_RikuAST2_Potion == true",
+						name = "Pot Enabled",
+						uuid = "e6471513-bfa1-e742-b9b1-e00178af95b2",
 						version = 2,
 					},
 				},
@@ -519,11 +612,11 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Lua",
-						conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 0",
-						name = "end reaction timer",
-						partyTargetSubType = 1,
-						uuid = "f52fcb09-9460-e051-9463-25c8bb0be180",
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 1.7000000476837,
+						name = "Malefic Timer",
+						uuid = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
 						version = 2,
 					},
 				},
@@ -531,11 +624,11 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Lua",
-						conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 15000 - data.targetDelay",
-						name = "target boss timer",
-						partyTargetSubType = 1,
-						uuid = "4838a5f2-e6ec-e56e-a71c-d5c8620b5353",
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 0.5,
+						name = "Engage Boss Timer",
+						uuid = "f29b914f-cece-d670-b855-f37856f50c03",
 						version = 2,
 					},
 				},
@@ -543,53 +636,17 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Lua",
-						conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.countdowncancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
-						dequeueIfLuaFalse = true,
-						name = "is countdown cancelled",
-						uuid = "50124129-980a-3a46-b291-5a37b9f25ce2",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= (2100 + (data.castTime*1000)) and ACR_RikuAST2_Potion == true",
-						name = "pot timer",
-						partyTargetSubType = 1,
-						uuid = "158de54e-eb59-5356-ba1d-09ae0a4755b8",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= ((data.castTime*1000) + AnyoneCore.Settings.PrepullHelper.BadTeamDelay)",
-						name = "malefic timer",
-						partyTargetSubType = 1,
-						uuid = "a962d9e7-4b65-edcd-9471-ef375fc9f1d2",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Earthly Star\"].bool",
-						name = "Toggle Earthly Star",
-						uuid = "32a3b72f-b120-d66c-b0e1-e6fddae27ee6",
+						category = "Event",
+						comparator = 2,
+						name = "End Timer",
+						uuid = "d880da65-e049-0e94-b956-f1df2e89d4ac",
 						version = 2,
 					},
 				},
 			},
-			eventType = 7,
-			name = "Prepull Helper",
-			uuid = "5866c047-25c7-1c3f-871b-0bd238595354",
+			eventType = 16,
+			name = "Prepull Helper (new)",
+			uuid = "e0fcccc9-934d-b618-9d65-d1fa78357920",
 			version = 2,
 		},
 		inheritedIndex = 18,
@@ -3505,7 +3562,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.2.8",
+			name = "v5.2.3",
 			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
 			version = 2,
 		},
