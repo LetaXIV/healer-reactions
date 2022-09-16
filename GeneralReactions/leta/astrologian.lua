@@ -145,147 +145,6 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "ACR_RikuAST2_Hotbar_SmartResMouse = false\nACR_RikuAST2_Hotbar_Sprint = false\nACR_RikuAST2_Hotbar_DutyAction2 = false\nACR_RikuAST2_Hotbar_Repose = false\nACR_RikuAST2_Hotbar_DutyAction1 = false\nACR_RikuAST2_Hotbar_Lightspeed = false\nACR_RikuAST2_Hotbar_Rescue = false\nACR_RikuAST2_Hotbar_SwiftResMouse = false\nACR_RikuAST2_Hotbar_HardResMouse = false\nACR_RikuAST2_Hotbar_LockFace = false\nACR_RikuAST2_Hotbar_LimitBreak = false\nACR_RikuAST2_Hotbar_Potion = false\nACR_RikuAST2_Hotbar_Surecast = false\n\nACR_RikuAST2_Healbar_NeutralSect = false\nACR_RikuAST2_Healbar_Synastry = false\nACR_RikuAST2_Healbar_CelestialIntersection = false\nACR_RikuAST2_Healbar_Helios = false\nACR_RikuAST2_Healbar_AspectedBenefic = false\nACR_RikuAST2_Healbar_AspectedHelios = false\nACR_RikuAST2_Healbar_CelestialOpposition = false\nACR_RikuAST2_Healbar_EarthlyStar = false\nACR_RikuAST2_Healbar_CollectiveUnconscious = false\nACR_RikuAST2_Healbar_EssentialDignity = false\nACR_RikuAST2_Healbar_Benefic2 = false\nACR_RikuAST2_Healbar_Benefic = false\nACR_RikuAST2_Healbar_LadyOfCrowns = false\nACR_RikuAST2_Healbar_Macrocosmos = false\nACR_RikuAST2_Healbar_Exaltation = false\nACR_RikuAST2_Healbar_Esuna = false\nACR_RikuAST2_Healbar_Horoscope = false\n\nself.used = true",
-						name = "Reset Hotbars",
-						uuid = "c0e5227c-24a7-a8a4-a3d0-d0109dcd430e",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "Player:ClearTarget()\n\nself.used = true",
-						name = "Misc",
-						uuid = "7a1104aa-f283-7d65-b796-50439647e730",
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-			},
-			eventType = 10,
-			name = "OnDeath Reaction",
-			uuid = "dddc9a61-82d5-fe2f-b692-118ca686509a",
-			version = 2,
-		},
-		inheritedIndex = 29,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "ACR_RikuAST2_Lucid = true\nACR_RikuAST2_Attacks = true\nACR_RikuAST2_Divination = true\nACR_RikuAST2_Cards = true\nACR_RikuAST2_MovementSwiftcast = false\nACR_RikuAST2_EarthlyStar = true\n---ACR_RikuAST2_ResAllianceHealer = false\n---ACR_RikuAST2_Potion = false\n---ACR_RikuAST2_SwiftRes = true\nACR_RikuAST2_SmartDoT = true\nACR_RikuAST2_AOE = true\nACR_RikuAST2_LadyOfCrowns = true\nACR_RikuAST2_MinorArcana = true\nACR_RikuAST2_SmartCards = true\nACR_RikuAST2_CD = true\nACR_RikuAST2_SmartAOE = true\nACR_RikuAST2_DoT = true\n---ACR_RikuAST2_HardRes = false\nACR_RikuAST2_Burn = false\n\nACR_RikuAST2_Hotbar_SmartResMouse = false\nACR_RikuAST2_Hotbar_Sprint = false\nACR_RikuAST2_Hotbar_DutyAction2 = false\nACR_RikuAST2_Hotbar_Repose = false\nACR_RikuAST2_Hotbar_DutyAction1 = false\nACR_RikuAST2_Hotbar_Lightspeed = false\nACR_RikuAST2_Hotbar_Rescue = false\nACR_RikuAST2_Hotbar_SwiftResMouse = false\nACR_RikuAST2_Hotbar_HardResMouse = false\nACR_RikuAST2_Hotbar_LockFace = false\nACR_RikuAST2_Hotbar_LimitBreak = false\nACR_RikuAST2_Hotbar_Potion = false\nACR_RikuAST2_Hotbar_Surecast = false\n\nACR_RikuAST2_Healbar_NeutralSect = false\nACR_RikuAST2_Healbar_Synastry = false\nACR_RikuAST2_Healbar_CelestialIntersection = false\nACR_RikuAST2_Healbar_Helios = false\nACR_RikuAST2_Healbar_AspectedBenefic = false\nACR_RikuAST2_Healbar_AspectedHelios = false\nACR_RikuAST2_Healbar_CelestialOpposition = false\nACR_RikuAST2_Healbar_EarthlyStar = false\nACR_RikuAST2_Healbar_CollectiveUnconscious = false\nACR_RikuAST2_Healbar_EssentialDignity = false\nACR_RikuAST2_Healbar_Benefic2 = false\nACR_RikuAST2_Healbar_Benefic = false\nACR_RikuAST2_Healbar_LadyOfCrowns = false\nACR_RikuAST2_Healbar_Macrocosmos = false\nACR_RikuAST2_Healbar_Exaltation = false\nACR_RikuAST2_Healbar_Esuna = false\nACR_RikuAST2_Healbar_Horoscope = false\n\nif AnyoneCore.Data.PotsEnabled == true then\n\t\tAnyoneCore.Data.PotsEnabled = nil\n\t\tACR_RikuAST2_Potion = true\nend\n\nself.used = true",
-						name = "Reset Toggles and Hotbars",
-						uuid = "558ee729-0ba3-f190-b82e-bac8720497ae",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "Player:ClearTarget()\nAnyoneCore.Data.Toggle = {}\nTensorDrift_SlidecastForceHold = false\nAnyoneCore.JobCheck()\n\nif eventArgs.oldData ~= nil and eventArgs.oldData.startCombat ~= nil then\n\t\tgStartCombat = false\n\t\tdata.startCombat = nil\nend\n\nif AnyoneCore.Settings.endACTLog then\n        SendTextCommand(\"/e end\")\nend\nArgus.deleteTimedShape()\n\nself.used = true",
-						name = "Misc",
-						uuid = "59680516-386f-c190-a4bb-b275d6fb3aaa",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "if eventArgs.oldData ~= nil and eventArgs.oldData.markedplayers ~= nil and eventArgs.oldData.removedmarking == false then\n    for i=1,#eventArgs.oldData.markedplayer do\n        local n = eventArgs.oldData.markedplayer[i]\n        data.removedmarking = true\n        d(\"removing marking from \" .. n)\n        ActionList:Get(12,i):Cast(n)\n    end\nend\n\nif Player.localmapid == 777 and AnyoneCore.Settings.IfritPhasePot == true then\n\t\tACR_RikuAST2_Potion = false\nend\n\nself.used = true",
-						conditions = 
-						{
-							
-							{
-								"3988c287-26d3-dc52-adfb-64877644f41a",
-								true,
-							},
-						},
-						name = "UWU",
-						uuid = "76651bdd-0d8c-9454-8a5c-d09f9d7a0bae",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "if AnyoneCore.Settings.nidhogPot == true then\n\t\tACR_RikuAST2_Potion = false\nend\nself.used = true",
-						conditions = 
-						{
-							
-							{
-								"c2d5e7f1-4440-25cd-951f-c882804bfa58",
-								true,
-							},
-						},
-						name = "DSW",
-						uuid = "661c930a-a973-5f53-9084-d016ba65c39d",
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 8,
-						dequeueIfLuaFalse = true,
-						localmapid = 777,
-						uuid = "3988c287-26d3-dc52-adfb-64877644f41a",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 8,
-						dequeueIfLuaFalse = true,
-						localmapid = 968,
-						uuid = "c2d5e7f1-4440-25cd-951f-c882804bfa58",
-						version = 2,
-					},
-				},
-			},
-			eventType = 9,
-			name = "OnWipe Reaction",
-			uuid = "49ecb6e1-9dcd-c7be-98f2-883115a66247",
-			version = 2,
-		},
-		inheritedIndex = 17,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
 						actionLua = "d(\"[AnyoneCore] Countdown started - engaging Prepull Helper.\")\nAnyoneCore.Data.countdownTime = Now()\nAnyoneCore.Data.countdownDuration = tonumber(eventArgs.time)\ndata.startCombat = gStartCombat\ngStartCombat = false\nAnyoneCore.JobCheck()\nif AnyoneCore.Settings.PrepullHelper.twominpot == true and ACR_RikuAST2_Potion == true then\n    AnyoneCore.Data.PotsEnabled = true\n    ACR_RikuAST2_Potion = false\n    AnyoneCore.Toggle(\"pots\", false, (30000 + eventArgs.time))\nend\nlocal ac = ActionList:Get(1, 3596)\ndata.castTime = ac.casttime\nself.used = true",
 						conditions = 
 						{
@@ -645,8 +504,149 @@ local tbl =
 				},
 			},
 			eventType = 16,
-			name = "Prepull Helper (new)",
+			name = "Prepull Helper",
 			uuid = "e0fcccc9-934d-b618-9d65-d1fa78357920",
+			version = 2,
+		},
+		inheritedIndex = 16,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "ACR_RikuAST2_Lucid = true\nACR_RikuAST2_Attacks = true\nACR_RikuAST2_Divination = true\nACR_RikuAST2_Cards = true\nACR_RikuAST2_MovementSwiftcast = false\nACR_RikuAST2_EarthlyStar = true\n---ACR_RikuAST2_ResAllianceHealer = false\n---ACR_RikuAST2_Potion = false\n---ACR_RikuAST2_SwiftRes = true\nACR_RikuAST2_SmartDoT = true\nACR_RikuAST2_AOE = true\nACR_RikuAST2_LadyOfCrowns = true\nACR_RikuAST2_MinorArcana = true\nACR_RikuAST2_SmartCards = true\nACR_RikuAST2_CD = true\nACR_RikuAST2_SmartAOE = true\nACR_RikuAST2_DoT = true\n---ACR_RikuAST2_HardRes = false\nACR_RikuAST2_Burn = false\n\nACR_RikuAST2_Hotbar_SmartResMouse = false\nACR_RikuAST2_Hotbar_Sprint = false\nACR_RikuAST2_Hotbar_DutyAction2 = false\nACR_RikuAST2_Hotbar_Repose = false\nACR_RikuAST2_Hotbar_DutyAction1 = false\nACR_RikuAST2_Hotbar_Lightspeed = false\nACR_RikuAST2_Hotbar_Rescue = false\nACR_RikuAST2_Hotbar_SwiftResMouse = false\nACR_RikuAST2_Hotbar_HardResMouse = false\nACR_RikuAST2_Hotbar_LockFace = false\nACR_RikuAST2_Hotbar_LimitBreak = false\nACR_RikuAST2_Hotbar_Potion = false\nACR_RikuAST2_Hotbar_Surecast = false\n\nACR_RikuAST2_Healbar_NeutralSect = false\nACR_RikuAST2_Healbar_Synastry = false\nACR_RikuAST2_Healbar_CelestialIntersection = false\nACR_RikuAST2_Healbar_Helios = false\nACR_RikuAST2_Healbar_AspectedBenefic = false\nACR_RikuAST2_Healbar_AspectedHelios = false\nACR_RikuAST2_Healbar_CelestialOpposition = false\nACR_RikuAST2_Healbar_EarthlyStar = false\nACR_RikuAST2_Healbar_CollectiveUnconscious = false\nACR_RikuAST2_Healbar_EssentialDignity = false\nACR_RikuAST2_Healbar_Benefic2 = false\nACR_RikuAST2_Healbar_Benefic = false\nACR_RikuAST2_Healbar_LadyOfCrowns = false\nACR_RikuAST2_Healbar_Macrocosmos = false\nACR_RikuAST2_Healbar_Exaltation = false\nACR_RikuAST2_Healbar_Esuna = false\nACR_RikuAST2_Healbar_Horoscope = false\n\nif AnyoneCore.Data.PotsEnabled == true then\n\t\tAnyoneCore.Data.PotsEnabled = nil\n\t\tACR_RikuAST2_Potion = true\nend\n\nself.used = true",
+						name = "Reset Toggles and Hotbars",
+						uuid = "558ee729-0ba3-f190-b82e-bac8720497ae",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "Player:ClearTarget()\nAnyoneCore.Data.Toggle = {}\nTensorDrift_SlidecastForceHold = false\nAnyoneCore.JobCheck()\n\nif eventArgs.oldData ~= nil and eventArgs.oldData.startCombat ~= nil then\n\t\tgStartCombat = false\n\t\tdata.startCombat = nil\nend\n\nif AnyoneCore.Settings.endACTLog then\n        SendTextCommand(\"/e end\")\nend\nArgus.deleteTimedShape()\n\nself.used = true",
+						name = "Misc",
+						uuid = "59680516-386f-c190-a4bb-b275d6fb3aaa",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "if eventArgs.oldData ~= nil and eventArgs.oldData.markedplayers ~= nil and eventArgs.oldData.removedmarking == false then\n    for i=1,#eventArgs.oldData.markedplayer do\n        local n = eventArgs.oldData.markedplayer[i]\n        data.removedmarking = true\n        d(\"removing marking from \" .. n)\n        ActionList:Get(12,i):Cast(n)\n    end\nend\n\nif Player.localmapid == 777 and AnyoneCore.Settings.IfritPhasePot == true then\n\t\tACR_RikuAST2_Potion = false\nend\n\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"3988c287-26d3-dc52-adfb-64877644f41a",
+								true,
+							},
+						},
+						name = "UWU",
+						uuid = "76651bdd-0d8c-9454-8a5c-d09f9d7a0bae",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "if AnyoneCore.Settings.nidhogPot == true then\n\t\tACR_RikuAST2_Potion = false\nend\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"c2d5e7f1-4440-25cd-951f-c882804bfa58",
+								true,
+							},
+						},
+						name = "DSW",
+						uuid = "661c930a-a973-5f53-9084-d016ba65c39d",
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 8,
+						dequeueIfLuaFalse = true,
+						localmapid = 777,
+						uuid = "3988c287-26d3-dc52-adfb-64877644f41a",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 8,
+						dequeueIfLuaFalse = true,
+						localmapid = 968,
+						uuid = "c2d5e7f1-4440-25cd-951f-c882804bfa58",
+						version = 2,
+					},
+				},
+			},
+			eventType = 9,
+			name = "OnWipe Reaction",
+			uuid = "49ecb6e1-9dcd-c7be-98f2-883115a66247",
+			version = 2,
+		},
+		inheritedIndex = 17,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "ACR_RikuAST2_Hotbar_SmartResMouse = false\nACR_RikuAST2_Hotbar_Sprint = false\nACR_RikuAST2_Hotbar_DutyAction2 = false\nACR_RikuAST2_Hotbar_Repose = false\nACR_RikuAST2_Hotbar_DutyAction1 = false\nACR_RikuAST2_Hotbar_Lightspeed = false\nACR_RikuAST2_Hotbar_Rescue = false\nACR_RikuAST2_Hotbar_SwiftResMouse = false\nACR_RikuAST2_Hotbar_HardResMouse = false\nACR_RikuAST2_Hotbar_LockFace = false\nACR_RikuAST2_Hotbar_LimitBreak = false\nACR_RikuAST2_Hotbar_Potion = false\nACR_RikuAST2_Hotbar_Surecast = false\n\nACR_RikuAST2_Healbar_NeutralSect = false\nACR_RikuAST2_Healbar_Synastry = false\nACR_RikuAST2_Healbar_CelestialIntersection = false\nACR_RikuAST2_Healbar_Helios = false\nACR_RikuAST2_Healbar_AspectedBenefic = false\nACR_RikuAST2_Healbar_AspectedHelios = false\nACR_RikuAST2_Healbar_CelestialOpposition = false\nACR_RikuAST2_Healbar_EarthlyStar = false\nACR_RikuAST2_Healbar_CollectiveUnconscious = false\nACR_RikuAST2_Healbar_EssentialDignity = false\nACR_RikuAST2_Healbar_Benefic2 = false\nACR_RikuAST2_Healbar_Benefic = false\nACR_RikuAST2_Healbar_LadyOfCrowns = false\nACR_RikuAST2_Healbar_Macrocosmos = false\nACR_RikuAST2_Healbar_Exaltation = false\nACR_RikuAST2_Healbar_Esuna = false\nACR_RikuAST2_Healbar_Horoscope = false\n\nself.used = true",
+						name = "Reset Hotbars",
+						uuid = "c0e5227c-24a7-a8a4-a3d0-d0109dcd430e",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "Player:ClearTarget()\n\nself.used = true",
+						name = "Misc",
+						uuid = "7a1104aa-f283-7d65-b796-50439647e730",
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+			},
+			eventType = 10,
+			name = "OnDeath Reaction",
+			uuid = "dddc9a61-82d5-fe2f-b692-118ca686509a",
 			version = 2,
 		},
 		inheritedIndex = 18,
@@ -1034,7 +1034,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			name = "-eels",
+			name = "--Auto-healing",
 			uuid = "5710d044-1a27-9bb4-8ef4-9d0b8fdb89b0",
 			version = 2,
 		},
@@ -3562,11 +3562,28 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.3",
-			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
+			name = "--Version Number",
+			uuid = "44ddf12d-225b-0011-82f5-8c19632cc413",
 			version = 2,
 		},
 		inheritedIndex = 27,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			name = "v5.2.4",
+			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
+			version = 2,
+		},
+		inheritedIndex = 28,
 	}, 
 	inheritedProfiles = 
 	{

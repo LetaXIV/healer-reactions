@@ -10,7 +10,8 @@ local tbl =
 			conditions = 
 			{
 			},
-			name = "-eels",
+			enabled = false,
+			name = "--Auto-healing",
 			uuid = "7b2f2228-75ba-4851-b497-2052cbbf1ea1",
 			version = 2,
 		},
@@ -698,7 +699,24 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.3",
+			name = "--Version Number",
+			uuid = "2addc983-f51f-591b-9abf-c8922aa6e626",
+			version = 2,
+		},
+		inheritedIndex = 5,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			name = "v5.2.4",
 			uuid = "45f46047-a0e0-51d4-adfb-770b4bfbfa8c",
 			version = 2,
 		},

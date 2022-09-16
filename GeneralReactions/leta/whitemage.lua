@@ -68,51 +68,208 @@ local tbl =
 	{
 		data = 
 		{
-			name = "Prepull Helper",
-			uuid = "4555a084-8304-5ed2-9eba-b620f8372c0a",
-			version = 2,
-		},
-		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
-		inheritedOverwrites = 
-		{
 			actions = 
 			{
 				
 				{
-					type = "add",
-					value = 
+					data = 
 					{
-						data = 
+						aType = "Lua",
+						actionLua = "d(\"[AnyoneCore] Countdown started - engaging Prepull Helper.\")\nAnyoneCore.Data.countdownTime = Now()\nAnyoneCore.Data.countdownDuration = tonumber(eventArgs.time)\ndata.startCombat = gStartCombat\ngStartCombat = false\nAnyoneCore.JobCheck()\nif AnyoneCore.Settings.PrepullHelper.twominpot == true and ACR_RikuWHM2_Potion == true then\n    AnyoneCore.Data.PotsEnabled = true\n    ACR_RikuWHM2_Potion = false\n    AnyoneCore.Toggle(\"pots\", false, (30000 + eventArgs.time))\nend\nlocal ac = ActionList:Get(1, 119)\ndata.castTime = ac.casttime\nself.used = true",
+						conditions = 
 						{
-							name = "cancel prepull helper",
-							uuid = "cf5d77c9-441e-158b-a74b-f9a92a68a115",
-							version = 2,
-						},
-						inheritedObjectUUID = "451a1cc6-ace3-1170-96e9-aeff38c3affb",
-						inheritedOverwrites = 
-						{
-							conditions = 
+							
 							{
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"50124129-980a-3a46-b291-5a37b9f25ce2",
-										true,
-									},
-								},
-								
-								{
-									type = "add",
-									value = 
-									{
-										"979de1fd-6b74-f449-9106-6d0c5c66619c",
-										true,
-									},
-								},
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
 							},
 						},
+						name = "Set Variables",
+						uuid = "8ceba036-70b3-14a9-8147-e299a38d5ccd",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Misc",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+						},
+						name = "Target Nearest",
+						setTarget = true,
+						targetType = "Enemy",
+						uuid = "ad3c6f9c-68b3-dd49-844f-28b4f9aca282",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Misc",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"4d99bb4c-c4e3-ffa8-8ef9-3986149fe367",
+								true,
+							},
+							
+							{
+								"e6471513-bfa1-e742-b9b1-e00178af95b2",
+								true,
+							},
+						},
+						ignoreWeaveRules = true,
+						potType = 3,
+						usePot = true,
+						uuid = "d866e92f-6633-4656-8b99-fbd68459e767",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionID = 119,
+						atomicPriority = true,
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"de7d078f-d3ad-7b91-8f56-2780e2a467b7",
+								true,
+							},
+						},
+						ignoreWeaveRules = true,
+						targetType = "Current Target",
+						uuid = "c57036ed-3b36-a78b-898e-32119d4b1446",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Misc",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"f29b914f-cece-d670-b855-f37856f50c03",
+								true,
+							},
+						},
+						name = "Target Nearest",
+						setTarget = true,
+						targetType = "Enemy",
+						uuid = "d74a784f-c225-fd1e-bd26-938e349d5f8a",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "gStartCombat = true\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"f29b914f-cece-d670-b855-f37856f50c03",
+								true,
+							},
+						},
+						name = "Engage",
+						uuid = "d763d3f0-694b-230a-853e-18910819588e",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "d(\"[AnyoneCore] Countdown finished, engaging boss.\")\ngStartCombat = data.startCombat\nAnyoneCore.Data.countdownTime = nil\nAnyoneCore.Data.countdownDuration = nil\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"d880da65-e049-0e94-b956-f1df2e89d4ac",
+								true,
+							},
+						},
+						name = "End",
+						uuid = "203d44e2-1376-992c-b272-b19fb620f602",
+						version = 2,
 					},
 				},
 			},
@@ -120,40 +277,93 @@ local tbl =
 			{
 				
 				{
-					type = "remove",
-					value = 
+					data = 
 					{
-						data = 
-						{
-							name = "is countdown cancelled",
-							uuid = "32b04a46-1fb8-47ab-8cdd-76e253d7aa7a",
-							version = 2,
-						},
-						inheritedObjectUUID = "50124129-980a-3a46-b291-5a37b9f25ce2",
-						inheritedOverwrites = 
-						{
-						},
+						category = "Lua",
+						conditionLua = "return FFXIV_Common_BotRunning and AnyoneCore.Settings.PrepullHelper.enabled",
+						name = "Check BotRunning",
+						uuid = "4a7db5d9-954b-bac7-9064-bbd7166b5052",
+						version = 2,
 					},
 				},
 				
 				{
-					position = 6,
-					type = "add",
-					value = 
+					data = 
 					{
-						data = 
-						{
-							category = "Lua",
-							conditionLua = "local line = eventArgs.line.line\nfor k,v in pairs(AnyoneCore.countdowncancel) do\n    if line:match(v) then\n        return true\n    end\nend\nreturn false",
-							name = "is countdown canceled",
-							uuid = "979de1fd-6b74-f449-9106-6d0c5c66619c",
-							version = 2,
-						},
-						inheritedIndex = 6,
+						category = "Self",
+						conditionType = 13,
+						dequeueIfLuaFalse = true,
+						jobValue = "WHITEMAGE",
+						name = "White Mage",
+						uuid = "e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 3,
+						name = "Pot Timer",
+						uuid = "4d99bb4c-c4e3-ffa8-8ef9-3986149fe367",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return ACR_RikuWHM2_Potion == true",
+						name = "Pot Enabled",
+						uuid = "e6471513-bfa1-e742-b9b1-e00178af95b2",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 1.7000000476837,
+						name = "Glare Timer",
+						uuid = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 0.5,
+						name = "Engage Boss Timer",
+						uuid = "f29b914f-cece-d670-b855-f37856f50c03",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						name = "End Timer",
+						uuid = "d880da65-e049-0e94-b956-f1df2e89d4ac",
+						version = 2,
 					},
 				},
 			},
+			eventType = 16,
+			name = "Prepull Helper",
+			uuid = "56843b9f-36f8-b8ce-80b5-fc004877de18",
+			version = 2,
 		},
+		inheritedIndex = 16,
 	},
 	
 	{
@@ -386,7 +596,8 @@ local tbl =
 			conditions = 
 			{
 			},
-			name = "-eels",
+			enabled = false,
+			name = "--Auto-healing",
 			uuid = "7b2f2228-75ba-4851-b497-2052cbbf1ea1",
 			version = 2,
 		},
@@ -2630,11 +2841,300 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.3",
+			name = "--Version Number",
+			uuid = "29b89457-b966-ea53-a080-ec75b4c87f4e",
+			version = 2,
+		},
+		inheritedIndex = 27,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			name = "v5.2.4",
 			uuid = "45f46047-a0e0-51d4-adfb-770b4bfbfa8c",
 			version = 2,
 		},
 		inheritedIndex = 30,
+	},
+	
+	{
+		data = 
+		{
+			name = "n/a",
+			uuid = "4555a084-8304-5ed2-9eba-b620f8372c0a",
+			version = 2,
+		},
+		inheritedIndex = 29,
+		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
+		inheritedOverwrites = 
+		{
+			actions = 
+			{
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "cancel prepull helper",
+							uuid = "cf5d77c9-441e-158b-a74b-f9a92a68a115",
+							version = 2,
+						},
+						inheritedObjectUUID = "451a1cc6-ace3-1170-96e9-aeff38c3affb",
+						inheritedOverwrites = 
+						{
+							conditions = 
+							{
+								
+								{
+									type = "remove",
+									value = 
+									{
+										"50124129-980a-3a46-b291-5a37b9f25ce2",
+										true,
+									},
+								},
+								
+								{
+									type = "add",
+									value = 
+									{
+										"979de1fd-6b74-f449-9106-6d0c5c66619c",
+										true,
+									},
+								},
+							},
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "end reaction",
+							uuid = "cf944115-e2e4-32db-af73-2cfb2d8b8824",
+							version = 2,
+						},
+						inheritedObjectUUID = "dab7f400-ecf4-4294-a745-e2f7ac5a1b22",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "enable start combat",
+							uuid = "508f60d2-7cc3-8605-b12c-36bb840d1513",
+							version = 2,
+						},
+						inheritedObjectUUID = "acd6dbc0-16e7-981a-a0e6-d73faa863359",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "f60c024b-a8d2-1fd4-97c3-3a3fdfcb08bd",
+							version = 2,
+						},
+						inheritedObjectUUID = "acd45248-dd1d-b683-829a-1a852efbb11c",
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "64d1134c-b8d8-741e-ba07-08ff9151f730",
+							version = 2,
+						},
+						inheritedObjectUUID = "c5464876-939e-a612-99c9-88099e6a26a4",
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "target nearest",
+							uuid = "14c913c7-a5aa-4c6a-afd5-12e3e3f6e21a",
+							version = 2,
+						},
+						inheritedObjectUUID = "b0e66759-e311-9c80-a57f-2e93ff99d4d1",
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "is countdown cancelled",
+							uuid = "32b04a46-1fb8-47ab-8cdd-76e253d7aa7a",
+							version = 2,
+						},
+						inheritedObjectUUID = "50124129-980a-3a46-b291-5a37b9f25ce2",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "glare timer",
+							uuid = "8bdc2cb4-a3b9-2701-8aa8-c5bb21b2717d",
+							version = 2,
+						},
+						inheritedObjectUUID = "a962d9e7-4b65-edcd-9471-ef375fc9f1d2",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "pot timer",
+							uuid = "a5892f2b-5ec6-2362-9b90-6b7afb5a946d",
+							version = 2,
+						},
+						inheritedObjectUUID = "158de54e-eb59-5356-ba1d-09ae0a4755b8",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "target boss timer",
+							uuid = "d598d26d-4fd6-78c8-926d-6ce6edaacf82",
+							version = 2,
+						},
+						inheritedObjectUUID = "4838a5f2-e6ec-e56e-a71c-d5c8620b5353",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "end reaction timer",
+							uuid = "645a0c4a-ce08-2a62-8f74-7b43db5ed3c1",
+							version = 2,
+						},
+						inheritedObjectUUID = "f52fcb09-9460-e051-9463-25c8bb0be180",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "engage boss timer",
+							uuid = "50cba011-79e7-7fa5-a39c-5a716b43c2ba",
+							version = 2,
+						},
+						inheritedObjectUUID = "d6e5f76d-373f-5144-b6fa-a511c76c8e00",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "is countdown started",
+							uuid = "77d7b72f-9b5f-3fd4-af12-46507a6c5f44",
+							version = 2,
+						},
+						inheritedObjectUUID = "61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "is bot running",
+							uuid = "ab20c7d9-3a9e-2a3e-98d8-78d3ea2cc283",
+							version = 2,
+						},
+						inheritedObjectUUID = "f0635090-e89f-2ae2-844c-c7f30531ad49",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+			},
+			enabled = false,
+			name = "n/a",
+		},
 	}, 
 	inheritedProfiles = 
 	{
