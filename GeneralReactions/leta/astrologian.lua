@@ -3579,7 +3579,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.4",
+			name = "v5.2.4.1",
 			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
 			version = 2,
 		},

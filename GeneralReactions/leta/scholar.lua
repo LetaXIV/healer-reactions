@@ -351,7 +351,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "gStartCombat = true\nself.used = true",
+						actionLua = "TensorCore.API.RikuSCH2.holdActionUntil(7436, Now() + 7000) -- chain strategem\nTensorCore.API.RikuSCH2.holdActionUntil(167, Now() + 7000) -- energy drain\ngStartCombat = true\nself.used = true",
 						conditions = 
 						{
 							
@@ -3100,7 +3100,7 @@ local tbl =
 			{
 			},
 			enabled = false,
-			name = "v5.2.4",
+			name = "v5.2.4.1",
 			uuid = "591aa599-4629-bc2a-9ff3-5f836a4b93da",
 			version = 2,
 		},
