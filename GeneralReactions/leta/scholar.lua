@@ -158,25 +158,11 @@ local tbl =
 	{
 		data = 
 		{
-			name = "Draw quotes",
-			uuid = "336d326e-1a7a-bb86-8f93-3fe16423dae9",
-			version = 2,
-		},
-		inheritedIndex = 12,
-		inheritedObjectUUID = "79d07751-0776-e532-a750-6421eeb9169b",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
 			name = "Marker Reactions",
 			uuid = "71871b73-3418-54df-8bcb-c67faa9cb025",
 			version = 2,
 		},
-		inheritedIndex = 13,
+		inheritedIndex = 12,
 		inheritedObjectUUID = "95c88b0b-7bd5-c34b-acc7-a6ec9ec6d70a",
 		inheritedOverwrites = 
 		{
@@ -190,8 +176,22 @@ local tbl =
 			uuid = "0385a58f-fa58-c397-ae3a-ecf776ad9b8b",
 			version = 2,
 		},
-		inheritedIndex = 14,
+		inheritedIndex = 13,
 		inheritedObjectUUID = "18e6def3-7035-6610-b991-ec788d1c73aa",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Draw quotes",
+			uuid = "336d326e-1a7a-bb86-8f93-3fe16423dae9",
+			version = 2,
+		},
+		inheritedIndex = 14,
+		inheritedObjectUUID = "79d07751-0776-e532-a750-6421eeb9169b",
 		inheritedOverwrites = 
 		{
 		},
@@ -243,46 +243,16 @@ local tbl =
 								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 								true,
 							},
+							
+							{
+								"74431404-7272-3011-892b-18db2e4fa1a5",
+								true,
+							},
 						},
 						name = "Target Nearest",
 						setTarget = true,
 						targetType = "Enemy",
 						uuid = "ad3c6f9c-68b3-dd49-844f-28b4f9aca282",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Misc",
-						conditions = 
-						{
-							
-							{
-								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
-								true,
-							},
-							
-							{
-								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
-								true,
-							},
-							
-							{
-								"4d99bb4c-c4e3-ffa8-8ef9-3986149fe367",
-								true,
-							},
-							
-							{
-								"e6471513-bfa1-e742-b9b1-e00178af95b2",
-								true,
-							},
-						},
-						ignoreWeaveRules = true,
-						potType = 3,
-						usePot = true,
-						uuid = "d866e92f-6633-4656-8b99-fbd68459e767",
 						version = 2,
 					},
 				},
@@ -351,7 +321,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "TensorCore.API.RikuSCH2.holdActionUntil(7436, Now() + 7000) -- chain strategem\nTensorCore.API.RikuSCH2.holdActionUntil(167, Now() + 7000) -- energy drain\ngStartCombat = true\nself.used = true",
+						actionLua = "TensorCore.API.RikuSCH2.holdActionUntil(7436, Now() + 7000) -- chain strategem\nTensorCore.API.RikuSCH2.holdActionUntil(167, Now() + 7000) -- energy drain\nTensorCore.API.RikuSCH2.holdActionUntil(3587, Now() + 7000) -- dissipation\ngStartCombat = true\nself.used = true",
 						conditions = 
 						{
 							
@@ -437,22 +407,12 @@ local tbl =
 					{
 						category = "Event",
 						comparator = 2,
-						eventCountdownTime = 3,
-						name = "Pot Timer",
-						uuid = "4d99bb4c-c4e3-ffa8-8ef9-3986149fe367",
+						eventCountdownTime = 2,
+						name = "Target Timer",
+						uuid = "74431404-7272-3011-892b-18db2e4fa1a5",
 						version = 2,
 					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return ACR_RikuSCH2_Potion == true",
-						name = "Pot Enabled",
-						uuid = "e6471513-bfa1-e742-b9b1-e00178af95b2",
-						version = 2,
-					},
+					inheritedIndex = 5,
 				},
 				
 				{
@@ -465,6 +425,7 @@ local tbl =
 						uuid = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
 						version = 2,
 					},
+					inheritedIndex = 6,
 				},
 				
 				{
@@ -3095,13 +3056,41 @@ local tbl =
 		{
 			actions = 
 			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "letaVersion = \"5.2.4.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+								true,
+							},
+						},
+						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
+						version = 2,
+					},
+				},
 			},
 			conditions = 
 			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return letaVersion == nil",
+						dequeueIfLuaFalse = true,
+						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+						version = 2,
+					},
+				},
 			},
-			enabled = false,
-			name = "v5.2.4.2",
-			uuid = "591aa599-4629-bc2a-9ff3-5f836a4b93da",
+			name = "v5.2.4.3",
+			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},
 		inheritedIndex = 27,
@@ -3114,7 +3103,7 @@ local tbl =
 			uuid = "fbfae9df-7189-f70f-8bb0-5b045713eed9",
 			version = 2,
 		},
-		inheritedIndex = 28,
+		inheritedIndex = 29,
 		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
 		inheritedOverwrites = 
 		{

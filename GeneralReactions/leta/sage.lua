@@ -279,6 +279,11 @@ local tbl =
 								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 								true,
 							},
+							
+							{
+								"b9c3c16c-bd5e-71a5-8c8d-e267e53ad5c8",
+								true,
+							},
 						},
 						name = "Target Nearest",
 						setTarget = true,
@@ -537,6 +542,19 @@ local tbl =
 						uuid = "e6471513-bfa1-e742-b9b1-e00178af95b2",
 						version = 2,
 					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 2,
+						name = "Target Timer",
+						uuid = "b9c3c16c-bd5e-71a5-8c8d-e267e53ad5c8",
+						version = 2,
+					},
+					inheritedIndex = 6,
 				},
 				
 				{
@@ -3304,16 +3322,43 @@ local tbl =
 		{
 			actions = 
 			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "letaVersion = \"5.2.4.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+								true,
+							},
+						},
+						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
+						version = 2,
+					},
+				},
 			},
 			conditions = 
 			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return letaVersion == nil",
+						dequeueIfLuaFalse = true,
+						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+						version = 2,
+					},
+				},
 			},
-			enabled = false,
-			name = "v5.2.4.2",
-			uuid = "f7e6dc9a-cc58-fa71-b51f-fa462e41d99e",
+			name = "v5.2.4.3",
+			uuid = "3bf5a707-f643-0845-a62d-e237f3c19dc3",
 			version = 2,
 		},
-		inheritedIndex = 27,
 	}, 
 	inheritedProfiles = 
 	{

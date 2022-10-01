@@ -168,36 +168,6 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Misc",
-						conditions = 
-						{
-							
-							{
-								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
-								true,
-							},
-							
-							{
-								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
-								true,
-							},
-							
-							{
-								"a4232360-944a-f0ae-931c-be1356c00e74",
-								true,
-							},
-						},
-						name = "Target Nearest",
-						setTarget = true,
-						targetType = "Enemy",
-						uuid = "ad3c6f9c-68b3-dd49-844f-28b4f9aca282",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
 						actionID = 7439,
 						conditions = 
 						{
@@ -218,7 +188,7 @@ local tbl =
 							},
 						},
 						ignoreWeaveRules = true,
-						targetType = "Current Target",
+						targetType = "Enemy",
 						uuid = "b53dc225-f69e-ac47-972a-1939759c1daf",
 						version = 2,
 					},
@@ -257,6 +227,37 @@ local tbl =
 						uuid = "d866e92f-6633-4656-8b99-fbd68459e767",
 						version = 2,
 					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Misc",
+						conditions = 
+						{
+							
+							{
+								"4a7db5d9-954b-bac7-9064-bbd7166b5052",
+								true,
+							},
+							
+							{
+								"e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
+								true,
+							},
+							
+							{
+								"425aecdb-53f7-4498-b2ba-a1c0433abbbe",
+								true,
+							},
+						},
+						name = "Target Nearest",
+						setTarget = true,
+						targetType = "Enemy",
+						uuid = "02518b74-316c-24d3-be8c-884e1021c06e",
+						version = 2,
+					},
+					inheritedIndex = 5,
 				},
 				
 				{
@@ -439,7 +440,7 @@ local tbl =
 						category = "Event",
 						comparator = 2,
 						eventCountdownTime = 15,
-						name = "Target + Earthly Star",
+						name = "Earthly Star Timer",
 						uuid = "a4232360-944a-f0ae-931c-be1356c00e74",
 						version = 2,
 					},
@@ -466,6 +467,19 @@ local tbl =
 						uuid = "e6471513-bfa1-e742-b9b1-e00178af95b2",
 						version = 2,
 					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 2,
+						name = "Target Timer",
+						uuid = "425aecdb-53f7-4498-b2ba-a1c0433abbbe",
+						version = 2,
+					},
+					inheritedIndex = 6,
 				},
 				
 				{
@@ -3574,16 +3588,43 @@ local tbl =
 		{
 			actions = 
 			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "letaVersion = \"5.2.4.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+								true,
+							},
+						},
+						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
+						version = 2,
+					},
+				},
 			},
 			conditions = 
 			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return letaVersion == nil",
+						dequeueIfLuaFalse = true,
+						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+						version = 2,
+					},
+				},
 			},
-			enabled = false,
-			name = "v5.2.4.2",
-			uuid = "7329cb59-c574-8593-b14a-2e207dc8dbb5",
+			name = "v5.2.4.3",
+			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},
-		inheritedIndex = 28,
 	}, 
 	inheritedProfiles = 
 	{
