@@ -353,7 +353,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "TensorCore.API.RikuAST2.holdActionUntil(16652, Now() + 8000) -- divination\ngStartCombat = true\nself.used = true",
+						actionLua = "TensorCore.API.RikuAST2.holdActionUntil(16552, Now() + 8000) -- divination\ngStartCombat = true\nself.used = true",
 						conditions = 
 						{
 							
@@ -3593,7 +3593,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.4\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3621,7 +3621,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.3",
+			name = "v5.2.4.4",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},
