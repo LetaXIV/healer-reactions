@@ -219,6 +219,118 @@ local tbl =
 	{
 		data = 
 		{
+			name = "-- Sildihn Criterion",
+			uuid = "09aab903-80fb-8f21-abd6-1f949975cc14",
+			version = 2,
+		},
+		inheritedIndex = 15,
+		inheritedObjectUUID = "dd571ca7-ce8e-71bf-b1c4-8b29584fc907",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Silkie",
+			uuid = "ad93fc0e-c8be-8c5b-b252-c2995059e17c",
+			version = 2,
+		},
+		inheritedIndex = 16,
+		inheritedObjectUUID = "65ac2f02-4372-8e35-a0ef-57f33aac7e43",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Silkie Channel",
+			uuid = "b312375e-b7db-0d82-9dac-74e4d894e78d",
+			version = 2,
+		},
+		inheritedIndex = 17,
+		inheritedObjectUUID = "03a74888-37ce-4042-99b4-6c04d2f531aa",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Gladiator",
+			uuid = "f44c2043-58a1-f96e-9099-8cc1d6ac7ef8",
+			version = 2,
+		},
+		inheritedIndex = 18,
+		inheritedObjectUUID = "c7a91848-de71-fc6c-85b5-5209d81c03d0",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster",
+			uuid = "de39faa9-b52a-e72a-a758-935b2fc82a66",
+			version = 2,
+		},
+		inheritedIndex = 19,
+		inheritedObjectUUID = "08a83de0-6a5d-39ad-ab68-dda78868dfcc",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster Script",
+			uuid = "fcbad543-7c24-fd19-9a0c-62e1fe9436bc",
+			version = 2,
+		},
+		inheritedIndex = 20,
+		inheritedObjectUUID = "f8ec4192-f420-c816-90bf-b0280aef7675",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster Channel",
+			uuid = "d4655f91-3767-2e96-878c-85fda7794b96",
+			version = 2,
+		},
+		inheritedIndex = 21,
+		inheritedObjectUUID = "c41e069b-40c8-7063-8876-76735d1c555d",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Criterion Blacklists",
+			uuid = "4b5c1dc5-30b6-b7c3-8537-6ad113340591",
+			version = 2,
+		},
+		inheritedIndex = 22,
+		inheritedObjectUUID = "e400c842-73a7-374a-9616-1bdcd926b183",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 			},
@@ -230,7 +342,7 @@ local tbl =
 			uuid = "00299d60-9aca-4567-8079-058341fcfd33",
 			version = 2,
 		},
-		inheritedIndex = 15,
+		inheritedIndex = 23,
 	},
 	
 	{
@@ -597,7 +709,7 @@ local tbl =
 			uuid = "a39a6434-f14d-4854-8da0-25b3723cd980",
 			version = 2,
 		},
-		inheritedIndex = 16,
+		inheritedIndex = 24,
 	},
 	
 	{
@@ -699,7 +811,7 @@ local tbl =
 			uuid = "17e714bc-2572-57a6-a498-a398a8e274c1",
 			version = 2,
 		},
-		inheritedIndex = 17,
+		inheritedIndex = 25,
 	},
 	
 	{
@@ -738,7 +850,7 @@ local tbl =
 			uuid = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
 			version = 2,
 		},
-		inheritedIndex = 18,
+		inheritedIndex = 26,
 	},
 	
 	{
@@ -755,7 +867,7 @@ local tbl =
 			uuid = "3252e059-b557-925d-a580-d94313de83d4",
 			version = 2,
 		},
-		inheritedIndex = 19,
+		inheritedIndex = 27,
 	},
 	
 	{
@@ -901,12 +1013,12 @@ local tbl =
 			},
 			eventType = 3,
 			name = "Duty Helper",
-			throttleTime = 1000,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "2d67d09a-3aff-2770-a9fe-e457138e7f29",
 			version = 2,
 		},
-		inheritedIndex = 20,
+		inheritedIndex = 28,
 	},
 	
 	{
@@ -1071,12 +1183,11 @@ local tbl =
 			},
 			eventType = 3,
 			name = "Multitool",
-			throttleTime = 1000,
-			timeout = 3,
+			timeout = 10,
 			uuid = "99232b2f-f076-00e3-92a0-3738aaba1ce6",
 			version = 2,
 		},
-		inheritedIndex = 21,
+		inheritedIndex = 29,
 	},
 	
 	{
@@ -1093,7 +1204,7 @@ local tbl =
 			uuid = "196f3e88-a90e-1ce3-b8b0-974fc7ea9b64",
 			version = 2,
 		},
-		inheritedIndex = 22,
+		inheritedIndex = 30,
 	},
 	
 	{
@@ -3002,12 +3113,12 @@ local tbl =
 				},
 			},
 			name = "Heal",
-			throttleTime = 1000,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "718e9dd4-3256-182f-83c2-3849d7048cf0",
 			version = 2,
 		},
-		inheritedIndex = 23,
+		inheritedIndex = 31,
 	},
 	
 	{
@@ -3187,12 +3298,12 @@ local tbl =
 				},
 			},
 			name = "Esuna",
-			throttleTime = 1200,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "889e931b-f60f-e42b-9978-49b8e9526e8d",
 			version = 2,
 		},
-		inheritedIndex = 24,
+		inheritedIndex = 32,
 	},
 	
 	{
@@ -3297,7 +3408,7 @@ local tbl =
 			uuid = "54b395da-5c70-7bd5-9c54-599751574976",
 			version = 2,
 		},
-		inheritedIndex = 25,
+		inheritedIndex = 33,
 	},
 	
 	{
@@ -3314,7 +3425,7 @@ local tbl =
 			uuid = "7457c709-fd3f-a189-8975-ac2935c541b0",
 			version = 2,
 		},
-		inheritedIndex = 26,
+		inheritedIndex = 34,
 	},
 	
 	{
@@ -3327,7 +3438,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.4\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3355,7 +3466,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.4",
+			name = "v5.2.4.5",
 			uuid = "3bf5a707-f643-0845-a62d-e237f3c19dc3",
 			version = 2,
 		},
@@ -3364,6 +3475,7 @@ local tbl =
 	{
 		"anyone\\sharedsavage",
 		"store\\anyone\\sharedultimate",
+		"store\\anyone\\sharedsildihn",
 	},
 }
 

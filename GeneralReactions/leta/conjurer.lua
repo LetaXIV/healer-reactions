@@ -391,7 +391,7 @@ local tbl =
 				},
 			},
 			name = "Heal",
-			throttleTime = 1000,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "3e8084a8-2080-bca0-a3f7-d7ed2c5d60fe",
 			version = 2,
@@ -576,7 +576,7 @@ local tbl =
 				},
 			},
 			name = "Esuna",
-			throttleTime = 1200,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "9548b568-fd42-791b-a2a7-6b9a4ed1b608",
 			version = 2,
@@ -716,7 +716,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.4\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -744,7 +744,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.4",
+			name = "v5.2.4.5",
 			uuid = "13a6178d-1ceb-b2b8-af24-cc76dc404f81",
 			version = 2,
 		},

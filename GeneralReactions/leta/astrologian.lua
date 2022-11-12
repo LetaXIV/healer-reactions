@@ -122,6 +122,104 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Silkie",
+			uuid = "d3a9d275-11e9-6f81-875d-8536e17ff16e",
+			version = 2,
+		},
+		inheritedIndex = 16,
+		inheritedObjectUUID = "65ac2f02-4372-8e35-a0ef-57f33aac7e43",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Silkie Channel",
+			uuid = "d2104e3d-dfd1-9d69-aa41-f4c644b4ffb8",
+			version = 2,
+		},
+		inheritedIndex = 17,
+		inheritedObjectUUID = "03a74888-37ce-4042-99b4-6c04d2f531aa",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Gladiator",
+			uuid = "83a6abd5-162a-f983-a7ec-36f7dbd35d68",
+			version = 2,
+		},
+		inheritedIndex = 18,
+		inheritedObjectUUID = "c7a91848-de71-fc6c-85b5-5209d81c03d0",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster",
+			uuid = "3f6f4179-3b02-297a-84d1-1b054b8f1702",
+			version = 2,
+		},
+		inheritedIndex = 19,
+		inheritedObjectUUID = "08a83de0-6a5d-39ad-ab68-dda78868dfcc",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster Script",
+			uuid = "9790d901-b5b1-cdac-a5b7-ab74ffee058c",
+			version = 2,
+		},
+		inheritedIndex = 20,
+		inheritedObjectUUID = "f8ec4192-f420-c816-90bf-b0280aef7675",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster Channel",
+			uuid = "beb232e8-2ae2-bf2d-8a68-478b48f82042",
+			version = 2,
+		},
+		inheritedIndex = 21,
+		inheritedObjectUUID = "c41e069b-40c8-7063-8876-76735d1c555d",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Criterion Blacklists",
+			uuid = "8fe2d9dc-b11f-2666-bc2c-2fdd523b2bab",
+			version = 2,
+		},
+		inheritedIndex = 22,
+		inheritedObjectUUID = "e400c842-73a7-374a-9616-1bdcd926b183",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 			},
@@ -133,6 +231,7 @@ local tbl =
 			uuid = "b2512641-6b17-7474-8f9f-5f9d6edf7697",
 			version = 2,
 		},
+		inheritedIndex = 23,
 	},
 	
 	{
@@ -522,7 +621,7 @@ local tbl =
 			uuid = "e0fcccc9-934d-b618-9d65-d1fa78357920",
 			version = 2,
 		},
-		inheritedIndex = 16,
+		inheritedIndex = 24,
 	},
 	
 	{
@@ -624,7 +723,7 @@ local tbl =
 			uuid = "49ecb6e1-9dcd-c7be-98f2-883115a66247",
 			version = 2,
 		},
-		inheritedIndex = 17,
+		inheritedIndex = 25,
 	},
 	
 	{
@@ -663,7 +762,7 @@ local tbl =
 			uuid = "dddc9a61-82d5-fe2f-b692-118ca686509a",
 			version = 2,
 		},
-		inheritedIndex = 18,
+		inheritedIndex = 26,
 	},
 	
 	{
@@ -680,177 +779,7 @@ local tbl =
 			uuid = "6a8f617a-0281-9f04-bda7-77ee566d178a",
 			version = 2,
 		},
-		inheritedIndex = 30,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 7559,
-						conditions = 
-						{
-							
-							{
-								"9344e544-8aa7-e303-ae49-c8a23dec9d2e",
-								true,
-							},
-							
-							{
-								"c73df984-1137-1ad0-af9f-83e2b83f6c91",
-								true,
-							},
-							
-							{
-								"576b2abc-b50f-1223-a256-3d54da36abed",
-								true,
-							},
-							
-							{
-								"559f05a4-3baf-4a21-9902-f6a0e91af34f",
-								true,
-							},
-							
-							{
-								"1dbd9942-5f70-2107-9089-5fc4fe643069",
-								true,
-							},
-							
-							{
-								"08f1d3bf-4caa-0138-81a2-1d022c3b600d",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuAST2_Hotbar_Surecast",
-						ignoreWeaveRules = true,
-						uuid = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
-						variableTogglesType = 2,
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "if AnyoneCore ~= nil and AnyoneCore.DPSMitigation[eventArgs.spellID] == true then\n\t\tlocal ent = TensorCore.mGetEntity(eventArgs.id)\n\t\tif ent ~= nil and ent.attackable and ent.alive then\n\t\t\t\treturn true\n\t\tend\nend\nreturn false",
-						conditionType = 2,
-						dequeueIfLuaFalse = true,
-						eventArgType = 2,
-						name = "miti table dequeue check",
-						partyTargetSubType = 1,
-						uuid = "ae610342-5068-395c-bd77-8d7e0900f29b",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return TensorCore.mGetPlayer().alive and AnyoneCore ~= nil and (AnyoneCore.assistCallback() or AnyoneCore.Settings.DutyHelper.requirebotenabled == false) and AnyoneCore.Settings.DutyHelper.enabled == true",
-						dequeueIfLuaFalse = true,
-						name = "duty helper enabled",
-						partyTargetSubType = 1,
-						uuid = "c73df984-1137-1ad0-af9f-83e2b83f6c91",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 7,
-						dequeueIfLuaFalse = true,
-						name = "combat check",
-						partyTargetSubType = 1,
-						uuid = "1dbd9942-5f70-2107-9089-5fc4fe643069",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.Knockback[eventArgs.spellID] == true",
-						dequeueIfLuaFalse = true,
-						name = "check kb table",
-						uuid = "559f05a4-3baf-4a21-9902-f6a0e91af34f",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Party",
-						channelCheckTimeRemain = 5,
-						channelCheckType = 3,
-						comparator = 2,
-						conditionType = 5,
-						name = "check timer",
-						partyTargetType = "Event Entity",
-						uuid = "08f1d3bf-4caa-0138-81a2-1d022c3b600d",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						buffCheckType = 2,
-						buffID = 418,
-						category = "Self",
-						name = "missing transcendent",
-						uuid = "576b2abc-b50f-1223-a256-3d54da36abed",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "local ent = TensorCore.mGetEntity(eventArgs.entityID)\nreturn ent ~= nil and ent.type ~= 1",
-						dequeueIfLuaFalse = true,
-						name = "not a player",
-						uuid = "9344e544-8aa7-e303-ae49-c8a23dec9d2e",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.Settings.DutyHelper.mitigation == true",
-						dequeueIfLuaFalse = true,
-						name = "check mitigation settings",
-						uuid = "e65b2ae0-c967-6a87-a4da-8cded194beff",
-						version = 2,
-					},
-				},
-			},
-			eventType = 3,
-			name = "Multitool",
-			throttleTime = 1000,
-			timeout = 3,
-			uuid = "d066fbce-6e78-3a2a-b789-d7db896d5b3b",
-			version = 2,
-		},
-		inheritedIndex = 20,
+		inheritedIndex = 27,
 	},
 	
 	{
@@ -1031,12 +960,181 @@ local tbl =
 			},
 			eventType = 3,
 			name = "Duty Helper",
-			throttleTime = 1000,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "1404436e-9a2e-7e7e-b09c-50839e46b22a",
 			version = 2,
 		},
-		inheritedIndex = 31,
+		inheritedIndex = 28,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 7559,
+						conditions = 
+						{
+							
+							{
+								"9344e544-8aa7-e303-ae49-c8a23dec9d2e",
+								true,
+							},
+							
+							{
+								"c73df984-1137-1ad0-af9f-83e2b83f6c91",
+								true,
+							},
+							
+							{
+								"576b2abc-b50f-1223-a256-3d54da36abed",
+								true,
+							},
+							
+							{
+								"559f05a4-3baf-4a21-9902-f6a0e91af34f",
+								true,
+							},
+							
+							{
+								"1dbd9942-5f70-2107-9089-5fc4fe643069",
+								true,
+							},
+							
+							{
+								"08f1d3bf-4caa-0138-81a2-1d022c3b600d",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Hotbar_Surecast",
+						ignoreWeaveRules = true,
+						uuid = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
+						variableTogglesType = 2,
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "if AnyoneCore ~= nil and AnyoneCore.DPSMitigation[eventArgs.spellID] == true then\n\t\tlocal ent = TensorCore.mGetEntity(eventArgs.id)\n\t\tif ent ~= nil and ent.attackable and ent.alive then\n\t\t\t\treturn true\n\t\tend\nend\nreturn false",
+						conditionType = 2,
+						dequeueIfLuaFalse = true,
+						eventArgType = 2,
+						name = "miti table dequeue check",
+						partyTargetSubType = 1,
+						uuid = "ae610342-5068-395c-bd77-8d7e0900f29b",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return TensorCore.mGetPlayer().alive and AnyoneCore ~= nil and (AnyoneCore.assistCallback() or AnyoneCore.Settings.DutyHelper.requirebotenabled == false) and AnyoneCore.Settings.DutyHelper.enabled == true",
+						dequeueIfLuaFalse = true,
+						name = "duty helper enabled",
+						partyTargetSubType = 1,
+						uuid = "c73df984-1137-1ad0-af9f-83e2b83f6c91",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 7,
+						dequeueIfLuaFalse = true,
+						name = "combat check",
+						partyTargetSubType = 1,
+						uuid = "1dbd9942-5f70-2107-9089-5fc4fe643069",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.Knockback[eventArgs.spellID] == true",
+						dequeueIfLuaFalse = true,
+						name = "check kb table",
+						uuid = "559f05a4-3baf-4a21-9902-f6a0e91af34f",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Party",
+						channelCheckTimeRemain = 5,
+						channelCheckType = 3,
+						comparator = 2,
+						conditionType = 5,
+						name = "check timer",
+						partyTargetType = "Event Entity",
+						uuid = "08f1d3bf-4caa-0138-81a2-1d022c3b600d",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						buffCheckType = 2,
+						buffID = 418,
+						category = "Self",
+						name = "missing transcendent",
+						uuid = "576b2abc-b50f-1223-a256-3d54da36abed",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "local ent = TensorCore.mGetEntity(eventArgs.entityID)\nreturn ent ~= nil and ent.type ~= 1",
+						dequeueIfLuaFalse = true,
+						name = "not a player",
+						uuid = "9344e544-8aa7-e303-ae49-c8a23dec9d2e",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.Settings.DutyHelper.mitigation == true",
+						dequeueIfLuaFalse = true,
+						name = "check mitigation settings",
+						uuid = "e65b2ae0-c967-6a87-a4da-8cded194beff",
+						version = 2,
+					},
+				},
+			},
+			eventType = 3,
+			name = "Multitool",
+			timeout = 10,
+			uuid = "d066fbce-6e78-3a2a-b789-d7db896d5b3b",
+			version = 2,
+		},
+		inheritedIndex = 29,
 	},
 	
 	{
@@ -1052,7 +1150,7 @@ local tbl =
 			uuid = "5710d044-1a27-9bb4-8ef4-9d0b8fdb89b0",
 			version = 2,
 		},
-		inheritedIndex = 33,
+		inheritedIndex = 30,
 	},
 	
 	{
@@ -1859,6 +1957,7 @@ local tbl =
 				{
 					data = 
 					{
+						aType = "Variable",
 						actionID = 7439,
 						conditions = 
 						{
@@ -1884,11 +1983,17 @@ local tbl =
 							},
 							
 							{
+								"fab7b9fb-5ccd-9140-919e-f67f36eb304f",
+								true,
+							},
+							
+							{
 								"fdcde701-b64f-f23e-b78b-a818ba99390c",
 								true,
 							},
 						},
 						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Healbar_EarthlyStarAuto",
 						targetType = "Detection Target",
 						uuid = "51403b9a-b7e6-0e2e-94ae-1c1b09d856d1",
 						variableTogglesType = 3,
@@ -2137,6 +2242,20 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 11,
+				},
+				
+				{
+					data = 
+					{
+						actionID = 7439,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Earthly Star <= 0s",
+						uuid = "fab7b9fb-5ccd-9140-919e-f67f36eb304f",
+						version = 2,
+					},
+					inheritedIndex = 19,
 				},
 				
 				{
@@ -2993,197 +3112,12 @@ local tbl =
 				},
 			},
 			name = "Heal",
-			throttleTime = 1000,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "0c60269d-4aa6-3d34-abed-17a5c39f48cf",
 			version = 2,
 		},
-		inheritedIndex = 34,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 7568,
-						conditions = 
-						{
-							
-							{
-								"8218683f-99fd-4914-9aba-1b335274059d",
-								true,
-							},
-							
-							{
-								"f3f63d7f-ea91-97d2-9334-609a7e26a4b4",
-								true,
-							},
-							
-							{
-								"deef995a-f7e6-e535-a28c-221d3e3e1e76",
-								true,
-							},
-							
-							{
-								"a0252f7b-b5d3-ec1b-ad80-ad55d5b6c305",
-								true,
-							},
-							
-							{
-								"843689a0-9044-af6a-a278-6e43c1351089",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuAST2_Healbar_Esuna",
-						name = "Esuna",
-						targetType = "Detection Target",
-						uuid = "a340ece6-1a94-ad90-a8d8-1e847556c15a",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.assistCallback()",
-						dequeueIfLuaFalse = true,
-						name = "bot is running",
-						uuid = "8218683f-99fd-4914-9aba-1b335274059d",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Esuna\"].bool",
-						dequeueIfLuaFalse = true,
-						name = "Toggle Esuna",
-						uuid = "f3f63d7f-ea91-97d2-9334-609a7e26a4b4",
-						version = 2,
-					},
-					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Heal\"].bool",
-						dequeueIfLuaFalse = true,
-						name = "Toggle Heal",
-						uuid = "deef995a-f7e6-e535-a28c-221d3e3e1e76",
-						version = 2,
-					},
-					inheritedIndex = 3,
-				},
-				
-				{
-					data = 
-					{
-						buffCheckType = 4,
-						buffIDList = 
-						{
-							723,
-							6,
-							7,
-							14,
-							15,
-							17,
-							267,
-							268,
-							1511,
-							910,
-							2965,
-							569,
-						},
-						category = "Lua",
-						conditionLua = "local target = TensorCore.mGetEntity(eventArgs.detectionTargetID)\nif target then\n\tfor id, b in pairs(target.buffs) do\n\t\tif b.dispellable and b.duration >= 2 then\n\t\t\tdata.lastdispeltarget = target.id\n\t\t\tdata.lastdispel = Now()\n\t\t\treturn true\n\t\tend\n\tend\nend\nreturn false",
-						matchAnyBuff = true,
-						name = "Dispellable Buff",
-						partyTargetSubType = "Number",
-						partyTargetType = "Detection Target",
-						uuid = "fc081c32-5061-dee4-9200-9d045418f9c0",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Party",
-						comparator = 2,
-						conditionType = 4,
-						inRangeValue = 30,
-						name = "30y",
-						partyTargetSubType = 1,
-						partyTargetType = "Detection Target",
-						uuid = "cf03292a-194f-324f-97a2-50ce4067dc72",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						buffCheckType = 2,
-						buffID = 167,
-						category = "Self",
-						dequeueIfLuaFalse = true,
-						name = "Buff - Swiftcast",
-						uuid = "a0252f7b-b5d3-ec1b-ad80-ad55d5b6c305",
-						version = 2,
-					},
-					inheritedIndex = 6,
-				},
-				
-				{
-					data = 
-					{
-						category = "Filter",
-						conditions = 
-						{
-							
-							{
-								"cf03292a-194f-324f-97a2-50ce4067dc72",
-								true,
-							},
-							
-							{
-								"fc081c32-5061-dee4-9200-9d045418f9c0",
-								true,
-							},
-						},
-						dequeueIfLuaFalse = true,
-						filterTargetType = "Party",
-						name = "Filter",
-						uuid = "843689a0-9044-af6a-a278-6e43c1351089",
-						version = 2,
-					},
-				},
-			},
-			name = "Esuna",
-			throttleTime = 1200,
-			timeout = 3,
-			uuid = "6e521d06-e8d2-e0b1-9a34-8fe1a8d7a48c",
-			version = 2,
-		},
-		inheritedIndex = 35,
+		inheritedIndex = 31,
 	},
 	
 	{
@@ -3453,12 +3387,197 @@ local tbl =
 			},
 			eventType = 3,
 			name = "Tankbusters",
-			throttleTime = 1000,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "f2ea67a6-c6a5-7261-a8a8-670ca4ee3f72",
 			version = 2,
 		},
-		inheritedIndex = 36,
+		inheritedIndex = 32,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 7568,
+						conditions = 
+						{
+							
+							{
+								"8218683f-99fd-4914-9aba-1b335274059d",
+								true,
+							},
+							
+							{
+								"f3f63d7f-ea91-97d2-9334-609a7e26a4b4",
+								true,
+							},
+							
+							{
+								"deef995a-f7e6-e535-a28c-221d3e3e1e76",
+								true,
+							},
+							
+							{
+								"a0252f7b-b5d3-ec1b-ad80-ad55d5b6c305",
+								true,
+							},
+							
+							{
+								"843689a0-9044-af6a-a278-6e43c1351089",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Healbar_Esuna",
+						name = "Esuna",
+						targetType = "Detection Target",
+						uuid = "a340ece6-1a94-ad90-a8d8-1e847556c15a",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.assistCallback()",
+						dequeueIfLuaFalse = true,
+						name = "bot is running",
+						uuid = "8218683f-99fd-4914-9aba-1b335274059d",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Esuna\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Esuna",
+						uuid = "f3f63d7f-ea91-97d2-9334-609a7e26a4b4",
+						version = 2,
+					},
+					inheritedIndex = 2,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Heal\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Heal",
+						uuid = "deef995a-f7e6-e535-a28c-221d3e3e1e76",
+						version = 2,
+					},
+					inheritedIndex = 3,
+				},
+				
+				{
+					data = 
+					{
+						buffCheckType = 4,
+						buffIDList = 
+						{
+							723,
+							6,
+							7,
+							14,
+							15,
+							17,
+							267,
+							268,
+							1511,
+							910,
+							2965,
+							569,
+						},
+						category = "Lua",
+						conditionLua = "local target = TensorCore.mGetEntity(eventArgs.detectionTargetID)\nif target then\n\tfor id, b in pairs(target.buffs) do\n\t\tif b.dispellable and b.duration >= 2 then\n\t\t\tdata.lastdispeltarget = target.id\n\t\t\tdata.lastdispel = Now()\n\t\t\treturn true\n\t\tend\n\tend\nend\nreturn false",
+						matchAnyBuff = true,
+						name = "Dispellable Buff",
+						partyTargetSubType = "Number",
+						partyTargetType = "Detection Target",
+						uuid = "fc081c32-5061-dee4-9200-9d045418f9c0",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Party",
+						comparator = 2,
+						conditionType = 4,
+						inRangeValue = 30,
+						name = "30y",
+						partyTargetSubType = 1,
+						partyTargetType = "Detection Target",
+						uuid = "cf03292a-194f-324f-97a2-50ce4067dc72",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						buffCheckType = 2,
+						buffID = 167,
+						category = "Self",
+						dequeueIfLuaFalse = true,
+						name = "Buff - Swiftcast",
+						uuid = "a0252f7b-b5d3-ec1b-ad80-ad55d5b6c305",
+						version = 2,
+					},
+					inheritedIndex = 6,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"cf03292a-194f-324f-97a2-50ce4067dc72",
+								true,
+							},
+							
+							{
+								"fc081c32-5061-dee4-9200-9d045418f9c0",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetType = "Party",
+						name = "Filter",
+						uuid = "843689a0-9044-af6a-a278-6e43c1351089",
+						version = 2,
+					},
+				},
+			},
+			name = "Esuna",
+			throttleTime = 1250,
+			timeout = 3,
+			uuid = "6e521d06-e8d2-e0b1-9a34-8fe1a8d7a48c",
+			version = 2,
+		},
+		inheritedIndex = 33,
 	},
 	
 	{
@@ -3563,7 +3682,7 @@ local tbl =
 			uuid = "961e69eb-ba3c-8630-a9ea-28bd16291542",
 			version = 2,
 		},
-		inheritedIndex = 26,
+		inheritedIndex = 34,
 	},
 	
 	{
@@ -3580,7 +3699,7 @@ local tbl =
 			uuid = "44ddf12d-225b-0011-82f5-8c19632cc413",
 			version = 2,
 		},
-		inheritedIndex = 27,
+		inheritedIndex = 35,
 	},
 	
 	{
@@ -3593,7 +3712,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.4\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3621,15 +3740,17 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.4",
+			name = "v5.2.4.5",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},
+		inheritedIndex = 36,
 	}, 
 	inheritedProfiles = 
 	{
 		"store\\anyone\\sharedsavage",
 		"store\\anyone\\sharedultimate",
+		"store\\anyone\\sharedsildihn",
 	},
 }
 

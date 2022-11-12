@@ -200,6 +200,118 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Silkie",
+			uuid = "f0f3969b-4120-2deb-a53a-9465b6135ed8",
+			version = 2,
+		},
+		inheritedIndex = 16,
+		inheritedObjectUUID = "65ac2f02-4372-8e35-a0ef-57f33aac7e43",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Silkie Channel",
+			uuid = "781dc3f5-562b-3030-a6e9-467442e9174b",
+			version = 2,
+		},
+		inheritedIndex = 17,
+		inheritedObjectUUID = "03a74888-37ce-4042-99b4-6c04d2f531aa",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Gladiator",
+			uuid = "6bd6a66a-37b9-2e0b-8b52-9ddff39e5541",
+			version = 2,
+		},
+		inheritedIndex = 18,
+		inheritedObjectUUID = "c7a91848-de71-fc6c-85b5-5209d81c03d0",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster",
+			uuid = "74e3f1ad-2193-46da-be53-1886c5a3337a",
+			version = 2,
+		},
+		inheritedIndex = 19,
+		inheritedObjectUUID = "08a83de0-6a5d-39ad-ab68-dda78868dfcc",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster Script",
+			uuid = "bf5abe77-cd80-9dc2-8afb-892e67c397d9",
+			version = 2,
+		},
+		inheritedIndex = 20,
+		inheritedObjectUUID = "f8ec4192-f420-c816-90bf-b0280aef7675",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Shadowcaster Channel",
+			uuid = "939fc0ee-3674-c934-84ed-0bbf9fd5f413",
+			version = 2,
+		},
+		inheritedIndex = 21,
+		inheritedObjectUUID = "c41e069b-40c8-7063-8876-76735d1c555d",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Criterion Blacklists",
+			uuid = "17729a0e-30bb-32b9-9a57-3615255d6ac2",
+			version = 2,
+		},
+		inheritedIndex = 22,
+		inheritedObjectUUID = "e400c842-73a7-374a-9616-1bdcd926b183",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "--Misc",
+			uuid = "36182f45-a7f7-792a-b664-493b9c0020f0",
+			version = 2,
+		},
+		inheritedIndex = 23,
+		inheritedObjectUUID = "00299d60-9aca-4567-8079-058341fcfd33",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 				
@@ -456,7 +568,7 @@ local tbl =
 			uuid = "53c2dcfb-b1ee-d4bb-b6f8-956e2efa15d5",
 			version = 2,
 		},
-		inheritedIndex = 16,
+		inheritedIndex = 24,
 	},
 	
 	{
@@ -466,7 +578,7 @@ local tbl =
 			uuid = "aaeb206a-3a25-d6ed-a73a-8c7188fd43be",
 			version = 2,
 		},
-		inheritedIndex = 29,
+		inheritedIndex = 25,
 		inheritedObjectUUID = "17e714bc-2572-57a6-a498-a398a8e274c1",
 		inheritedOverwrites = 
 		{
@@ -480,7 +592,7 @@ local tbl =
 			uuid = "9eef6a42-2271-b232-a9a4-8cce0aee29be",
 			version = 2,
 		},
-		inheritedIndex = 29,
+		inheritedIndex = 26,
 		inheritedObjectUUID = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
 		inheritedOverwrites = 
 		{
@@ -494,7 +606,7 @@ local tbl =
 			uuid = "05835b24-0e01-4d8f-902d-46ca5a73d06b",
 			version = 2,
 		},
-		inheritedIndex = 19,
+		inheritedIndex = 27,
 		inheritedObjectUUID = "3252e059-b557-925d-a580-d94313de83d4",
 		inheritedOverwrites = 
 		{
@@ -643,12 +755,12 @@ local tbl =
 			},
 			eventType = 3,
 			name = "Duty Helper",
-			throttleTime = 1000,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "80fc68eb-47df-5282-825a-568e4830b394",
 			version = 2,
 		},
-		inheritedIndex = 20,
+		inheritedIndex = 28,
 	},
 	
 	{
@@ -658,7 +770,7 @@ local tbl =
 			uuid = "49b82326-95d3-e267-9251-678d241d7f3c",
 			version = 2,
 		},
-		inheritedIndex = 21,
+		inheritedIndex = 29,
 		inheritedObjectUUID = "99232b2f-f076-00e3-92a0-3738aaba1ce6",
 		inheritedOverwrites = 
 		{
@@ -702,7 +814,7 @@ local tbl =
 			uuid = "196f3e88-a90e-1ce3-b8b0-974fc7ea9b64",
 			version = 2,
 		},
-		inheritedIndex = 22,
+		inheritedIndex = 30,
 	},
 	
 	{
@@ -2736,12 +2848,12 @@ local tbl =
 				},
 			},
 			name = "Heal",
-			throttleTime = 1000,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "718e9dd4-3256-182f-83c2-3849d7048cf0",
 			version = 2,
 		},
-		inheritedIndex = 23,
+		inheritedIndex = 31,
 	},
 	
 	{
@@ -2921,12 +3033,12 @@ local tbl =
 				},
 			},
 			name = "Esuna",
-			throttleTime = 1200,
+			throttleTime = 1250,
 			timeout = 3,
 			uuid = "889e931b-f60f-e42b-9978-49b8e9526e8d",
 			version = 2,
 		},
-		inheritedIndex = 24,
+		inheritedIndex = 32,
 	},
 	
 	{
@@ -3031,7 +3143,7 @@ local tbl =
 			uuid = "773f67d6-3e37-de4d-aeb1-d01f69456186",
 			version = 2,
 		},
-		inheritedIndex = 25,
+		inheritedIndex = 33,
 	},
 	
 	{
@@ -3048,7 +3160,7 @@ local tbl =
 			uuid = "a22bad1a-15ae-b6f2-900c-c7a5b8ea0dc1",
 			version = 2,
 		},
-		inheritedIndex = 26,
+		inheritedIndex = 34,
 	},
 	
 	{
@@ -3061,7 +3173,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.4\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3089,11 +3201,11 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.4",
+			name = "v5.2.4.5",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},
-		inheritedIndex = 27,
+		inheritedIndex = 35,
 	},
 	
 	{
@@ -3103,7 +3215,7 @@ local tbl =
 			uuid = "fbfae9df-7189-f70f-8bb0-5b045713eed9",
 			version = 2,
 		},
-		inheritedIndex = 29,
+		inheritedIndex = 36,
 		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
 		inheritedOverwrites = 
 		{
