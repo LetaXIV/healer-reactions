@@ -282,6 +282,11 @@ local tbl =
 							},
 							
 							{
+								"e38a0ac2-865c-21a0-8ab0-128cdc237152",
+								true,
+							},
+							
+							{
 								"a4232360-944a-f0ae-931c-be1356c00e74",
 								true,
 							},
@@ -531,6 +536,18 @@ local tbl =
 						uuid = "e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 						version = 2,
 					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Earthly Star\"].bool",
+						name = "Toggle Earthly Star",
+						uuid = "e38a0ac2-865c-21a0-8ab0-128cdc237152",
+						version = 2,
+					},
+					inheritedIndex = 3,
 				},
 				
 				{
@@ -3712,7 +3729,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.6\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3740,7 +3757,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.5",
+			name = "v5.2.4.6",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},
