@@ -1241,11 +1241,6 @@ local tbl =
 							},
 							
 							{
-								"4264a096-a2b3-056e-9793-d0b74381fcac",
-								true,
-							},
-							
-							{
 								"7b049bcd-25af-46f0-806b-1a71dc05063e",
 								true,
 							},
@@ -1318,12 +1313,12 @@ local tbl =
 							},
 							
 							{
-								"3cedc063-18b6-f53c-baa4-fd547d610fd8",
+								"9cec6d13-d249-88c3-ae2a-239e4e82cc0e",
 								true,
 							},
 							
 							{
-								"4264a096-a2b3-056e-9793-d0b74381fcac",
+								"3cedc063-18b6-f53c-baa4-fd547d610fd8",
 								true,
 							},
 							
@@ -1532,11 +1527,6 @@ local tbl =
 							},
 							
 							{
-								"b3a2536a-916a-ea30-bc32-da61ca363679",
-								true,
-							},
-							
-							{
 								"3cedc063-18b6-f53c-baa4-fd547d610fd8",
 								true,
 							},
@@ -1732,7 +1722,12 @@ local tbl =
 							},
 							
 							{
-								"7ee5f482-ab50-92a7-87f6-bc47afef8c0d",
+								"7239755b-ea3f-ebf3-b685-be1fc2e597fe",
+								true,
+							},
+							
+							{
+								"ba518ca1-ed34-4bb1-8ea5-23a0da29b7e5",
 								true,
 							},
 							
@@ -1742,12 +1737,12 @@ local tbl =
 							},
 						},
 						endIfUsed = true,
-						gVar = "ACR_RikuSGE_Healbar_Holos",
-						uuid = "2db84015-22f7-1006-a999-2a7509cc84eb",
+						gVar = "ACR_RikuSGE_Healbar_Ixochole",
+						uuid = "1d76384b-3b4d-a429-b2c8-ee6128b58343",
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 8,
+					inheritedIndex = 9,
 				},
 				
 				{
@@ -1773,12 +1768,12 @@ local tbl =
 							},
 							
 							{
-								"7239755b-ea3f-ebf3-b685-be1fc2e597fe",
+								"4264a096-a2b3-056e-9793-d0b74381fcac",
 								true,
 							},
 							
 							{
-								"ba518ca1-ed34-4bb1-8ea5-23a0da29b7e5",
+								"7ee5f482-ab50-92a7-87f6-bc47afef8c0d",
 								true,
 							},
 							
@@ -1788,12 +1783,12 @@ local tbl =
 							},
 						},
 						endIfUsed = true,
-						gVar = "ACR_RikuSGE_Healbar_Ixochole",
-						uuid = "1d76384b-3b4d-a429-b2c8-ee6128b58343",
+						gVar = "ACR_RikuSGE_Healbar_Holos",
+						uuid = "2db84015-22f7-1006-a999-2a7509cc84eb",
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 9,
+					inheritedIndex = 12,
 				},
 				
 				{
@@ -3438,7 +3433,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.6\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.7\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3466,7 +3461,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.6",
+			name = "v5.2.4.7",
 			uuid = "3bf5a707-f643-0845-a62d-e237f3c19dc3",
 			version = 2,
 		},
