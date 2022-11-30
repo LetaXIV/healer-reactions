@@ -1424,6 +1424,11 @@ local tbl =
 							},
 							
 							{
+								"230ae355-e854-eaa2-8b69-2de2114ba44d",
+								true,
+							},
+							
+							{
 								"72c8c9d1-909c-de7e-8eb6-23a01c47f072",
 								true,
 							},
@@ -1692,6 +1697,11 @@ local tbl =
 							},
 							
 							{
+								"230ae355-e854-eaa2-8b69-2de2114ba44d",
+								true,
+							},
+							
+							{
 								"f19025a0-2d36-9a02-a611-2b6a6a8cc76d",
 								true,
 							},
@@ -1740,6 +1750,11 @@ local tbl =
 							
 							{
 								"268b110e-8097-e4c1-930a-6376fbb8e73b",
+								true,
+							},
+							
+							{
+								"230ae355-e854-eaa2-8b69-2de2114ba44d",
 								true,
 							},
 							
@@ -3719,7 +3734,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.7\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.8\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3747,7 +3762,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.7",
+			name = "v5.2.4.8",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},
