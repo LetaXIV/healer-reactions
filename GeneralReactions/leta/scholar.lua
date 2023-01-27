@@ -3163,7 +3163,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.8\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.9\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3191,7 +3191,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.8",
+			name = "v5.2.4.9",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},
@@ -3202,11 +3202,10 @@ local tbl =
 		data = 
 		{
 			name = "n/a",
-			uuid = "fbfae9df-7189-f70f-8bb0-5b045713eed9",
+			uuid = "d08ed7aa-c757-7328-aa20-362771b5b1b7",
 			version = 2,
 		},
-		inheritedIndex = 36,
-		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
+		inheritedObjectUUID = "b4374aee-9258-7cc7-ba0a-4c199abe8313",
 		inheritedOverwrites = 
 		{
 			actions = 
@@ -3218,44 +3217,45 @@ local tbl =
 					{
 						data = 
 						{
-							name = "target nearest",
-							uuid = "87d02707-7342-9085-b5a0-d83a928386e6",
+							name = "End",
+							uuid = "de9b566c-4300-78b0-8247-c893b17cf359",
 							version = 2,
 						},
-						inheritedObjectUUID = "b0e66759-e311-9c80-a57f-2e93ff99d4d1",
+						inheritedObjectUUID = "203d44e2-1376-992c-b272-b19fb620f602",
 						inheritedOverwrites = 
 						{
-							conditions = 
-							{
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"f0635090-e89f-2ae2-844c-c7f30531ad49",
-										true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
-										true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"4838a5f2-e6ec-e56e-a71c-d5c8620b5353",
-										true,
-									},
-								},
-							},
 						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "Engage",
+							uuid = "ec570fb1-a471-50f5-bfd6-71f74e574712",
+							version = 2,
+						},
+						inheritedObjectUUID = "d763d3f0-694b-230a-853e-18910819588e",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+				
+				{
+					type = "remove",
+					value = 
+					{
+						data = 
+						{
+							name = "Target Nearest",
+							uuid = "e6985f6c-374e-f9a6-bb49-a3a0ecc5167c",
+							version = 2,
+						},
+						inheritedObjectUUID = "d74a784f-c225-fd1e-bd26-938e349d5f8a",
 					},
 				},
 				
@@ -3266,43 +3266,10 @@ local tbl =
 						data = 
 						{
 							name = "",
-							uuid = "cd50c97d-57a7-ae1c-ab2d-4600b2b8f7f5",
+							uuid = "18940de9-8093-9f1e-a0ac-a177b6a9189c",
 							version = 2,
 						},
-						inheritedObjectUUID = "c5464876-939e-a612-99c9-88099e6a26a4",
-						inheritedOverwrites = 
-						{
-							conditions = 
-							{
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"f0635090-e89f-2ae2-844c-c7f30531ad49",
-										true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
-										true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"158de54e-eb59-5356-ba1d-09ae0a4755b8",
-										true,
-									},
-								},
-							},
-						},
+						inheritedObjectUUID = "c57036ed-3b36-a78b-898e-32119d4b1446",
 					},
 				},
 				
@@ -3312,45 +3279,11 @@ local tbl =
 					{
 						data = 
 						{
-							name = "",
-							uuid = "20a0848c-e5f0-6741-932f-5078f12d181f",
+							name = "Target Nearest",
+							uuid = "dd0cb2c5-0e0d-710e-8aeb-6192fa2ff9a3",
 							version = 2,
 						},
-						inheritedObjectUUID = "babc2a60-fe4c-73de-902d-be209d2cb7f6",
-						inheritedOverwrites = 
-						{
-							actionID = 3584,
-							conditions = 
-							{
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"f0635090-e89f-2ae2-844c-c7f30531ad49",
-										true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
-										true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"a962d9e7-4b65-edcd-9471-ef375fc9f1d2",
-										true,
-									},
-								},
-							},
-						},
+						inheritedObjectUUID = "ad3c6f9c-68b3-dd49-844f-28b4f9aca282",
 					},
 				},
 				
@@ -3360,101 +3293,13 @@ local tbl =
 					{
 						data = 
 						{
-							name = "enable start combat",
-							uuid = "0744c7ff-1a29-948f-a0dc-a843efc109a6",
+							name = "Set Variables",
+							uuid = "871abc30-2720-f9e7-bd02-752de0c2cd9c",
 							version = 2,
 						},
-						inheritedObjectUUID = "acd6dbc0-16e7-981a-a0e6-d73faa863359",
+						inheritedObjectUUID = "8ceba036-70b3-14a9-8147-e299a38d5ccd",
 						inheritedOverwrites = 
 						{
-							conditions = 
-							{
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"f0635090-e89f-2ae2-844c-c7f30531ad49",
-										true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
-										true,
-									},
-								},
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"d6e5f76d-373f-5144-b6fa-a511c76c8e00",
-										true,
-									},
-								},
-							},
-						},
-					},
-				},
-				
-				{
-					type = "remove",
-					value = 
-					{
-						data = 
-						{
-							name = "end reaction",
-							uuid = "96f3b244-77b5-bee1-8d5c-f75f8ae8e0bf",
-							version = 2,
-						},
-						inheritedObjectUUID = "dab7f400-ecf4-4294-a745-e2f7ac5a1b22",
-						inheritedOverwrites = 
-						{
-							conditions = 
-							{
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
-										true,
-									},
-								},
-							},
-						},
-					},
-				},
-				
-				{
-					type = "remove",
-					value = 
-					{
-						data = 
-						{
-							name = "cancel prepull helper",
-							uuid = "9bb1e081-2ae2-543a-bb0a-8a9eb7d63813",
-							version = 2,
-						},
-						inheritedObjectUUID = "451a1cc6-ace3-1170-96e9-aeff38c3affb",
-						inheritedOverwrites = 
-						{
-							conditions = 
-							{
-								
-								{
-									type = "remove",
-									value = 
-									{
-										"50124129-980a-3a46-b291-5a37b9f25ce2",
-										true,
-									},
-								},
-							},
 						},
 					},
 				},
@@ -3468,14 +3313,11 @@ local tbl =
 					{
 						data = 
 						{
-							name = "is bot running",
-							uuid = "949f79b9-ad1a-c0fb-9075-7108d01be39b",
+							name = "End Timer",
+							uuid = "d7207be3-8b90-a66f-8f17-2f68f14d3f05",
 							version = 2,
 						},
-						inheritedObjectUUID = "f0635090-e89f-2ae2-844c-c7f30531ad49",
-						inheritedOverwrites = 
-						{
-						},
+						inheritedObjectUUID = "d880da65-e049-0e94-b956-f1df2e89d4ac",
 					},
 				},
 				
@@ -3485,14 +3327,11 @@ local tbl =
 					{
 						data = 
 						{
-							name = "is countdown started",
-							uuid = "59a23dc4-ccc0-b8c9-af44-342589f20967",
+							name = "Engage Boss Timer",
+							uuid = "134041fc-0273-af40-b164-1686045ee22e",
 							version = 2,
 						},
-						inheritedObjectUUID = "61dd99a6-dbfa-3c58-a34e-b3221c0c3ca5",
-						inheritedOverwrites = 
-						{
-						},
+						inheritedObjectUUID = "f29b914f-cece-d670-b855-f37856f50c03",
 					},
 				},
 				
@@ -3502,14 +3341,11 @@ local tbl =
 					{
 						data = 
 						{
-							name = "engage boss timer",
-							uuid = "afe8a642-b1a9-8561-9ca0-c08e5f82e139",
+							name = "Broil Timer",
+							uuid = "5a70cb99-8794-5503-83aa-c29f0fa25bb3",
 							version = 2,
 						},
-						inheritedObjectUUID = "d6e5f76d-373f-5144-b6fa-a511c76c8e00",
-						inheritedOverwrites = 
-						{
-						},
+						inheritedObjectUUID = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
 					},
 				},
 				
@@ -3519,14 +3355,11 @@ local tbl =
 					{
 						data = 
 						{
-							name = "end reaction timer",
-							uuid = "bfc16168-eda7-776e-9e5b-8f60a65582be",
+							name = "Target Timer",
+							uuid = "217429ae-72f8-a03f-b326-4b07dcf4eaf4",
 							version = 2,
 						},
-						inheritedObjectUUID = "f52fcb09-9460-e051-9463-25c8bb0be180",
-						inheritedOverwrites = 
-						{
-						},
+						inheritedObjectUUID = "74431404-7272-3011-892b-18db2e4fa1a5",
 					},
 				},
 				
@@ -3536,14 +3369,11 @@ local tbl =
 					{
 						data = 
 						{
-							name = "target boss timer",
-							uuid = "1cb0ba3e-7a9e-d702-baab-e9e5bd108c17",
+							name = "Scholar",
+							uuid = "526a9349-a36c-5504-a7ec-42b96418f9d2",
 							version = 2,
 						},
-						inheritedObjectUUID = "4838a5f2-e6ec-e56e-a71c-d5c8620b5353",
-						inheritedOverwrites = 
-						{
-						},
+						inheritedObjectUUID = "e8de0f77-e6e5-93fb-9d52-61c81a36ac84",
 					},
 				},
 				
@@ -3553,52 +3383,18 @@ local tbl =
 					{
 						data = 
 						{
-							name = "is countdown cancelled",
-							uuid = "db3b385c-a6b1-8193-befd-89ed6060b14c",
+							name = "Check BotRunning",
+							uuid = "39956a33-2940-b0df-9675-ae06cba45d98",
 							version = 2,
 						},
-						inheritedObjectUUID = "50124129-980a-3a46-b291-5a37b9f25ce2",
-						inheritedOverwrites = 
-						{
-						},
-					},
-				},
-				
-				{
-					type = "remove",
-					value = 
-					{
-						data = 
-						{
-							name = "pot timer",
-							uuid = "82126e84-1856-9d67-84fc-6bb44dcecfee",
-							version = 2,
-						},
-						inheritedObjectUUID = "158de54e-eb59-5356-ba1d-09ae0a4755b8",
-						inheritedOverwrites = 
-						{
-						},
-					},
-				},
-				
-				{
-					type = "remove",
-					value = 
-					{
-						data = 
-						{
-							name = "malefic timer",
-							uuid = "c5e7e0b4-916c-5e66-8f80-ab492935b7fd",
-							version = 2,
-						},
-						inheritedObjectUUID = "a962d9e7-4b65-edcd-9471-ef375fc9f1d2",
+						inheritedObjectUUID = "4a7db5d9-954b-bac7-9064-bbd7166b5052",
 						inheritedOverwrites = 
 						{
 						},
 					},
 				},
 			},
-			enabled = true,
+			enabled = false,
 			name = "n/a",
 		},
 	}, 
