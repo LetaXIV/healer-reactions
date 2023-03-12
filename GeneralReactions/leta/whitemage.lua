@@ -4,62 +4,26 @@ local tbl =
 	{
 		data = 
 		{
-			name = "UCoB draws",
-			uuid = "39f60417-9bf9-06fd-b380-18fafc93bee3",
-			version = 2,
-		},
-		inheritedIndex = 8,
-		inheritedObjectUUID = "eefa7bbd-2ced-e0ef-833a-6ece8da17af1",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Draw quotes",
-			uuid = "32863693-7f3a-c4d8-8023-111f93c626a1",
-			version = 2,
-		},
-		inheritedIndex = 9,
-		inheritedObjectUUID = "79d07751-0776-e532-a750-6421eeb9169b",
-		inheritedOverwrites = 
-		{
-			conditions = 
-			{
-				
-				{
-					position = 7,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "Thermionic > Lunar Dynamo",
-							uuid = "21589c51-866f-da1b-b4b5-488fd0046229",
-							version = 2,
-						},
-						inheritedIndex = 7,
-						inheritedObjectUUID = "5f60399e-9431-a290-9701-8b9e0a4c498a",
-						inheritedOverwrites = 
-						{
-						},
-					},
-				},
-			},
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Limit Cut number",
-			uuid = "8f0c0cef-f7d8-e8a9-bffc-ed9c587f8cc3",
+			name = "OnDeath Reaction",
+			uuid = "00070a08-e995-5923-a622-c8aca0e79d8a",
 			version = 2,
 		},
 		inheritedIndex = 10,
-		inheritedObjectUUID = "669faf15-ab92-6ab1-bd57-723c419245d4",
+		inheritedObjectUUID = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "OnWipe Reaction",
+			uuid = "dd034420-a59a-0b8a-a70d-473f16c84613",
+			version = 2,
+		},
+		inheritedIndex = 11,
+		inheritedObjectUUID = "17e714bc-2572-57a6-a498-a398a8e274c1",
 		inheritedOverwrites = 
 		{
 		},
@@ -381,21 +345,7 @@ local tbl =
 			uuid = "56843b9f-36f8-b8ce-80b5-fc004877de18",
 			version = 2,
 		},
-		inheritedIndex = 24,
-	},
-	
-	{
-		data = 
-		{
-			name = "OnDeath Reaction",
-			uuid = "00070a08-e995-5923-a622-c8aca0e79d8a",
-			version = 2,
-		},
-		inheritedIndex = 26,
-		inheritedObjectUUID = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
-		inheritedOverwrites = 
-		{
-		},
+		inheritedIndex = 12,
 	},
 	
 	{
@@ -405,7 +355,7 @@ local tbl =
 			uuid = "d1160378-3281-93a4-922e-6425a66ab2be",
 			version = 2,
 		},
-		inheritedIndex = 27,
+		inheritedIndex = 13,
 		inheritedObjectUUID = "3252e059-b557-925d-a580-d94313de83d4",
 		inheritedOverwrites = 
 		{
@@ -594,7 +544,7 @@ local tbl =
 			uuid = "f6e8ed27-6412-4cc9-ab1a-1cebece7cb27",
 			version = 2,
 		},
-		inheritedIndex = 28,
+		inheritedIndex = 14,
 	},
 	
 	{
@@ -604,7 +554,7 @@ local tbl =
 			uuid = "62815923-9540-1e5e-8ad5-18ef1047f6af",
 			version = 2,
 		},
-		inheritedIndex = 29,
+		inheritedIndex = 15,
 		inheritedObjectUUID = "99232b2f-f076-00e3-92a0-3738aaba1ce6",
 		inheritedOverwrites = 
 		{
@@ -2890,7 +2840,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.9\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.91\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -2918,7 +2868,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.9",
+			name = "v5.2.4.91",
 			uuid = "9570df5c-4066-44ad-852c-c4c9993eca8f",
 			version = 2,
 		},
@@ -2932,7 +2882,7 @@ local tbl =
 			uuid = "4555a084-8304-5ed2-9eba-b620f8372c0a",
 			version = 2,
 		},
-		inheritedIndex = 37,
+		inheritedIndex = 23,
 		inheritedObjectUUID = "dcec4734-df1d-e575-90af-afd363c2a735",
 		inheritedOverwrites = 
 		{

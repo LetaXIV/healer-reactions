@@ -4,207 +4,11 @@ local tbl =
 	{
 		data = 
 		{
-			name = "P4S Knockback",
-			uuid = "f4ae6846-b1d1-77a6-a043-a2d75228d746",
-			version = 2,
-		},
-		inheritedObjectUUID = "7acc5b9f-e9a9-6c7b-9703-0d3f3cbb4756",
-		inheritedOverwrites = 
-		{
-			actions = 
-			{
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "3487499b-d6ff-986b-a8c9-38fe731fe3e2",
-							version = 2,
-						},
-						inheritedObjectUUID = "50332d8a-58d7-8771-a47b-6b5341b8c217",
-						inheritedOverwrites = 
-						{
-							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
-						},
-					},
-				},
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "e8d4f601-07f8-cc22-91aa-d946f6f6a96d",
-							version = 2,
-						},
-						inheritedObjectUUID = "5c8ff4b0-47af-9776-ac78-84cce024a2e5",
-						inheritedOverwrites = 
-						{
-							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
-						},
-					},
-				},
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "5a5ce21f-2b8d-dd7f-bacf-618bfc5af56d",
-							version = 2,
-						},
-						inheritedObjectUUID = "21e23866-3f8b-fca3-b259-4a842ced68bd",
-						inheritedOverwrites = 
-						{
-							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
-						},
-					},
-				},
-			},
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "--TEA",
-			uuid = "4f72dcc6-4836-34dc-8934-99f76e045db2",
-			version = 2,
-		},
-		inheritedIndex = 3,
-		inheritedObjectUUID = "194a6e42-e70e-a692-b01e-0adb00f30f86",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Draw line to nisi partner",
-			uuid = "fe70c0eb-1ce4-22da-afee-5e677d29f4ea",
-			version = 2,
-		},
-		inheritedIndex = 5,
-		inheritedObjectUUID = "d407b118-0ab8-7108-85e9-49965f87aded",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Titan jails",
-			uuid = "8d12e37b-4424-530a-b2ae-05f57610dedc",
-			version = 2,
-		},
-		inheritedIndex = 7,
-		inheritedObjectUUID = "819d26bf-6119-260d-8bc9-33d8b0189ed4",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "UwU draws",
-			uuid = "4b9929b5-7d82-ca7c-b1f7-e8bb6d08a641",
-			version = 2,
-		},
-		inheritedIndex = 9,
-		inheritedObjectUUID = "3f1d469c-639a-e2f6-8bf4-4a58abf0b185",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "--UCOB",
-			uuid = "2468a519-cb13-9e1a-bb9f-fc22b014d468",
-			version = 2,
-		},
-		inheritedIndex = 10,
-		inheritedObjectUUID = "ab2ba1e5-3588-e013-a374-6dcac4899bd8",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "UCoB draws",
-			uuid = "fa31586f-4493-63a1-be64-b850bb0b36ec",
-			version = 2,
-		},
-		inheritedIndex = 11,
-		inheritedObjectUUID = "eefa7bbd-2ced-e0ef-833a-6ece8da17af1",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Marker Reactions",
-			uuid = "71871b73-3418-54df-8bcb-c67faa9cb025",
-			version = 2,
-		},
-		inheritedIndex = 12,
-		inheritedObjectUUID = "95c88b0b-7bd5-c34b-acc7-a6ec9ec6d70a",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Channel Reactions",
-			uuid = "0385a58f-fa58-c397-ae3a-ecf776ad9b8b",
-			version = 2,
-		},
-		inheritedIndex = 13,
-		inheritedObjectUUID = "18e6def3-7035-6610-b991-ec788d1c73aa",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Draw quotes",
-			uuid = "336d326e-1a7a-bb86-8f93-3fe16423dae9",
-			version = 2,
-		},
-		inheritedIndex = 14,
-		inheritedObjectUUID = "79d07751-0776-e532-a750-6421eeb9169b",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
 			name = "Silkie",
 			uuid = "f0f3969b-4120-2deb-a53a-9465b6135ed8",
 			version = 2,
 		},
-		inheritedIndex = 16,
+		inheritedIndex = 2,
 		inheritedObjectUUID = "65ac2f02-4372-8e35-a0ef-57f33aac7e43",
 		inheritedOverwrites = 
 		{
@@ -218,7 +22,7 @@ local tbl =
 			uuid = "781dc3f5-562b-3030-a6e9-467442e9174b",
 			version = 2,
 		},
-		inheritedIndex = 17,
+		inheritedIndex = 3,
 		inheritedObjectUUID = "03a74888-37ce-4042-99b4-6c04d2f531aa",
 		inheritedOverwrites = 
 		{
@@ -232,7 +36,7 @@ local tbl =
 			uuid = "6bd6a66a-37b9-2e0b-8b52-9ddff39e5541",
 			version = 2,
 		},
-		inheritedIndex = 18,
+		inheritedIndex = 4,
 		inheritedObjectUUID = "c7a91848-de71-fc6c-85b5-5209d81c03d0",
 		inheritedOverwrites = 
 		{
@@ -246,7 +50,7 @@ local tbl =
 			uuid = "74e3f1ad-2193-46da-be53-1886c5a3337a",
 			version = 2,
 		},
-		inheritedIndex = 19,
+		inheritedIndex = 5,
 		inheritedObjectUUID = "08a83de0-6a5d-39ad-ab68-dda78868dfcc",
 		inheritedOverwrites = 
 		{
@@ -260,7 +64,7 @@ local tbl =
 			uuid = "bf5abe77-cd80-9dc2-8afb-892e67c397d9",
 			version = 2,
 		},
-		inheritedIndex = 20,
+		inheritedIndex = 6,
 		inheritedObjectUUID = "f8ec4192-f420-c816-90bf-b0280aef7675",
 		inheritedOverwrites = 
 		{
@@ -274,7 +78,7 @@ local tbl =
 			uuid = "939fc0ee-3674-c934-84ed-0bbf9fd5f413",
 			version = 2,
 		},
-		inheritedIndex = 21,
+		inheritedIndex = 7,
 		inheritedObjectUUID = "c41e069b-40c8-7063-8876-76735d1c555d",
 		inheritedOverwrites = 
 		{
@@ -288,7 +92,7 @@ local tbl =
 			uuid = "17729a0e-30bb-32b9-9a57-3615255d6ac2",
 			version = 2,
 		},
-		inheritedIndex = 22,
+		inheritedIndex = 8,
 		inheritedObjectUUID = "e400c842-73a7-374a-9616-1bdcd926b183",
 		inheritedOverwrites = 
 		{
@@ -302,8 +106,36 @@ local tbl =
 			uuid = "36182f45-a7f7-792a-b664-493b9c0020f0",
 			version = 2,
 		},
-		inheritedIndex = 23,
+		inheritedIndex = 9,
 		inheritedObjectUUID = "00299d60-9aca-4567-8079-058341fcfd33",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "OnDeath Reaction",
+			uuid = "9eef6a42-2271-b232-a9a4-8cce0aee29be",
+			version = 2,
+		},
+		inheritedIndex = 10,
+		inheritedObjectUUID = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "OnWipe Reaction",
+			uuid = "aaeb206a-3a25-d6ed-a73a-8c7188fd43be",
+			version = 2,
+		},
+		inheritedIndex = 11,
+		inheritedObjectUUID = "17e714bc-2572-57a6-a498-a398a8e274c1",
 		inheritedOverwrites = 
 		{
 		},
@@ -568,35 +400,7 @@ local tbl =
 			uuid = "53c2dcfb-b1ee-d4bb-b6f8-956e2efa15d5",
 			version = 2,
 		},
-		inheritedIndex = 24,
-	},
-	
-	{
-		data = 
-		{
-			name = "OnWipe Reaction",
-			uuid = "aaeb206a-3a25-d6ed-a73a-8c7188fd43be",
-			version = 2,
-		},
-		inheritedIndex = 25,
-		inheritedObjectUUID = "17e714bc-2572-57a6-a498-a398a8e274c1",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "OnDeath Reaction",
-			uuid = "9eef6a42-2271-b232-a9a4-8cce0aee29be",
-			version = 2,
-		},
-		inheritedIndex = 26,
-		inheritedObjectUUID = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
-		inheritedOverwrites = 
-		{
-		},
+		inheritedIndex = 12,
 	},
 	
 	{
@@ -760,7 +564,7 @@ local tbl =
 			uuid = "80fc68eb-47df-5282-825a-568e4830b394",
 			version = 2,
 		},
-		inheritedIndex = 28,
+		inheritedIndex = 14,
 	},
 	
 	{
@@ -3133,7 +2937,7 @@ local tbl =
 			uuid = "773f67d6-3e37-de4d-aeb1-d01f69456186",
 			version = 2,
 		},
-		inheritedIndex = 33,
+		inheritedIndex = 19,
 	},
 	
 	{
@@ -3150,7 +2954,7 @@ local tbl =
 			uuid = "a22bad1a-15ae-b6f2-900c-c7a5b8ea0dc1",
 			version = 2,
 		},
-		inheritedIndex = 34,
+		inheritedIndex = 20,
 	},
 	
 	{
@@ -3163,7 +2967,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.9\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.91\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3191,11 +2995,11 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.9",
+			name = "v5.2.4.91",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},
-		inheritedIndex = 35,
+		inheritedIndex = 23,
 	},
 	
 	{
@@ -3205,6 +3009,7 @@ local tbl =
 			uuid = "d08ed7aa-c757-7328-aa20-362771b5b1b7",
 			version = 2,
 		},
+		inheritedIndex = 22,
 		inheritedObjectUUID = "b4374aee-9258-7cc7-ba0a-4c199abe8313",
 		inheritedOverwrites = 
 		{

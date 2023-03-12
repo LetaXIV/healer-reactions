@@ -4,226 +4,11 @@ local tbl =
 	{
 		data = 
 		{
-			name = "P4S Knockback",
-			uuid = "7acc5b9f-e9a9-6c7b-9703-0d3f3cbb4756",
-			version = 2,
-		},
-		inheritedObjectUUID = "cd9e7a35-65cc-0162-ba5d-97bfc02e681d",
-		inheritedOverwrites = 
-		{
-			actions = 
-			{
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "50332d8a-58d7-8771-a47b-6b5341b8c217",
-							version = 2,
-						},
-						inheritedObjectUUID = "d665cc89-4986-7b77-ba89-338d1a9d9aac",
-						inheritedOverwrites = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuSGE_Hotbar_Surecast",
-						},
-					},
-				},
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "5c8ff4b0-47af-9776-ac78-84cce024a2e5",
-							version = 2,
-						},
-						inheritedObjectUUID = "c795ac48-d1c7-6996-b28c-fbffe62e41e7",
-						inheritedOverwrites = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuSGE_Hotbar_Surecast",
-						},
-					},
-				},
-				
-				{
-					position = 3,
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "21e23866-3f8b-fca3-b259-4a842ced68bd",
-							version = 2,
-						},
-						inheritedIndex = 3,
-						inheritedObjectUUID = "82c1d6b3-f83d-2908-89b7-51300b560dfc",
-						inheritedOverwrites = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuSGE_Hotbar_Surecast",
-						},
-					},
-				},
-			},
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Draw quotes",
-			uuid = "336d326e-1a7a-bb86-8f93-3fe16423dae9",
-			version = 2,
-		},
-		inheritedIndex = 4,
-		inheritedObjectUUID = "79d07751-0776-e532-a750-6421eeb9169b",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Channel Reactions",
-			uuid = "25b8fb2a-d036-741a-9e20-198827e329cf",
-			version = 2,
-		},
-		inheritedIndex = 5,
-		inheritedObjectUUID = "18e6def3-7035-6610-b991-ec788d1c73aa",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Marker Reactions",
-			uuid = "46c96782-556f-50ab-84ce-ed8b18e30e5c",
-			version = 2,
-		},
-		inheritedIndex = 6,
-		inheritedObjectUUID = "95c88b0b-7bd5-c34b-acc7-a6ec9ec6d70a",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "UCoB draws",
-			uuid = "fa31586f-4493-63a1-be64-b850bb0b36ec",
-			version = 2,
-		},
-		inheritedIndex = 7,
-		inheritedObjectUUID = "eefa7bbd-2ced-e0ef-833a-6ece8da17af1",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Nail swap",
-			uuid = "55008053-5269-a60c-8ccc-d0f88c441939",
-			version = 2,
-		},
-		inheritedIndex = 9,
-		inheritedObjectUUID = "56280c2f-4e2f-9824-9c2d-5f763633ee13",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "UwU draws",
-			uuid = "6342f968-070b-4d94-a1c5-0026ba254249",
-			version = 2,
-		},
-		inheritedIndex = 10,
-		inheritedObjectUUID = "3f1d469c-639a-e2f6-8bf4-4a58abf0b185",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Titan jails",
-			uuid = "35a9085b-8505-40d8-aa6d-a2957dc8846e",
-			version = 2,
-		},
-		inheritedIndex = 11,
-		inheritedObjectUUID = "819d26bf-6119-260d-8bc9-33d8b0189ed4",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "--TEA",
-			uuid = "d146bd16-82bd-3c5c-b5c7-7be477e79c4d",
-			version = 2,
-		},
-		inheritedIndex = 12,
-		inheritedObjectUUID = "194a6e42-e70e-a692-b01e-0adb00f30f86",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Draw line to nisi partner",
-			uuid = "041cbe9d-19b2-b915-9b77-698708ca35a5",
-			version = 2,
-		},
-		inheritedIndex = 13,
-		inheritedObjectUUID = "d407b118-0ab8-7108-85e9-49965f87aded",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Limit Cut number",
-			uuid = "b86b64b0-c9d2-c951-a2cd-15360c41e294",
-			version = 2,
-		},
-		inheritedIndex = 14,
-		inheritedObjectUUID = "669faf15-ab92-6ab1-bd57-723c419245d4",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
 			name = "-- Sildihn Criterion",
 			uuid = "09aab903-80fb-8f21-abd6-1f949975cc14",
 			version = 2,
 		},
-		inheritedIndex = 15,
+		inheritedIndex = 1,
 		inheritedObjectUUID = "dd571ca7-ce8e-71bf-b1c4-8b29584fc907",
 		inheritedOverwrites = 
 		{
@@ -237,7 +22,7 @@ local tbl =
 			uuid = "ad93fc0e-c8be-8c5b-b252-c2995059e17c",
 			version = 2,
 		},
-		inheritedIndex = 16,
+		inheritedIndex = 2,
 		inheritedObjectUUID = "65ac2f02-4372-8e35-a0ef-57f33aac7e43",
 		inheritedOverwrites = 
 		{
@@ -251,7 +36,7 @@ local tbl =
 			uuid = "b312375e-b7db-0d82-9dac-74e4d894e78d",
 			version = 2,
 		},
-		inheritedIndex = 17,
+		inheritedIndex = 3,
 		inheritedObjectUUID = "03a74888-37ce-4042-99b4-6c04d2f531aa",
 		inheritedOverwrites = 
 		{
@@ -265,7 +50,7 @@ local tbl =
 			uuid = "f44c2043-58a1-f96e-9099-8cc1d6ac7ef8",
 			version = 2,
 		},
-		inheritedIndex = 18,
+		inheritedIndex = 4,
 		inheritedObjectUUID = "c7a91848-de71-fc6c-85b5-5209d81c03d0",
 		inheritedOverwrites = 
 		{
@@ -279,7 +64,7 @@ local tbl =
 			uuid = "de39faa9-b52a-e72a-a758-935b2fc82a66",
 			version = 2,
 		},
-		inheritedIndex = 19,
+		inheritedIndex = 5,
 		inheritedObjectUUID = "08a83de0-6a5d-39ad-ab68-dda78868dfcc",
 		inheritedOverwrites = 
 		{
@@ -293,7 +78,7 @@ local tbl =
 			uuid = "fcbad543-7c24-fd19-9a0c-62e1fe9436bc",
 			version = 2,
 		},
-		inheritedIndex = 20,
+		inheritedIndex = 6,
 		inheritedObjectUUID = "f8ec4192-f420-c816-90bf-b0280aef7675",
 		inheritedOverwrites = 
 		{
@@ -307,7 +92,7 @@ local tbl =
 			uuid = "d4655f91-3767-2e96-878c-85fda7794b96",
 			version = 2,
 		},
-		inheritedIndex = 21,
+		inheritedIndex = 7,
 		inheritedObjectUUID = "c41e069b-40c8-7063-8876-76735d1c555d",
 		inheritedOverwrites = 
 		{
@@ -343,6 +128,147 @@ local tbl =
 			version = 2,
 		},
 		inheritedIndex = 23,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "ACR_RikuSGE_Hotbar_Rescue = false\nACR_RikuSGE_Hotbar_Icarus = false\nACR_RikuSGE_Hotbar_Repose = false\nACR_RikuSGE_Hotbar_Potion = false\nACR_RikuSGE_Hotbar_DutyAction1 = false\nACR_RikuSGE_Hotbar_SmartResMouse = false\nACR_RikuSGE_Hotbar_SwiftResMouse = false\nACR_RikuSGE_Hotbar_Surecast = false\nACR_RikuSGE_Hotbar_Sprint = false\nACR_RikuSGE_Hotbar_LimitBreak = false\nACR_RikuSGE_Hotbar_DutyAction2 = false\nACR_RikuSGE_Hotbar_HardResMouse = false\nACR_RikuSGE_Hotbar_LockFace = false\n\nACR_RikuSGE_Healbar_Diagnosis = false\nACR_RikuSGE_Healbar_Holos = false\nACR_RikuSGE_Healbar_EukrasianDiagnosis = false\nACR_RikuSGE_Healbar_Prognosis = false\nACR_RikuSGE_Healbar_EukrasianPrognosis = false\nACR_RikuSGE_Healbar_Physis = false\nACR_RikuSGE_Healbar_Druochole = false\nACR_RikuSGE_Healbar_Ixochole = false\nACR_RikuSGE_Healbar_Taurochole = false\nACR_RikuSGE_Healbar_Kardia = false\nACR_RikuSGE_Healbar_Pepsis = false\nACR_RikuSGE_Healbar_Panhaima = false\nACR_RikuSGE_Healbar_Pneuma = false\nACR_RikuSGE_Healbar_Kerachole = false\nACR_RikuSGE_Healbar_Soteria = false\nACR_RikuSGE_Healbar_Zoe = false\nACR_RikuSGE_Healbar_Krasis = false\nACR_RikuSGE_Healbar_Haima = false\nACR_RikuSGE_Healbar_Esuna = false\n\n\nself.used = true",
+						name = "Reset Hotbars",
+						uuid = "c0e5227c-24a7-a8a4-a3d0-d0109dcd430e",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "Player:ClearTarget()\n\nself.used = true",
+						name = "Misc",
+						uuid = "7a1104aa-f283-7d65-b796-50439647e730",
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+			},
+			eventType = 10,
+			name = "OnDeath Reaction",
+			uuid = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
+			version = 2,
+		},
+		inheritedIndex = 10,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "ACR_RikuSGE_CD = true\n---ACR_RikuSGE_SwiftRes = true\nACR_RikuSGE_Attacks = true\nACR_RikuSGE_SmartDoT = true\nACR_RikuSGE_KardiaMT = true\nACR_RikuSGE_Lucid = true\nACR_RikuSGE_AOE = true\n---ACR_RikuSGE_HardRes = false\n---ACR_RikuSGE_Potion = false\nACR_RikuSGE_Rhizomata = true\nACR_RikuSGE_Phlegma = true\nACR_RikuSGE_Burn = false\nACR_RikuSGE_ResAllianceHealer = false\nACR_RikuSGE_DoT = true\n\nACR_RikuSGE_Hotbar_Rescue = false\nACR_RikuSGE_Hotbar_Icarus = false\nACR_RikuSGE_Hotbar_Repose = false\nACR_RikuSGE_Hotbar_Potion = false\nACR_RikuSGE_Hotbar_DutyAction1 = false\nACR_RikuSGE_Hotbar_SmartResMouse = false\nACR_RikuSGE_Hotbar_SwiftResMouse = false\nACR_RikuSGE_Hotbar_Surecast = false\nACR_RikuSGE_Hotbar_Sprint = false\nACR_RikuSGE_Hotbar_LimitBreak = false\nACR_RikuSGE_Hotbar_DutyAction2 = false\nACR_RikuSGE_Hotbar_HardResMouse = false\nACR_RikuSGE_Hotbar_LockFace = false\n\nACR_RikuSGE_Healbar_Diagnosis = false\nACR_RikuSGE_Healbar_Holos = false\nACR_RikuSGE_Healbar_EukrasianDiagnosis = false\nACR_RikuSGE_Healbar_Prognosis = false\nACR_RikuSGE_Healbar_EukrasianPrognosis = false\nACR_RikuSGE_Healbar_Physis = false\nACR_RikuSGE_Healbar_Druochole = false\nACR_RikuSGE_Healbar_Ixochole = false\nACR_RikuSGE_Healbar_Taurochole = false\nACR_RikuSGE_Healbar_Kardia = false\nACR_RikuSGE_Healbar_Pepsis = false\nACR_RikuSGE_Healbar_Panhaima = false\nACR_RikuSGE_Healbar_Pneuma = false\nACR_RikuSGE_Healbar_Kerachole = false\nACR_RikuSGE_Healbar_Soteria = false\nACR_RikuSGE_Healbar_Zoe = false\nACR_RikuSGE_Healbar_Krasis = false\nACR_RikuSGE_Healbar_Haima = false\nACR_RikuSGE_Healbar_Esuna = false\n\nif AnyoneCore.Data.PotsEnabled == true then\n\t\tAnyoneCore.Data.PotsEnabled = nil\n\t\tACR_RikuSGE_Potion = true\nend\n\nself.used = true",
+						name = "Reset Toggles and Hotbars",
+						uuid = "558ee729-0ba3-f190-b82e-bac8720497ae",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "Player:ClearTarget()\nAnyoneCore.Data.Toggle = {}\nTensorDrift_SlidecastForceHold = false\nAnyoneCore.JobCheck()\n\nif eventArgs.oldData ~= nil and eventArgs.oldData.startCombat ~= nil then\n\t\tgStartCombat = false\n\t\tdata.startCombat = nil\nend\n\nif AnyoneCore.Settings.endACTLog then\n        SendTextCommand(\"/e end\")\nend\nArgus.deleteTimedShape()\n\nself.used = true",
+						name = "Misc",
+						uuid = "59680516-386f-c190-a4bb-b275d6fb3aaa",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "if eventArgs.oldData ~= nil and eventArgs.oldData.markedplayers ~= nil and eventArgs.oldData.removedmarking == false then\n    for i=1,#eventArgs.oldData.markedplayer do\n        local n = eventArgs.oldData.markedplayer[i]\n        data.removedmarking = true\n        d(\"removing marking from \" .. n)\n        ActionList:Get(12,i):Cast(n)\n    end\nend\n\nif Player.localmapid == 777 and AnyoneCore.Settings.IfritPhasePot == true then\n\t\tACR_RikuSGE_Potion = false\nend\n\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"3988c287-26d3-dc52-adfb-64877644f41a",
+								true,
+							},
+						},
+						name = "UWU",
+						uuid = "76651bdd-0d8c-9454-8a5c-d09f9d7a0bae",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "if AnyoneCore.Settings.nidhogPot == true then\n\t\tACR_RikuSGE_Potion = false\nend\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"7cda9344-77b3-3aac-8533-72485ec52945",
+								true,
+							},
+						},
+						name = "DSW",
+						uuid = "98ff5a1f-d090-4a0f-b645-ba8d8acd7de7",
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 8,
+						dequeueIfLuaFalse = true,
+						localmapid = 777,
+						uuid = "3988c287-26d3-dc52-adfb-64877644f41a",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 8,
+						dequeueIfLuaFalse = true,
+						localmapid = 968,
+						uuid = "7cda9344-77b3-3aac-8533-72485ec52945",
+						version = 2,
+					},
+				},
+			},
+			eventType = 9,
+			name = "OnWipe Reaction",
+			uuid = "17e714bc-2572-57a6-a498-a398a8e274c1",
+			version = 2,
+		},
+		inheritedIndex = 11,
 	},
 	
 	{
@@ -710,147 +636,6 @@ local tbl =
 			version = 2,
 		},
 		inheritedIndex = 24,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "ACR_RikuSGE_CD = true\n---ACR_RikuSGE_SwiftRes = true\nACR_RikuSGE_Attacks = true\nACR_RikuSGE_SmartDoT = true\nACR_RikuSGE_KardiaMT = true\nACR_RikuSGE_Lucid = true\nACR_RikuSGE_AOE = true\n---ACR_RikuSGE_HardRes = false\n---ACR_RikuSGE_Potion = false\nACR_RikuSGE_Rhizomata = true\nACR_RikuSGE_Phlegma = true\nACR_RikuSGE_Burn = false\nACR_RikuSGE_ResAllianceHealer = false\nACR_RikuSGE_DoT = true\n\nACR_RikuSGE_Hotbar_Rescue = false\nACR_RikuSGE_Hotbar_Icarus = false\nACR_RikuSGE_Hotbar_Repose = false\nACR_RikuSGE_Hotbar_Potion = false\nACR_RikuSGE_Hotbar_DutyAction1 = false\nACR_RikuSGE_Hotbar_SmartResMouse = false\nACR_RikuSGE_Hotbar_SwiftResMouse = false\nACR_RikuSGE_Hotbar_Surecast = false\nACR_RikuSGE_Hotbar_Sprint = false\nACR_RikuSGE_Hotbar_LimitBreak = false\nACR_RikuSGE_Hotbar_DutyAction2 = false\nACR_RikuSGE_Hotbar_HardResMouse = false\nACR_RikuSGE_Hotbar_LockFace = false\n\nACR_RikuSGE_Healbar_Diagnosis = false\nACR_RikuSGE_Healbar_Holos = false\nACR_RikuSGE_Healbar_EukrasianDiagnosis = false\nACR_RikuSGE_Healbar_Prognosis = false\nACR_RikuSGE_Healbar_EukrasianPrognosis = false\nACR_RikuSGE_Healbar_Physis = false\nACR_RikuSGE_Healbar_Druochole = false\nACR_RikuSGE_Healbar_Ixochole = false\nACR_RikuSGE_Healbar_Taurochole = false\nACR_RikuSGE_Healbar_Kardia = false\nACR_RikuSGE_Healbar_Pepsis = false\nACR_RikuSGE_Healbar_Panhaima = false\nACR_RikuSGE_Healbar_Pneuma = false\nACR_RikuSGE_Healbar_Kerachole = false\nACR_RikuSGE_Healbar_Soteria = false\nACR_RikuSGE_Healbar_Zoe = false\nACR_RikuSGE_Healbar_Krasis = false\nACR_RikuSGE_Healbar_Haima = false\nACR_RikuSGE_Healbar_Esuna = false\n\nif AnyoneCore.Data.PotsEnabled == true then\n\t\tAnyoneCore.Data.PotsEnabled = nil\n\t\tACR_RikuSGE_Potion = true\nend\n\nself.used = true",
-						name = "Reset Toggles and Hotbars",
-						uuid = "558ee729-0ba3-f190-b82e-bac8720497ae",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "Player:ClearTarget()\nAnyoneCore.Data.Toggle = {}\nTensorDrift_SlidecastForceHold = false\nAnyoneCore.JobCheck()\n\nif eventArgs.oldData ~= nil and eventArgs.oldData.startCombat ~= nil then\n\t\tgStartCombat = false\n\t\tdata.startCombat = nil\nend\n\nif AnyoneCore.Settings.endACTLog then\n        SendTextCommand(\"/e end\")\nend\nArgus.deleteTimedShape()\n\nself.used = true",
-						name = "Misc",
-						uuid = "59680516-386f-c190-a4bb-b275d6fb3aaa",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "if eventArgs.oldData ~= nil and eventArgs.oldData.markedplayers ~= nil and eventArgs.oldData.removedmarking == false then\n    for i=1,#eventArgs.oldData.markedplayer do\n        local n = eventArgs.oldData.markedplayer[i]\n        data.removedmarking = true\n        d(\"removing marking from \" .. n)\n        ActionList:Get(12,i):Cast(n)\n    end\nend\n\nif Player.localmapid == 777 and AnyoneCore.Settings.IfritPhasePot == true then\n\t\tACR_RikuSGE_Potion = false\nend\n\nself.used = true",
-						conditions = 
-						{
-							
-							{
-								"3988c287-26d3-dc52-adfb-64877644f41a",
-								true,
-							},
-						},
-						name = "UWU",
-						uuid = "76651bdd-0d8c-9454-8a5c-d09f9d7a0bae",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "if AnyoneCore.Settings.nidhogPot == true then\n\t\tACR_RikuSGE_Potion = false\nend\nself.used = true",
-						conditions = 
-						{
-							
-							{
-								"7cda9344-77b3-3aac-8533-72485ec52945",
-								true,
-							},
-						},
-						name = "DSW",
-						uuid = "98ff5a1f-d090-4a0f-b645-ba8d8acd7de7",
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 8,
-						dequeueIfLuaFalse = true,
-						localmapid = 777,
-						uuid = "3988c287-26d3-dc52-adfb-64877644f41a",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 8,
-						dequeueIfLuaFalse = true,
-						localmapid = 968,
-						uuid = "7cda9344-77b3-3aac-8533-72485ec52945",
-						version = 2,
-					},
-				},
-			},
-			eventType = 9,
-			name = "OnWipe Reaction",
-			uuid = "17e714bc-2572-57a6-a498-a398a8e274c1",
-			version = 2,
-		},
-		inheritedIndex = 25,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "ACR_RikuSGE_Hotbar_Rescue = false\nACR_RikuSGE_Hotbar_Icarus = false\nACR_RikuSGE_Hotbar_Repose = false\nACR_RikuSGE_Hotbar_Potion = false\nACR_RikuSGE_Hotbar_DutyAction1 = false\nACR_RikuSGE_Hotbar_SmartResMouse = false\nACR_RikuSGE_Hotbar_SwiftResMouse = false\nACR_RikuSGE_Hotbar_Surecast = false\nACR_RikuSGE_Hotbar_Sprint = false\nACR_RikuSGE_Hotbar_LimitBreak = false\nACR_RikuSGE_Hotbar_DutyAction2 = false\nACR_RikuSGE_Hotbar_HardResMouse = false\nACR_RikuSGE_Hotbar_LockFace = false\n\nACR_RikuSGE_Healbar_Diagnosis = false\nACR_RikuSGE_Healbar_Holos = false\nACR_RikuSGE_Healbar_EukrasianDiagnosis = false\nACR_RikuSGE_Healbar_Prognosis = false\nACR_RikuSGE_Healbar_EukrasianPrognosis = false\nACR_RikuSGE_Healbar_Physis = false\nACR_RikuSGE_Healbar_Druochole = false\nACR_RikuSGE_Healbar_Ixochole = false\nACR_RikuSGE_Healbar_Taurochole = false\nACR_RikuSGE_Healbar_Kardia = false\nACR_RikuSGE_Healbar_Pepsis = false\nACR_RikuSGE_Healbar_Panhaima = false\nACR_RikuSGE_Healbar_Pneuma = false\nACR_RikuSGE_Healbar_Kerachole = false\nACR_RikuSGE_Healbar_Soteria = false\nACR_RikuSGE_Healbar_Zoe = false\nACR_RikuSGE_Healbar_Krasis = false\nACR_RikuSGE_Healbar_Haima = false\nACR_RikuSGE_Healbar_Esuna = false\n\n\nself.used = true",
-						name = "Reset Hotbars",
-						uuid = "c0e5227c-24a7-a8a4-a3d0-d0109dcd430e",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "Player:ClearTarget()\n\nself.used = true",
-						name = "Misc",
-						uuid = "7a1104aa-f283-7d65-b796-50439647e730",
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-			},
-			eventType = 10,
-			name = "OnDeath Reaction",
-			uuid = "5b15d2e7-a953-542c-b3c3-945c374dd5d1",
-			version = 2,
-		},
-		inheritedIndex = 26,
 	},
 	
 	{
@@ -3403,7 +3188,7 @@ local tbl =
 			uuid = "54b395da-5c70-7bd5-9c54-599751574976",
 			version = 2,
 		},
-		inheritedIndex = 33,
+		inheritedIndex = 19,
 	},
 	
 	{
@@ -3420,7 +3205,7 @@ local tbl =
 			uuid = "7457c709-fd3f-a189-8975-ac2935c541b0",
 			version = 2,
 		},
-		inheritedIndex = 34,
+		inheritedIndex = 20,
 	},
 	
 	{
@@ -3433,7 +3218,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.9\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.4.91\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3461,10 +3246,11 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.9",
+			name = "v5.2.4.91",
 			uuid = "3bf5a707-f643-0845-a62d-e237f3c19dc3",
 			version = 2,
 		},
+		inheritedIndex = 21,
 	}, 
 	inheritedProfiles = 
 	{
