@@ -1161,53 +1161,6 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
-						actionID = 16557,
-						conditions = 
-						{
-							
-							{
-								"b275caea-f4a0-dee7-87f0-9701e77da79f",
-								true,
-							},
-							
-							{
-								"b2a953b4-50ff-9d87-a9cf-ab9d093bff3a",
-								true,
-							},
-							
-							{
-								"3bb9f846-2304-a263-9f48-be3aea7a06a5",
-								true,
-							},
-							
-							{
-								"268b110e-8097-e4c1-930a-6376fbb8e73b",
-								true,
-							},
-							
-							{
-								"2ae75993-5aca-8fce-90f0-da7742f5cff2",
-								true,
-							},
-							
-							{
-								"5f1e8a8e-5cb9-a559-a648-df20d40e6969",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuAST2_Healbar_Horoscope",
-						uuid = "d492ddeb-900b-a642-a4ba-180cbaace0fe",
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
 						conditions = 
 						{
 							
@@ -1286,6 +1239,96 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
+						actionID = 16557,
+						conditions = 
+						{
+							
+							{
+								"b275caea-f4a0-dee7-87f0-9701e77da79f",
+								true,
+							},
+							
+							{
+								"3bb9f846-2304-a263-9f48-be3aea7a06a5",
+								true,
+							},
+							
+							{
+								"268b110e-8097-e4c1-930a-6376fbb8e73b",
+								true,
+							},
+							
+							{
+								"230ae355-e854-eaa2-8b69-2de2114ba44d",
+								true,
+							},
+							
+							{
+								"5f1e8a8e-5cb9-a559-a648-df20d40e6969",
+								true,
+							},
+							
+							{
+								"0a8b70c3-c2a8-d423-ab11-22dfde475565",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Healbar_Horoscope",
+						name = "Variable Horoscope GCD",
+						uuid = "d492ddeb-900b-a642-a4ba-180cbaace0fe",
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 6,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"b275caea-f4a0-dee7-87f0-9701e77da79f",
+								true,
+							},
+							
+							{
+								"3bb9f846-2304-a263-9f48-be3aea7a06a5",
+								true,
+							},
+							
+							{
+								"268b110e-8097-e4c1-930a-6376fbb8e73b",
+								true,
+							},
+							
+							{
+								"230ae355-e854-eaa2-8b69-2de2114ba44d",
+								true,
+							},
+							
+							{
+								"41a5210e-be2b-5580-963d-fde01efee8ee",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Healbar_Horoscope",
+						name = "Variable Horoscope GCD Pop",
+						uuid = "9af22bee-5e34-ff8c-abd3-7eae6893ed8e",
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 7,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
 						actionID = 16559,
 						conditions = 
 						{
@@ -1332,7 +1375,7 @@ local tbl =
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 6,
+					inheritedIndex = 7,
 				},
 				
 				{
@@ -1384,48 +1427,6 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						conditions = 
-						{
-							
-							{
-								"b275caea-f4a0-dee7-87f0-9701e77da79f",
-								true,
-							},
-							
-							{
-								"268b110e-8097-e4c1-930a-6376fbb8e73b",
-								true,
-							},
-							
-							{
-								"dcca9da1-2be6-f80e-bb8f-e7ad0f5935b5",
-								true,
-							},
-							
-							{
-								"334deba1-9a0f-dfd9-85fc-23f0e0c0f8b5",
-								true,
-							},
-							
-							{
-								"ea107390-2c3d-9f18-b504-e8c4fd6fed9a",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuAST2_Healbar_Horoscope",
-						name = "Pop Horoscope",
-						uuid = "1680c2f6-f661-12ca-a8df-9b1ad703722f",
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 8,
 				},
 				
 				{
@@ -1915,6 +1916,95 @@ local tbl =
 					},
 					inheritedIndex = 15,
 				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"b275caea-f4a0-dee7-87f0-9701e77da79f",
+								true,
+							},
+							
+							{
+								"3bb9f846-2304-a263-9f48-be3aea7a06a5",
+								true,
+							},
+							
+							{
+								"268b110e-8097-e4c1-930a-6376fbb8e73b",
+								true,
+							},
+							
+							{
+								"743f8831-e15f-c779-aa05-8514900735bd",
+								true,
+							},
+							
+							{
+								"5f1e8a8e-5cb9-a559-a648-df20d40e6969",
+								true,
+							},
+							
+							{
+								"a0e2b53c-c4a2-3911-9c08-8f9d295965f5",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Healbar_Horoscope",
+						name = "Variable Horoscope Top Off",
+						uuid = "1680c2f6-f661-12ca-a8df-9b1ad703722f",
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 19,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"b275caea-f4a0-dee7-87f0-9701e77da79f",
+								true,
+							},
+							
+							{
+								"3bb9f846-2304-a263-9f48-be3aea7a06a5",
+								true,
+							},
+							
+							{
+								"268b110e-8097-e4c1-930a-6376fbb8e73b",
+								true,
+							},
+							
+							{
+								"743f8831-e15f-c779-aa05-8514900735bd",
+								true,
+							},
+							
+							{
+								"05aed3a4-50de-b54d-98a1-116ea2da1328",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Healbar_Horoscope",
+						name = "Variable Horoscope TO Pop",
+						uuid = "d2542bfb-51f8-0a83-84ec-178c7ef867b4",
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 20,
+				},
 			},
 			conditions = 
 			{
@@ -2086,6 +2176,18 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 11,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"GCD\"].bool == false",
+						name = "Toggle GCD Off",
+						uuid = "743f8831-e15f-c779-aa05-8514900735bd",
+						version = 2,
+					},
+					inheritedIndex = 14,
 				},
 				
 				{
@@ -2387,6 +2489,21 @@ local tbl =
 				{
 					data = 
 					{
+						category = "Party",
+						comparator = 2,
+						conditionType = 2,
+						hpValue = 90,
+						name = "HP - 90%",
+						partyTargetType = "Detection Target",
+						uuid = "028603a6-1c7a-20f0-b0c9-6d61da943dd0",
+						version = 2,
+					},
+					inheritedIndex = 35,
+				},
+				
+				{
+					data = 
+					{
 						buffCheckType = 2,
 						buffID = 835,
 						buffIDList = 
@@ -2456,6 +2573,18 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 29,
+				},
+				
+				{
+					data = 
+					{
+						buffID = 1890,
+						category = "Self",
+						name = "Buff - Horoscope",
+						uuid = "05aed3a4-50de-b54d-98a1-116ea2da1328",
+						version = 2,
+					},
+					inheritedIndex = 40,
 				},
 				
 				{
@@ -2700,6 +2829,58 @@ local tbl =
 						{
 							
 							{
+								"87cd5c6c-d5c8-80df-957e-1a3de170aa90",
+								true,
+							},
+							
+							{
+								"4210482d-5330-e203-8738-697709cec5f7",
+								true,
+							},
+							
+							{
+								"37a099e5-0004-28f3-84c0-b6e1c0a094dc",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetType = "Party",
+						name = "F - Horoscope GCD",
+						partyTargetNumber = 3,
+						uuid = "0a8b70c3-c2a8-d423-ab11-22dfde475565",
+						version = 2,
+					},
+					inheritedIndex = 49,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"028603a6-1c7a-20f0-b0c9-6d61da943dd0",
+								true,
+							},
+						},
+						filterTargetType = "Party",
+						name = "F - Horoscope Top Off",
+						uuid = "a0e2b53c-c4a2-3911-9c08-8f9d295965f5",
+						version = 2,
+					},
+					inheritedIndex = 50,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
 								"4680bdcb-1130-a61a-b40e-5483cb156b14",
 								true,
 							},
@@ -2749,38 +2930,6 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 29,
-				},
-				
-				{
-					data = 
-					{
-						category = "Filter",
-						conditions = 
-						{
-							
-							{
-								"188fbd23-4fe4-8453-b535-4ced10923e67",
-								true,
-							},
-							
-							{
-								"d1eb661f-143a-a475-b728-8a788bbb6954",
-								true,
-							},
-							
-							{
-								"41a5210e-be2b-5580-963d-fde01efee8ee",
-								true,
-							},
-						},
-						dequeueIfLuaFalse = true,
-						filterTargetType = "Party",
-						name = "F - Pop Horoscope",
-						partyTargetNumber = 3,
-						uuid = "ea107390-2c3d-9f18-b504-e8c4fd6fed9a",
-						version = 2,
-					},
-					inheritedIndex = 42,
 				},
 				
 				{
@@ -3532,7 +3681,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "if Leta == nil then\n    Leta = {}\nend\nif Leta.init ~= true then\n    Leta.lastTick = Now()\n\n    Leta.GUI = {\n        open = false,\n        visible = false\n    }\n    Leta.settings = {\n        LockedToggles = false,\n        Toggles = {\n            --global\n            [\"AOE\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"ST\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"GCD\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Esuna\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Mitigation\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Heal\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            --whm\n            [\"Asylum\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Bell\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Benediction\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"Temperance\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"HOT\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\t\t\t\t\t\t\t\t\t\t\t\t\n            --sage\n            [\"Haima\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Panhaima\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Zoe\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Soteria\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Pneuma Opener\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            -- AST\n            [\"Macrocosmos\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"Neutral Sect\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Synastry\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Earthly Star\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"HoT\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Horoscope\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            --SCH\n            [\"Expedient\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Illumination\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Seraph\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"D Tactics\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Sacred Soil\"] = {bool = false, shown = true, group = 1, job = \"SCH\"},\n        }\n    }\n\n    Leta.ModToKey = {\n        [\"SHIFT\"] = 16,\n        [\"CONTROL\"] = 17,\n        [\"ALT\"] = 18\n    }\n    Leta.JobTable = {\n        [6] = \"WHM\",\n        [24] = \"WHM\",\n        [28] = \"SCH\",\n        [26] = \"SCH\",\n        [33] = \"AST\",\n        [40] = \"SGE\"\n    }\n\n    Leta.LuaPath = GetLuaModsPath()\n    Leta.SettingsPath = Leta.LuaPath .. [[ffxivminion\\leta\\]]\n    Leta.SettingsFile = Leta.SettingsPath .. [[Settings.lua]]\n    local v = table.valid\n    function Leta.valid(...)\n        local tbl = {...}\n        local size = #tbl\n        if size > 0 then\n            local count = tbl[1]\n            if type(count) == \"number\" then\n                if size == (count + 1) then\n                    for i = 2, size do\n                        if not v(tbl[i]) then\n                            return false\n                        end\n                    end\n                    return true\n                end\n            else\n                for i = 1, size do\n                    if not v(tbl[i]) then\n                        return false\n                    end\n                end\n                return true\n            end\n        end\n        return false\n    end\n    local valid = Leta.valid\n\n    function Leta.LoadSettings()\n        if (not FolderExists(Leta.SettingsPath)) then\n            FolderCreate(Leta.SettingsPath)\n        end\n        local tbl = FileLoad(Leta.SettingsFile)\n        local function scan(tbl, tbl2, depth)\n            depth = depth or 0\n            if valid(2, tbl, tbl2) then\n                for k, v in pairs(tbl2) do\n                    if type(v) == \"table\" then\n                        if tbl[k] and valid(tbl[k]) then\n                            tbl[k] = table.merge(tbl[k], scan(tbl[k], v, depth + 1))\n                        else\n                            tbl[k] = v\n                        end\n                    else\n                        if tbl[k] ~= tbl2[k] then\n                            tbl[k] = tbl2[k]\n                        end\n                    end\n                end\n            end\n            return tbl\n        end\n        Leta.settings = scan(Leta.settings, tbl)\n    end\n\n    function Leta.SaveSettings()\n        d(\"[Leta] Settings saved\")\n        if not table.deepcompare(Leta.settings, PreviousSave) then\n            if (not FolderExists(Leta.SettingsPath)) then\n                FolderCreate(Leta.SettingsPath)\n            end\n\n            FileSave(Leta.SettingsFile, Leta.settings)\n            PreviousSave = table.deepcopy(Leta.settings)\n        end\n    end\n    Leta.LoadSettings()\n    Leta.init = true\nend\nself.used = true",
+						actionLua = "if Leta == nil then\n    Leta = {}\nend\nif Leta.init ~= true then\n    Leta.lastTick = Now()\n\n    Leta.GUI = {\n        open = false,\n        visible = false\n    }\n    Leta.settings = {\n        LockedToggles = false,\n        Toggles = {\n            --global\n            [\"AOE\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"ST\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"GCD\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Esuna\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Mitigation\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Heal\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            --whm\n            [\"Asylum\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Bell\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Benediction\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"Temperance\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"HOT\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\t\t\t\t\t\t\t\t\t\t\t\t\n            --sage\n            [\"Haima\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Panhaima\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Zoe\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Soteria\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Pneuma Opener\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            -- AST\n            [\"Macrocosmos\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"Neutral Sect\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Synastry\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Earthly Star\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"HoT\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Horoscope\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            --SCH\n            [\"Expedient\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Illumination\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Seraph\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"D Tactics\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Sacred Soil\"] = {bool = false, shown = true, group = 1, job = \"SCH\"},\n        }\n    }\n\n    Leta.ModToKey = {\n        [\"SHIFT\"] = 16,\n        [\"CONTROL\"] = 17,\n        [\"ALT\"] = 18\n    }\n    Leta.JobTable = {\n        [6] = \"WHM\",\n        [24] = \"WHM\",\n        [28] = \"SCH\",\n        [26] = \"SCH\",\n        [33] = \"AST\",\n        [40] = \"SGE\"\n    }\n\n    Leta.LuaPath = GetLuaModsPath()\n    Leta.SettingsPath = Leta.LuaPath .. [[ffxivminion\\leta\\]]\n    Leta.SettingsFile = Leta.SettingsPath .. [[Settings.lua]]\n    local v = table.valid\n    function Leta.valid(...)\n        local tbl = {...}\n        local size = #tbl\n        if size > 0 then\n            local count = tbl[1]\n            if type(count) == \"number\" then\n                if size == (count + 1) then\n                    for i = 2, size do\n                        if not v(tbl[i]) then\n                            return false\n                        end\n                    end\n                    return true\n                end\n            else\n                for i = 1, size do\n                    if not v(tbl[i]) then\n                        return false\n                    end\n                end\n                return true\n            end\n        end\n        return false\n    end\n    local valid = Leta.valid\n\n    function Leta.LoadSettings()\n        if (not FolderExists(Leta.SettingsPath)) then\n            FolderCreate(Leta.SettingsPath)\n        end\n        local tbl = FileLoad(Leta.SettingsFile)\n        local function scan(tbl, tbl2, depth)\n            depth = depth or 0\n            if valid(2, tbl, tbl2) then\n                for k, v in pairs(tbl2) do\n                    if type(v) == \"table\" then\n                        if tbl[k] and valid(tbl[k]) then\n                            tbl[k] = table.merge(tbl[k], scan(tbl[k], v, depth + 1))\n                        else\n                            tbl[k] = v\n                        end\n                    else\n                        if tbl[k] ~= tbl2[k] then\n                            tbl[k] = tbl2[k]\n                        end\n                    end\n                end\n            end\n            return tbl\n        end\n        Leta.settings = scan(Leta.settings, tbl)\n    end\n\n    function Leta.SaveSettings()\n        d(\"[Leta] Settings saved\")\n        if not table.deepcompare(Leta.settings, PreviousSave) then\n            if (not FolderExists(Leta.SettingsPath)) then\n                FolderCreate(Leta.SettingsPath)\n            end\n\n            FileSave(Leta.SettingsFile, Leta.settings)\n            PreviousSave = table.deepcopy(Leta.settings)\n        end\n    end\n    Leta.LoadSettings()\n    Leta.init = true\nend\nself.used = true",
 						conditions = 
 						{
 							
@@ -3654,7 +3803,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3682,7 +3831,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.5",
+			name = "v5.3",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},
