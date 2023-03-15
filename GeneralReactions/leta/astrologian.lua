@@ -2829,7 +2829,7 @@ local tbl =
 						{
 							
 							{
-								"87cd5c6c-d5c8-80df-957e-1a3de170aa90",
+								"d1eb661f-143a-a475-b728-8a788bbb6954",
 								true,
 							},
 							
@@ -2861,10 +2861,16 @@ local tbl =
 						{
 							
 							{
+								"d1eb661f-143a-a475-b728-8a788bbb6954",
+								true,
+							},
+							
+							{
 								"028603a6-1c7a-20f0-b0c9-6d61da943dd0",
 								true,
 							},
 						},
+						dequeueIfLuaFalse = true,
 						filterTargetType = "Party",
 						name = "F - Horoscope Top Off",
 						uuid = "a0e2b53c-c4a2-3911-9c08-8f9d295965f5",
@@ -3065,7 +3071,7 @@ local tbl =
 						dequeueIfLuaFalse = true,
 						filterTargetType = "Party",
 						name = "F - AoE @ 8y",
-						partyTargetNumber = 3,
+						partyTargetNumber = 2,
 						uuid = "d9362900-3db7-de00-9e0b-e2c7aff3b535",
 						version = 2,
 					},
@@ -3091,7 +3097,7 @@ local tbl =
 						uuid = "22842182-fa88-4c11-950c-3445240d8aa5",
 						version = 2,
 					},
-					inheritedIndex = 35,
+					inheritedIndex = 61,
 				},
 				
 				{
@@ -3803,7 +3809,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.3.0.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3815,6 +3821,7 @@ local tbl =
 						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
 						version = 2,
 					},
+					inheritedIndex = 1,
 				},
 			},
 			conditions = 
@@ -3831,7 +3838,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.3",
+			name = "v5.3.0.1",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},
