@@ -1189,6 +1189,11 @@ local tbl =
 								"2ae75993-5aca-8fce-90f0-da7742f5cff2",
 								true,
 							},
+							
+							{
+								"5f1e8a8e-5cb9-a559-a648-df20d40e6969",
+								true,
+							},
 						},
 						endIfUsed = true,
 						gVar = "ACR_RikuAST2_Healbar_Horoscope",
@@ -1400,6 +1405,11 @@ local tbl =
 							
 							{
 								"dcca9da1-2be6-f80e-bb8f-e7ad0f5935b5",
+								true,
+							},
+							
+							{
+								"334deba1-9a0f-dfd9-85fc-23f0e0c0f8b5",
 								true,
 							},
 							
@@ -2194,6 +2204,20 @@ local tbl =
 				{
 					data = 
 					{
+						actionID = 16557,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Horoscope <= 0s",
+						uuid = "5f1e8a8e-5cb9-a559-a648-df20d40e6969",
+						version = 2,
+					},
+					inheritedIndex = 22,
+				},
+				
+				{
+					data = 
+					{
 						actionID = 16559,
 						category = "Self",
 						comparator = 2,
@@ -2203,6 +2227,20 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 13,
+				},
+				
+				{
+					data = 
+					{
+						actionID = 16558,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Pop Horoscope <= 0s",
+						uuid = "334deba1-9a0f-dfd9-85fc-23f0e0c0f8b5",
+						version = 2,
+					},
+					inheritedIndex = 24,
 				},
 				
 				{
@@ -3616,7 +3654,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.2.4.91\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.2.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3644,7 +3682,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.2.4.91",
+			name = "v5.2.5",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},
