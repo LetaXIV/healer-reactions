@@ -838,6 +838,52 @@ local tbl =
 							},
 							
 							{
+								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
+								true,
+							},
+							
+							{
+								"69784c75-865f-114a-a91d-821e653cbede",
+								true,
+							},
+							
+							{
+								"439f4507-25be-6118-916c-cd663dbbcca9",
+								true,
+							},
+							
+							{
+								"cbc4fd24-1f79-74c6-bf99-efca3bc7694d",
+								true,
+							},
+							
+							{
+								"6760eb89-2506-de36-b4a6-290b1493ae28",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
+						uuid = "28a52a02-5398-8884-9f50-c68f983ff714",
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 6,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"285098cb-d656-1f34-ad23-84d0d07e869c",
+								true,
+							},
+							
+							{
 								"b39cd5df-64a9-0c52-a2c6-8f57da3933e8",
 								true,
 							},
@@ -927,52 +973,6 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 4,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						conditions = 
-						{
-							
-							{
-								"285098cb-d656-1f34-ad23-84d0d07e869c",
-								true,
-							},
-							
-							{
-								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
-								true,
-							},
-							
-							{
-								"69784c75-865f-114a-a91d-821e653cbede",
-								true,
-							},
-							
-							{
-								"439f4507-25be-6118-916c-cd663dbbcca9",
-								true,
-							},
-							
-							{
-								"cbc4fd24-1f79-74c6-bf99-efca3bc7694d",
-								true,
-							},
-							
-							{
-								"6760eb89-2506-de36-b4a6-290b1493ae28",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
-						uuid = "28a52a02-5398-8884-9f50-c68f983ff714",
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 5,
 				},
 				
 				{
@@ -1120,7 +1120,6 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
-						actionID = 137,
 						conditions = 
 						{
 							
@@ -1150,20 +1149,17 @@ local tbl =
 							},
 							
 							{
-								"c4a9ec76-607d-ae9c-aa19-ca0bfec3677d",
+								"56d5bc98-0761-3ed3-b801-079ed68020bb",
 								true,
 							},
 						},
-						endIfUsed = true,
 						gVar = "ACR_RikuWHM2_Healbar_Regen",
-						ignoreWeaveRules = true,
-						targetType = "Detection Target",
-						uuid = "f8e270b3-6a82-0da4-a746-8d93e710701e",
+						uuid = "167f9bbf-daff-b59b-a513-919e174ccf23",
 						variableIsHover = true,
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 3,
+					inheritedIndex = 12,
 				},
 				
 				{
@@ -1261,6 +1257,61 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 8,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 137,
+						conditions = 
+						{
+							
+							{
+								"285098cb-d656-1f34-ad23-84d0d07e869c",
+								true,
+							},
+							
+							{
+								"b39cd5df-64a9-0c52-a2c6-8f57da3933e8",
+								true,
+							},
+							
+							{
+								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
+								true,
+							},
+							
+							{
+								"5ca72a84-937c-28e2-b803-b51e3f838d4f",
+								true,
+							},
+							
+							{
+								"439f4507-25be-6118-916c-cd663dbbcca9",
+								true,
+							},
+							
+							{
+								"813ae00c-5cc4-ef8a-b37f-88320a41d30d",
+								true,
+							},
+							
+							{
+								"c4a9ec76-607d-ae9c-aa19-ca0bfec3677d",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuWHM2_Healbar_Regen",
+						ignoreWeaveRules = true,
+						targetType = "Detection Target",
+						uuid = "f8e270b3-6a82-0da4-a746-8d93e710701e",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 14,
 				},
 				
 				{
@@ -2073,6 +2124,37 @@ local tbl =
 						{
 							
 							{
+								"36a80628-9e24-14c3-8654-a593cfe729f9",
+								true,
+							},
+							
+							{
+								"11463cd8-2d22-a7da-b4cc-f603cc0cce30",
+								true,
+							},
+							
+							{
+								"07140ed1-af7f-3528-b26f-fa4db4cf269f",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetType = "Main Tank",
+						name = "F - Regen Tank",
+						uuid = "56d5bc98-0761-3ed3-b801-079ed68020bb",
+						version = 2,
+					},
+					inheritedIndex = 41,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
 								"3b404d01-61d3-cab5-8398-1f6c708038a8",
 								true,
 							},
@@ -2843,7 +2925,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -2871,7 +2953,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4",
+			name = "v5.4.1",
 			uuid = "9570df5c-4066-44ad-852c-c4c9993eca8f",
 			version = 2,
 		},
