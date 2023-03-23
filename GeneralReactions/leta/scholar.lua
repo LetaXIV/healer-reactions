@@ -1162,110 +1162,6 @@ local tbl =
 							},
 							
 							{
-								"9163192e-1540-d3b7-a284-b96fe8e329d8",
-								true,
-							},
-							
-							{
-								"52dfd5b9-3d58-0574-8110-01fb953db771",
-								true,
-							},
-							
-							{
-								"84536dda-79ca-07c5-b4bd-585bef97da0a",
-								true,
-							},
-							
-							{
-								"2a44eefe-fd73-1861-8658-8f2a71190ffc",
-								true,
-							},
-							
-							{
-								"1b0b56e5-0159-83b0-88ee-421ecbc1766d",
-								true,
-							},
-							
-							{
-								"fc1caea4-4ba6-b6b2-bd06-13f54359717e",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuSCH2_Healbar_Excogitation",
-						targetType = "Detection Target",
-						uuid = "8fa87b44-766a-fbe4-a7bf-40b2aaf6725e",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 10,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 7434,
-						atomicPriority = true,
-						conditions = 
-						{
-							
-							{
-								"2a0a8f03-d83e-7649-9801-92217e022fca",
-								true,
-							},
-							
-							{
-								"52dfd5b9-3d58-0574-8110-01fb953db771",
-								true,
-							},
-							
-							{
-								"84536dda-79ca-07c5-b4bd-585bef97da0a",
-								true,
-							},
-							
-							{
-								"2a44eefe-fd73-1861-8658-8f2a71190ffc",
-								true,
-							},
-							
-							{
-								"2314e2f3-162d-74c7-8bea-6ca9aa1272a2",
-								true,
-							},
-							
-							{
-								"fc1caea4-4ba6-b6b2-bd06-13f54359717e",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuSCH2_Healbar_Excogitation",
-						ignoreWeaveRules = true,
-						targetType = "Detection Target",
-						uuid = "d2c82813-cc42-74e7-aa57-89f61565a8d1",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 10,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						conditions = 
-						{
-							
-							{
-								"2a0a8f03-d83e-7649-9801-92217e022fca",
-								true,
-							},
-							
-							{
 								"093c975e-db2d-b840-8522-f7100689992a",
 								true,
 							},
@@ -1348,6 +1244,110 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 3,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"2a0a8f03-d83e-7649-9801-92217e022fca",
+								true,
+							},
+							
+							{
+								"9163192e-1540-d3b7-a284-b96fe8e329d8",
+								true,
+							},
+							
+							{
+								"52dfd5b9-3d58-0574-8110-01fb953db771",
+								true,
+							},
+							
+							{
+								"84536dda-79ca-07c5-b4bd-585bef97da0a",
+								true,
+							},
+							
+							{
+								"2a44eefe-fd73-1861-8658-8f2a71190ffc",
+								true,
+							},
+							
+							{
+								"1b0b56e5-0159-83b0-88ee-421ecbc1766d",
+								true,
+							},
+							
+							{
+								"fc1caea4-4ba6-b6b2-bd06-13f54359717e",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuSCH2_Healbar_Excogitation",
+						targetType = "Detection Target",
+						uuid = "8fa87b44-766a-fbe4-a7bf-40b2aaf6725e",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 13,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 7434,
+						atomicPriority = true,
+						conditions = 
+						{
+							
+							{
+								"2a0a8f03-d83e-7649-9801-92217e022fca",
+								true,
+							},
+							
+							{
+								"52dfd5b9-3d58-0574-8110-01fb953db771",
+								true,
+							},
+							
+							{
+								"84536dda-79ca-07c5-b4bd-585bef97da0a",
+								true,
+							},
+							
+							{
+								"2a44eefe-fd73-1861-8658-8f2a71190ffc",
+								true,
+							},
+							
+							{
+								"2314e2f3-162d-74c7-8bea-6ca9aa1272a2",
+								true,
+							},
+							
+							{
+								"fc1caea4-4ba6-b6b2-bd06-13f54359717e",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuSCH2_Healbar_Excogitation",
+						ignoreWeaveRules = true,
+						targetType = "Detection Target",
+						uuid = "d2c82813-cc42-74e7-aa57-89f61565a8d1",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 14,
 				},
 				
 				{
@@ -3163,7 +3163,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.2\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.2.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3191,7 +3191,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.2",
+			name = "v5.4.2.1",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},
