@@ -667,7 +667,7 @@ local tbl =
 							},
 							
 							{
-								"4a449553-89b3-fcbe-b9fb-66cf6feec078",
+								"afe2571c-e9d8-0bf4-ba1e-0fbd5ac764c4",
 								true,
 							},
 						},
@@ -715,7 +715,7 @@ local tbl =
 							},
 							
 							{
-								"a989fa63-8ea9-5dcf-93e2-19682c55de1d",
+								"c5640ae3-f2b1-a6c7-987f-3f7c74d8d0e6",
 								true,
 							},
 						},
@@ -761,7 +761,7 @@ local tbl =
 							},
 							
 							{
-								"a989fa63-8ea9-5dcf-93e2-19682c55de1d",
+								"c5640ae3-f2b1-a6c7-987f-3f7c74d8d0e6",
 								true,
 							},
 						},
@@ -874,7 +874,7 @@ local tbl =
 							},
 							
 							{
-								"4a449553-89b3-fcbe-b9fb-66cf6feec078",
+								"c5640ae3-f2b1-a6c7-987f-3f7c74d8d0e6",
 								true,
 							},
 						},
@@ -922,7 +922,7 @@ local tbl =
 							},
 							
 							{
-								"a989fa63-8ea9-5dcf-93e2-19682c55de1d",
+								"c5640ae3-f2b1-a6c7-987f-3f7c74d8d0e6",
 								true,
 							},
 						},
@@ -2712,6 +2712,28 @@ local tbl =
 						{
 							
 							{
+								"1941a774-7b96-9965-8745-a00deef374fd",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetType = "Party",
+						name = "F - AoE @ 30y",
+						partyTargetNumber = 3,
+						uuid = "afe2571c-e9d8-0bf4-ba1e-0fbd5ac764c4",
+						version = 2,
+					},
+					inheritedIndex = 65,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
 								"8cd7e32f-4e9b-cc25-8772-48e8b1c991fb",
 								true,
 							},
@@ -2837,6 +2859,32 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 42,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"1941a774-7b96-9965-8745-a00deef374fd",
+								true,
+							},
+							
+							{
+								"63c482f3-f58e-0477-8e6a-fd54eaffdbdb",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetType = "Party",
+						name = "F - AoE 75% @ 30y",
+						partyTargetNumber = 3,
+						uuid = "c5640ae3-f2b1-a6c7-987f-3f7c74d8d0e6",
+						version = 2,
+					},
 				},
 			},
 			name = "Heal",
@@ -3163,7 +3211,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.2.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3191,7 +3239,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.2.1",
+			name = "v5.4.3",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},

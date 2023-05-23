@@ -1146,7 +1146,6 @@ local tbl =
 							},
 						},
 						endIfUsed = true,
-						fallthrough = true,
 						gVar = "ACR_RikuAST2_Healbar_CollectiveUnconscious",
 						ignoreWeaveRules = true,
 						uuid = "5216afd9-0688-d0d1-8fe3-92b667cb0c23",
@@ -1899,11 +1898,6 @@ local tbl =
 							
 							{
 								"fab7b9fb-5ccd-9140-919e-f67f36eb304f",
-								true,
-							},
-							
-							{
-								"fdcde701-b64f-f23e-b78b-a818ba99390c",
 								true,
 							},
 						},
@@ -3064,18 +3058,18 @@ local tbl =
 						{
 							
 							{
-								"8f899b7d-cc07-5141-9b64-a566b483762e",
+								"d1eb661f-143a-a475-b728-8a788bbb6954",
 								true,
 							},
 						},
 						dequeueIfLuaFalse = true,
 						filterTargetType = "Party",
-						name = "F - AoE @ 8y",
-						partyTargetNumber = 2,
-						uuid = "d9362900-3db7-de00-9e0b-e2c7aff3b535",
+						name = "F - AoE @ 20y",
+						partyTargetNumber = 3,
+						uuid = "22842182-fa88-4c11-950c-3445240d8aa5",
 						version = 2,
 					},
-					inheritedIndex = 32,
+					inheritedIndex = 61,
 				},
 				
 				{
@@ -3086,15 +3080,15 @@ local tbl =
 						{
 							
 							{
-								"d1eb661f-143a-a475-b728-8a788bbb6954",
+								"4680bdcb-1130-a61a-b40e-5483cb156b14",
 								true,
 							},
 						},
 						dequeueIfLuaFalse = true,
 						filterTargetType = "Party",
-						name = "F - AoE @ 20y",
+						name = "F - AoE @ 30y",
 						partyTargetNumber = 3,
-						uuid = "22842182-fa88-4c11-950c-3445240d8aa5",
+						uuid = "d9362900-3db7-de00-9e0b-e2c7aff3b535",
 						version = 2,
 					},
 					inheritedIndex = 61,
@@ -3807,7 +3801,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.2.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3836,7 +3830,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.2.1",
+			name = "v5.4.3",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},

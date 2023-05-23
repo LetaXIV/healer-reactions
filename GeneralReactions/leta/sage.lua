@@ -1174,12 +1174,11 @@ local tbl =
 							},
 							
 							{
-								"4a449553-89b3-fcbe-b9fb-66cf6feec078",
+								"2a4e64c2-8458-51ed-8bc0-e2cb33045ae0",
 								true,
 							},
 						},
 						endIfUsed = true,
-						fallthrough = true,
 						gVar = "ACR_RikuSGE_Healbar_Kerachole",
 						ignoreWeaveRules = true,
 						uuid = "b7277232-3456-cb20-86d2-13a35d65ce18",
@@ -1280,7 +1279,7 @@ local tbl =
 							},
 							
 							{
-								"37279794-28cc-8ab1-bd1c-ce455816c592",
+								"2d06550b-2bd1-b86e-83fc-2b4b72a08200",
 								true,
 							},
 						},
@@ -1563,7 +1562,7 @@ local tbl =
 							},
 							
 							{
-								"a989fa63-8ea9-5dcf-93e2-19682c55de1d",
+								"712a5ab4-fb0a-936b-a7e3-1405c7355936",
 								true,
 							},
 						},
@@ -2619,6 +2618,60 @@ local tbl =
 						{
 							
 							{
+								"1941a774-7b96-9965-8745-a00deef374fd",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetType = "Party",
+						name = "F - Kerachole",
+						partyTargetNumber = 3,
+						uuid = "2a4e64c2-8458-51ed-8bc0-e2cb33045ae0",
+						version = 2,
+					},
+					inheritedIndex = 50,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"9538fcab-a5e4-0dcc-a305-6473faee3c22",
+								true,
+							},
+							
+							{
+								"63c482f3-f58e-0477-8e6a-fd54eaffdbdb",
+								true,
+							},
+							
+							{
+								"94ee5266-835f-d5ca-97fe-7b57592fa2ff",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetType = "Party",
+						name = "F - Pepsis",
+						partyTargetNumber = 3,
+						uuid = "0fd041fc-cb7c-d6c9-8987-c2700a9c361e",
+						version = 2,
+					},
+					inheritedIndex = 50,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
 								"8cd7e32f-4e9b-cc25-8772-48e8b1c991fb",
 								true,
 							},
@@ -2728,28 +2781,22 @@ local tbl =
 						{
 							
 							{
-								"9538fcab-a5e4-0dcc-a305-6473faee3c22",
-								true,
-							},
-							
-							{
 								"63c482f3-f58e-0477-8e6a-fd54eaffdbdb",
 								true,
 							},
 							
 							{
-								"94ee5266-835f-d5ca-97fe-7b57592fa2ff",
+								"1941a774-7b96-9965-8745-a00deef374fd",
 								true,
 							},
 						},
-						dequeueIfLuaFalse = true,
 						filterTargetType = "Party",
-						name = "F - Pepsis",
+						name = "F - AoE 75% @ 30y",
 						partyTargetNumber = 3,
-						uuid = "0fd041fc-cb7c-d6c9-8987-c2700a9c361e",
+						uuid = "712a5ab4-fb0a-936b-a7e3-1405c7355936",
 						version = 2,
 					},
-					inheritedIndex = 45,
+					inheritedIndex = 56,
 				},
 				
 				{
@@ -2890,6 +2937,34 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 58,
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"e730c392-9923-ddd6-8f0c-05c3c2852522",
+								true,
+							},
+							
+							{
+								"1941a774-7b96-9965-8745-a00deef374fd",
+								true,
+							},
+						},
+						dequeueIfLuaFalse = true,
+						filterTargetSubtype = "Lowest HP",
+						filterTargetType = "Party",
+						name = "F - 85% @ 30y",
+						partyTargetNumber = 3,
+						uuid = "2d06550b-2bd1-b86e-83fc-2b4b72a08200",
+						version = 2,
+					},
+					inheritedIndex = 61,
 				},
 			},
 			name = "Heal",
@@ -3216,7 +3291,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.2.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3244,7 +3319,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.2.1",
+			name = "v5.4.3",
 			uuid = "3bf5a707-f643-0845-a62d-e237f3c19dc3",
 			version = 2,
 		},
