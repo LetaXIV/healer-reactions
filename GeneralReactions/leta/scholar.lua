@@ -364,7 +364,7 @@ local tbl =
 					{
 						category = "Event",
 						comparator = 2,
-						eventCountdownTime = 1.7000000476837,
+						eventCountdownTime = 1.5,
 						name = "Broil Timer",
 						uuid = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
 						version = 2,
@@ -401,20 +401,6 @@ local tbl =
 			version = 2,
 		},
 		inheritedIndex = 12,
-	},
-	
-	{
-		data = 
-		{
-			name = "--Duty Helper",
-			uuid = "05835b24-0e01-4d8f-902d-46ca5a73d06b",
-			version = 2,
-		},
-		inheritedIndex = 27,
-		inheritedObjectUUID = "3252e059-b557-925d-a580-d94313de83d4",
-		inheritedOverwrites = 
-		{
-		},
 	},
 	
 	{
@@ -565,60 +551,6 @@ local tbl =
 			version = 2,
 		},
 		inheritedIndex = 14,
-	},
-	
-	{
-		data = 
-		{
-			name = "Multitool",
-			uuid = "49b82326-95d3-e267-9251-678d241d7f3c",
-			version = 2,
-		},
-		inheritedIndex = 29,
-		inheritedObjectUUID = "99232b2f-f076-00e3-92a0-3738aaba1ce6",
-		inheritedOverwrites = 
-		{
-			actions = 
-			{
-				
-				{
-					type = "add",
-					value = 
-					{
-						data = 
-						{
-							name = "",
-							uuid = "30858dff-72b6-65d0-a405-f15647947328",
-							version = 2,
-						},
-						inheritedObjectUUID = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
-						inheritedOverwrites = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
-							variableIsHover = false,
-						},
-					},
-				},
-			},
-		},
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			name = "--Auto-healing",
-			uuid = "196f3e88-a90e-1ce3-b8b0-974fc7ea9b64",
-			version = 2,
-		},
-		inheritedIndex = 30,
 	},
 	
 	{
@@ -3211,7 +3143,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.4\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.4.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3239,7 +3171,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.4",
+			name = "v5.4.4.1",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},
@@ -3446,6 +3378,74 @@ local tbl =
 			enabled = false,
 			name = "n/a",
 		},
+	},
+	
+	{
+		data = 
+		{
+			name = "--Duty Helper",
+			uuid = "05835b24-0e01-4d8f-902d-46ca5a73d06b",
+			version = 2,
+		},
+		inheritedIndex = 27,
+		inheritedObjectUUID = "3252e059-b557-925d-a580-d94313de83d4",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Multitool",
+			uuid = "49b82326-95d3-e267-9251-678d241d7f3c",
+			version = 2,
+		},
+		inheritedIndex = 29,
+		inheritedObjectUUID = "99232b2f-f076-00e3-92a0-3738aaba1ce6",
+		inheritedOverwrites = 
+		{
+			actions = 
+			{
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "",
+							uuid = "30858dff-72b6-65d0-a405-f15647947328",
+							version = 2,
+						},
+						inheritedObjectUUID = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
+						inheritedOverwrites = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuSCH2_Hotbar_Surecast",
+							variableIsHover = false,
+						},
+					},
+				},
+			},
+		},
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			name = "--Auto-healing",
+			uuid = "196f3e88-a90e-1ce3-b8b0-974fc7ea9b64",
+			version = 2,
+		},
+		inheritedIndex = 30,
 	}, 
 	inheritedProfiles = 
 	{

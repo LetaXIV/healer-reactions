@@ -310,7 +310,7 @@ local tbl =
 					{
 						category = "Event",
 						comparator = 2,
-						eventCountdownTime = 1.7000000476837,
+						eventCountdownTime = 1.5,
 						name = "Glare Timer",
 						uuid = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
 						version = 2,
@@ -582,23 +582,6 @@ local tbl =
 				},
 			},
 		},
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			name = "--Auto-healing",
-			uuid = "7b2f2228-75ba-4851-b497-2052cbbf1ea1",
-			version = 2,
-		},
-		inheritedIndex = 30,
 	},
 	
 	{
@@ -2903,68 +2886,6 @@ local tbl =
 	{
 		data = 
 		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			name = "--Version Number",
-			uuid = "29b89457-b966-ea53-a080-ec75b4c87f4e",
-			version = 2,
-		},
-		inheritedIndex = 35,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.4\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
-						conditions = 
-						{
-							
-							{
-								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
-								true,
-							},
-						},
-						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return letaVersion == nil",
-						dequeueIfLuaFalse = true,
-						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
-						version = 2,
-					},
-				},
-			},
-			name = "v5.4.4",
-			uuid = "9570df5c-4066-44ad-852c-c4c9993eca8f",
-			version = 2,
-		},
-		inheritedIndex = 36,
-	},
-	
-	{
-		data = 
-		{
 			name = "n/a",
 			uuid = "4555a084-8304-5ed2-9eba-b620f8372c0a",
 			version = 2,
@@ -3232,6 +3153,85 @@ local tbl =
 			enabled = false,
 			name = "n/a",
 		},
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			name = "--Auto-healing",
+			uuid = "7b2f2228-75ba-4851-b497-2052cbbf1ea1",
+			version = 2,
+		},
+		inheritedIndex = 30,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			name = "--Version Number",
+			uuid = "29b89457-b966-ea53-a080-ec75b4c87f4e",
+			version = 2,
+		},
+		inheritedIndex = 35,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "letaVersion = \"5.4.4.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+								true,
+							},
+						},
+						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return letaVersion == nil",
+						dequeueIfLuaFalse = true,
+						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+						version = 2,
+					},
+				},
+			},
+			name = "v5.4.4.1",
+			uuid = "9570df5c-4066-44ad-852c-c4c9993eca8f",
+			version = 2,
+		},
+		inheritedIndex = 36,
 	}, 
 	inheritedProfiles = 
 	{
