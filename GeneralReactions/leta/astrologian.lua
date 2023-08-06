@@ -102,6 +102,188 @@ local tbl =
 	{
 		data = 
 		{
+			name = "---- Another Mount Rokkon ----",
+			uuid = "cf2d9ae7-a48b-9fb8-984c-84f40fbf000e",
+			version = 2,
+		},
+		inheritedIndex = 9,
+		inheritedObjectUUID = "1036d3a1-4cb1-3af6-bebb-b93a8a25f5fd",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Custom Angles",
+			uuid = "c37fc9d4-b0fa-71e7-8e88-c8ba04c35b69",
+			version = 2,
+		},
+		inheritedIndex = 10,
+		inheritedObjectUUID = "4b8f5642-e295-3219-a20e-ff58ef010f61",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "All Stack Circles",
+			uuid = "986133a0-de21-93b6-83b7-4b1f3e09fcf2",
+			version = 2,
+		},
+		inheritedIndex = 11,
+		inheritedObjectUUID = "c15c73d5-3cb1-260e-920e-fed8d8a36c29",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Channels",
+			uuid = "a1058418-47f7-6227-ab1c-e331605fe5cf",
+			version = 2,
+		},
+		inheritedIndex = 12,
+		inheritedObjectUUID = "3457f648-64ee-20a7-9028-3cd76c07f8d8",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Casts",
+			uuid = "9f4f3c53-4057-4d02-bab4-f5dd325c36fc",
+			version = 2,
+		},
+		inheritedIndex = 13,
+		inheritedObjectUUID = "1f9e02c6-6313-f0b4-b2a4-76441d91ecbf",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Entity Add",
+			uuid = "05a52e6a-e533-0efc-bf87-2d777df5919a",
+			version = 2,
+		},
+		inheritedIndex = 14,
+		inheritedObjectUUID = "85795041-4c57-89ed-b6a5-ebe077a1082b",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Towers",
+			uuid = "7630ffbc-8a5c-71ee-8fcc-5b51b05b5ef9",
+			version = 2,
+		},
+		inheritedIndex = 15,
+		inheritedObjectUUID = "0a59b16f-c348-aee3-8868-eb071892b2e9",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Gorai Tethers",
+			uuid = "ceb5a2c2-dcab-2948-ae5e-d2487ba12cff",
+			version = 2,
+		},
+		inheritedIndex = 16,
+		inheritedObjectUUID = "0dd67047-ded0-e0c8-a708-a8cb08a8e478",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Limit Cut",
+			uuid = "9ebeca78-b4c0-14a6-a826-5597456b77d9",
+			version = 2,
+		},
+		inheritedIndex = 17,
+		inheritedObjectUUID = "5ae340fe-0caf-dddc-8582-705908cabc0e",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "AOEs",
+			uuid = "8593db4b-f9cf-d46e-9733-187e03ad7eb3",
+			version = 2,
+		},
+		inheritedIndex = 18,
+		inheritedObjectUUID = "21c1ec6a-a9fb-4ec2-b3e0-4506c3582f56",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Triple Kasumi-giri",
+			uuid = "231c59b8-47f3-de32-829b-f9c636dac88a",
+			version = 2,
+		},
+		inheritedIndex = 19,
+		inheritedObjectUUID = "a50ca1a2-518c-d9ff-9c8c-90304065c6d6",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Moko Tethers",
+			uuid = "85e71d9a-c731-605a-9547-1ee0a0ce257b",
+			version = 2,
+		},
+		inheritedIndex = 20,
+		inheritedObjectUUID = "32b28750-3200-c50f-99bc-8e6877e5706a",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
+			name = "Moko Near/Far Edge",
+			uuid = "95a1fb34-0f93-0fd6-97ae-8cd96ca0edd7",
+			version = 2,
+		},
+		inheritedIndex = 21,
+		inheritedObjectUUID = "c40a467a-decb-f57a-9b5b-92f8f84edb83",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 			},
@@ -113,7 +295,7 @@ local tbl =
 			uuid = "b2512641-6b17-7474-8f9f-5f9d6edf7697",
 			version = 2,
 		},
-		inheritedIndex = 9,
+		inheritedIndex = 22,
 	},
 	
 	{
@@ -152,7 +334,7 @@ local tbl =
 			uuid = "dddc9a61-82d5-fe2f-b692-118ca686509a",
 			version = 2,
 		},
-		inheritedIndex = 10,
+		inheritedIndex = 23,
 	},
 	
 	{
@@ -254,7 +436,7 @@ local tbl =
 			uuid = "49ecb6e1-9dcd-c7be-98f2-883115a66247",
 			version = 2,
 		},
-		inheritedIndex = 11,
+		inheritedIndex = 24,
 	},
 	
 	{
@@ -661,7 +843,654 @@ local tbl =
 			uuid = "e0fcccc9-934d-b618-9d65-d1fa78357920",
 			version = 2,
 		},
-		inheritedIndex = 12,
+		inheritedIndex = 25,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			name = "--Duty Helper",
+			uuid = "6a8f617a-0281-9f04-bda7-77ee566d178a",
+			version = 2,
+		},
+		inheritedIndex = 26,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 16556,
+						conditions = 
+						{
+							
+							{
+								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
+								true,
+							},
+							
+							{
+								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
+								true,
+							},
+							
+							{
+								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
+								true,
+							},
+							
+							{
+								"85ede217-57a0-e66f-b519-1329950dcc66",
+								true,
+							},
+						},
+						fallthrough = true,
+						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
+						ignoreWeaveRules = true,
+						targetType = "Main Tank",
+						uuid = "20b4ce27-5df0-af96-9a44-779646f5b2c3",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 25873,
+						conditions = 
+						{
+							
+							{
+								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
+								true,
+							},
+							
+							{
+								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
+								true,
+							},
+							
+							{
+								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
+								true,
+							},
+							
+							{
+								"7d4c92e8-17d4-522f-a811-8f53c6dd2608",
+								true,
+							},
+						},
+						gVar = "ACR_RikuAST2_Healbar_Exaltation",
+						ignoreWeaveRules = true,
+						targetType = "Main Tank",
+						uuid = "03da3a64-1df3-b89c-8e9c-f8b8fce59beb",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 3,
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Heal\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Heal",
+						uuid = "21d6245b-d8dc-3d19-bf63-6b5a717402a2",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Mitigation\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Mitigation",
+						uuid = "0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
+						version = 2,
+					},
+					inheritedIndex = 2,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.AOEMitigation[eventArgs.spellID] == true",
+						dequeueIfLuaFalse = true,
+						uuid = "1c4bfd9f-e86c-2388-b2f1-93a7ad8ad845",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Party",
+						channelCheckTimeRemain = 3,
+						channelCheckType = 3,
+						comparator = 2,
+						conditionType = 5,
+						partyTargetType = "Event Entity",
+						uuid = "240d5878-d691-0458-bbb0-92a142116746",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.TankMitigation[eventArgs.spellID] == true",
+						dequeueIfLuaFalse = true,
+						uuid = "33ce2f41-d38b-61c6-a589-2bbe063ae2db",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 30,
+						actionID = 16556,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Cel Intersection <= 0s",
+						uuid = "85ede217-57a0-e66f-b519-1329950dcc66",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionID = 25873,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Exaltation <= 0s",
+						uuid = "7d4c92e8-17d4-522f-a811-8f53c6dd2608",
+						version = 2,
+					},
+				},
+			},
+			eventType = 3,
+			name = "Duty Helper",
+			throttleTime = 1250,
+			timeout = 3,
+			uuid = "1404436e-9a2e-7e7e-b09c-50839e46b22a",
+			version = 2,
+		},
+		inheritedIndex = 27,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 7559,
+						conditions = 
+						{
+							
+							{
+								"9344e544-8aa7-e303-ae49-c8a23dec9d2e",
+								true,
+							},
+							
+							{
+								"c73df984-1137-1ad0-af9f-83e2b83f6c91",
+								true,
+							},
+							
+							{
+								"576b2abc-b50f-1223-a256-3d54da36abed",
+								true,
+							},
+							
+							{
+								"559f05a4-3baf-4a21-9902-f6a0e91af34f",
+								true,
+							},
+							
+							{
+								"1dbd9942-5f70-2107-9089-5fc4fe643069",
+								true,
+							},
+							
+							{
+								"08f1d3bf-4caa-0138-81a2-1d022c3b600d",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Hotbar_Surecast",
+						ignoreWeaveRules = true,
+						uuid = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
+						variableTogglesType = 2,
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "if AnyoneCore ~= nil and AnyoneCore.DPSMitigation[eventArgs.spellID] == true then\n\t\tlocal ent = TensorCore.mGetEntity(eventArgs.id)\n\t\tif ent ~= nil and ent.attackable and ent.alive then\n\t\t\t\treturn true\n\t\tend\nend\nreturn false",
+						conditionType = 2,
+						dequeueIfLuaFalse = true,
+						eventArgType = 2,
+						name = "miti table dequeue check",
+						partyTargetSubType = 1,
+						uuid = "ae610342-5068-395c-bd77-8d7e0900f29b",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return TensorCore.mGetPlayer().alive and AnyoneCore ~= nil and (AnyoneCore.assistCallback() or AnyoneCore.Settings.DutyHelper.requirebotenabled == false) and AnyoneCore.Settings.DutyHelper.enabled == true",
+						dequeueIfLuaFalse = true,
+						name = "duty helper enabled",
+						partyTargetSubType = 1,
+						uuid = "c73df984-1137-1ad0-af9f-83e2b83f6c91",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 7,
+						dequeueIfLuaFalse = true,
+						name = "combat check",
+						partyTargetSubType = 1,
+						uuid = "1dbd9942-5f70-2107-9089-5fc4fe643069",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.Knockback[eventArgs.spellID] == true",
+						dequeueIfLuaFalse = true,
+						name = "check kb table",
+						uuid = "559f05a4-3baf-4a21-9902-f6a0e91af34f",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Party",
+						channelCheckTimeRemain = 5,
+						channelCheckType = 3,
+						comparator = 2,
+						conditionType = 5,
+						name = "check timer",
+						partyTargetType = "Event Entity",
+						uuid = "08f1d3bf-4caa-0138-81a2-1d022c3b600d",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						buffCheckType = 2,
+						buffID = 418,
+						category = "Self",
+						name = "missing transcendent",
+						uuid = "576b2abc-b50f-1223-a256-3d54da36abed",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "local ent = TensorCore.mGetEntity(eventArgs.entityID)\nreturn ent ~= nil and ent.type ~= 1",
+						dequeueIfLuaFalse = true,
+						name = "not a player",
+						uuid = "9344e544-8aa7-e303-ae49-c8a23dec9d2e",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.Settings.DutyHelper.mitigation == true",
+						dequeueIfLuaFalse = true,
+						name = "check mitigation settings",
+						uuid = "e65b2ae0-c967-6a87-a4da-8cded194beff",
+						version = 2,
+					},
+				},
+			},
+			eventType = 3,
+			name = "Multitool",
+			timeout = 10,
+			uuid = "d066fbce-6e78-3a2a-b789-d7db896d5b3b",
+			version = 2,
+		},
+		inheritedIndex = 28,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 16556,
+						atomicPriority = true,
+						conditions = 
+						{
+							
+							{
+								"5a2d483c-d79d-d108-b7f8-8ad686791577",
+								true,
+							},
+							
+							{
+								"d257ba4a-227e-a9cb-b339-d42ff3f9846d",
+								true,
+							},
+							
+							{
+								"b067668d-ee59-e29b-b283-d267af94ca28",
+								true,
+							},
+							
+							{
+								"a6b10244-4b1c-ae48-ac44-e4f67d505df7",
+								true,
+							},
+							
+							{
+								"a972cced-623f-da83-8a85-3cf06b5c2700",
+								true,
+							},
+							
+							{
+								"3f885a01-ce64-c092-9d94-d2b6fd2c3159",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = true,
+						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
+						targetType = "Main Tank",
+						uuid = "7c8b9761-6c75-d6e2-85a4-4c9832d5f195",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 25873,
+						atomicPriority = true,
+						conditions = 
+						{
+							
+							{
+								"5a2d483c-d79d-d108-b7f8-8ad686791577",
+								true,
+							},
+							
+							{
+								"d257ba4a-227e-a9cb-b339-d42ff3f9846d",
+								true,
+							},
+							
+							{
+								"b067668d-ee59-e29b-b283-d267af94ca28",
+								true,
+							},
+							
+							{
+								"784fed7d-366a-1861-bffd-48dcd57c1ae8",
+								true,
+							},
+							
+							{
+								"f516f3c5-ecd7-2ab4-b474-473d78d32ec1",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuAST2_Healbar_Exaltation",
+						targetType = "Off Tank",
+						uuid = "3c72ef92-2f17-e340-a31d-f4c660dc3ee4",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 2,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 16556,
+						atomicPriority = true,
+						conditions = 
+						{
+							
+							{
+								"5a2d483c-d79d-d108-b7f8-8ad686791577",
+								true,
+							},
+							
+							{
+								"d257ba4a-227e-a9cb-b339-d42ff3f9846d",
+								true,
+							},
+							
+							{
+								"b067668d-ee59-e29b-b283-d267af94ca28",
+								true,
+							},
+							
+							{
+								"784fed7d-366a-1861-bffd-48dcd57c1ae8",
+								true,
+							},
+							
+							{
+								"a972cced-623f-da83-8a85-3cf06b5c2700",
+								true,
+							},
+							
+							{
+								"3f885a01-ce64-c092-9d94-d2b6fd2c3159",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = true,
+						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
+						targetType = "Main Tank",
+						uuid = "899eaae6-621e-9a5f-9b1a-fd7a2b13b8aa",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return AnyoneCore.assistCallback()",
+						dequeueIfLuaFalse = true,
+						name = "bot is running",
+						uuid = "5a2d483c-d79d-d108-b7f8-8ad686791577",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Heal\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Heal",
+						uuid = "d257ba4a-227e-a9cb-b339-d42ff3f9846d",
+						version = 2,
+					},
+					inheritedIndex = 2,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Mitigation\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Mitigation",
+						uuid = "b067668d-ee59-e29b-b283-d267af94ca28",
+						version = 2,
+					},
+					inheritedIndex = 3,
+				},
+				
+				{
+					data = 
+					{
+						channelCheckSpellIDList = 
+						{
+							26126,
+							26153,
+						},
+						channelCheckType = 2,
+						conditionType = 7,
+						dequeueIfLuaFalse = true,
+						eventArgType = 2,
+						uuid = "a6b10244-4b1c-ae48-ac44-e4f67d505df7",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						channelCheckSpellIDList = 
+						{
+							26127,
+							26674,
+						},
+						channelCheckType = 2,
+						conditionType = 7,
+						dequeueIfLuaFalse = true,
+						uuid = "784fed7d-366a-1861-bffd-48dcd57c1ae8",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						buffCheckType = 2,
+						buffID = 1889,
+						category = "Party",
+						partyTargetType = "Main Tank",
+						uuid = "a972cced-623f-da83-8a85-3cf06b5c2700",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 30,
+						actionID = 16556,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Cel Intersection <= 0s",
+						uuid = "3f885a01-ce64-c092-9d94-d2b6fd2c3159",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionID = 25873,
+						category = "Self",
+						comparator = 2,
+						conditionType = 4,
+						name = "CD - Exaltation <= 0s",
+						uuid = "f516f3c5-ecd7-2ab4-b474-473d78d32ec1",
+						version = 2,
+					},
+				},
+			},
+			eventType = 3,
+			name = "Tankbusters",
+			throttleTime = 1250,
+			timeout = 3,
+			uuid = "f2ea67a6-c6a5-7261-a8a8-670ca4ee3f72",
+			version = 2,
+		},
+		inheritedIndex = 29,
 	},
 	
 	{
@@ -677,7 +1506,7 @@ local tbl =
 			uuid = "5710d044-1a27-9bb4-8ef4-9d0b8fdb89b0",
 			version = 2,
 		},
-		inheritedIndex = 16,
+		inheritedIndex = 30,
 	},
 	
 	{
@@ -2836,820 +3665,7 @@ local tbl =
 			uuid = "0c60269d-4aa6-3d34-abed-17a5c39f48cf",
 			version = 2,
 		},
-		inheritedIndex = 17,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 16556,
-						atomicPriority = true,
-						conditions = 
-						{
-							
-							{
-								"5a2d483c-d79d-d108-b7f8-8ad686791577",
-								true,
-							},
-							
-							{
-								"d257ba4a-227e-a9cb-b339-d42ff3f9846d",
-								true,
-							},
-							
-							{
-								"b067668d-ee59-e29b-b283-d267af94ca28",
-								true,
-							},
-							
-							{
-								"a6b10244-4b1c-ae48-ac44-e4f67d505df7",
-								true,
-							},
-							
-							{
-								"a972cced-623f-da83-8a85-3cf06b5c2700",
-								true,
-							},
-							
-							{
-								"3f885a01-ce64-c092-9d94-d2b6fd2c3159",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = true,
-						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
-						targetType = "Main Tank",
-						uuid = "7c8b9761-6c75-d6e2-85a4-4c9832d5f195",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 25873,
-						atomicPriority = true,
-						conditions = 
-						{
-							
-							{
-								"5a2d483c-d79d-d108-b7f8-8ad686791577",
-								true,
-							},
-							
-							{
-								"d257ba4a-227e-a9cb-b339-d42ff3f9846d",
-								true,
-							},
-							
-							{
-								"b067668d-ee59-e29b-b283-d267af94ca28",
-								true,
-							},
-							
-							{
-								"784fed7d-366a-1861-bffd-48dcd57c1ae8",
-								true,
-							},
-							
-							{
-								"f516f3c5-ecd7-2ab4-b474-473d78d32ec1",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuAST2_Healbar_Exaltation",
-						targetType = "Off Tank",
-						uuid = "3c72ef92-2f17-e340-a31d-f4c660dc3ee4",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 16556,
-						atomicPriority = true,
-						conditions = 
-						{
-							
-							{
-								"5a2d483c-d79d-d108-b7f8-8ad686791577",
-								true,
-							},
-							
-							{
-								"d257ba4a-227e-a9cb-b339-d42ff3f9846d",
-								true,
-							},
-							
-							{
-								"b067668d-ee59-e29b-b283-d267af94ca28",
-								true,
-							},
-							
-							{
-								"784fed7d-366a-1861-bffd-48dcd57c1ae8",
-								true,
-							},
-							
-							{
-								"a972cced-623f-da83-8a85-3cf06b5c2700",
-								true,
-							},
-							
-							{
-								"3f885a01-ce64-c092-9d94-d2b6fd2c3159",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = true,
-						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
-						targetType = "Main Tank",
-						uuid = "899eaae6-621e-9a5f-9b1a-fd7a2b13b8aa",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.assistCallback()",
-						dequeueIfLuaFalse = true,
-						name = "bot is running",
-						uuid = "5a2d483c-d79d-d108-b7f8-8ad686791577",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Heal\"].bool",
-						dequeueIfLuaFalse = true,
-						name = "Toggle Heal",
-						uuid = "d257ba4a-227e-a9cb-b339-d42ff3f9846d",
-						version = 2,
-					},
-					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Mitigation\"].bool",
-						dequeueIfLuaFalse = true,
-						name = "Toggle Mitigation",
-						uuid = "b067668d-ee59-e29b-b283-d267af94ca28",
-						version = 2,
-					},
-					inheritedIndex = 3,
-				},
-				
-				{
-					data = 
-					{
-						channelCheckSpellIDList = 
-						{
-							26126,
-							26153,
-						},
-						channelCheckType = 2,
-						conditionType = 7,
-						dequeueIfLuaFalse = true,
-						eventArgType = 2,
-						uuid = "a6b10244-4b1c-ae48-ac44-e4f67d505df7",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						channelCheckSpellIDList = 
-						{
-							26127,
-							26674,
-						},
-						channelCheckType = 2,
-						conditionType = 7,
-						dequeueIfLuaFalse = true,
-						uuid = "784fed7d-366a-1861-bffd-48dcd57c1ae8",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						buffCheckType = 2,
-						buffID = 1889,
-						category = "Party",
-						partyTargetType = "Main Tank",
-						uuid = "a972cced-623f-da83-8a85-3cf06b5c2700",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 30,
-						actionID = 16556,
-						category = "Self",
-						comparator = 2,
-						conditionType = 4,
-						name = "CD - Cel Intersection <= 0s",
-						uuid = "3f885a01-ce64-c092-9d94-d2b6fd2c3159",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionID = 25873,
-						category = "Self",
-						comparator = 2,
-						conditionType = 4,
-						name = "CD - Exaltation <= 0s",
-						uuid = "f516f3c5-ecd7-2ab4-b474-473d78d32ec1",
-						version = 2,
-					},
-				},
-			},
-			eventType = 3,
-			name = "Tankbusters",
-			throttleTime = 1250,
-			timeout = 3,
-			uuid = "f2ea67a6-c6a5-7261-a8a8-670ca4ee3f72",
-			version = 2,
-		},
-		inheritedIndex = 19,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "if Leta == nil then\n    Leta = {}\nend\nif Leta.init ~= true then\n    Leta.lastTick = Now()\n\n    Leta.GUI = {\n        open = false,\n        visible = false\n    }\n    Leta.settings = {\n        LockedToggles = false,\n        ToggleColorEnable = {r = 0.631, g = 0.186, b = 0.217, a = 1.000},\n        ToggleColorDisable = {r = 0.070, g = 0.070, b = 0.070, a = .749},\n        ToggleScale = 1,\n        ToggleHeight = 30,\n        ToggleWidth = 105,\n        Toggles = {\n            --global\n            [\"AOE\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"ST\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"GCD\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Esuna\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Mitigation\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Heal\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            --whm\n            [\"Asylum\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Bell\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Benediction\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"Temperance\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"HOT\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            --sage\n            [\"Haima\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Holos\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Panhaima\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Zoe\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Soteria\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma Opener\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            -- AST\n            [\"Macrocosmos\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"Neutral Sect\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Synastry\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Earthly Star\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"HoT\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Horoscope\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            --SCH\n            [\"Expedient\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Illumination\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Seraph\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"D Tactics\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Sacred Soil\"] = {bool = false, shown = true, group = 1, job = \"SCH\"}\n        }\n    }\n\n    Leta.ModToKey = {\n        [\"SHIFT\"] = 16,\n        [\"CONTROL\"] = 17,\n        [\"ALT\"] = 18\n    }\n    Leta.JobTable = {\n        [6] = \"WHM\",\n        [24] = \"WHM\",\n        [28] = \"SCH\",\n        [26] = \"SCH\",\n        [33] = \"AST\",\n        [40] = \"SGE\"\n    }\n\n    Leta.LuaPath = GetLuaModsPath()\n    Leta.SettingsPath = Leta.LuaPath .. [[ffxivminion\\leta\\]]\n    Leta.SettingsFile = Leta.SettingsPath .. [[Settings.lua]]\n    local v = table.valid\n    function Leta.valid(...)\n        local tbl = {...}\n        local size = #tbl\n        if size > 0 then\n            local count = tbl[1]\n            if type(count) == \"number\" then\n                if size == (count + 1) then\n                    for i = 2, size do\n                        if not v(tbl[i]) then\n                            return false\n                        end\n                    end\n                    return true\n                end\n            else\n                for i = 1, size do\n                    if not v(tbl[i]) then\n                        return false\n                    end\n                end\n                return true\n            end\n        end\n        return false\n    end\n    local valid = Leta.valid\n\n    function Leta.LoadSettings()\n        if (not FolderExists(Leta.SettingsPath)) then\n            FolderCreate(Leta.SettingsPath)\n        end\n        local tbl = FileLoad(Leta.SettingsFile)\n        local function scan(tbl, tbl2, depth)\n            depth = depth or 0\n            if valid(2, tbl, tbl2) then\n                for k, v in pairs(tbl2) do\n                    if type(v) == \"table\" then\n                        if tbl[k] and valid(tbl[k]) then\n                            tbl[k] = table.merge(tbl[k], scan(tbl[k], v, depth + 1))\n                        else\n                            tbl[k] = v\n                        end\n                    else\n                        if tbl[k] ~= tbl2[k] then\n                            tbl[k] = tbl2[k]\n                        end\n                    end\n                end\n            end\n            return tbl\n        end\n        Leta.settings = scan(Leta.settings, tbl)\n    end\n\n    function Leta.SaveSettings()\n        d(\"[Leta] Settings saved\")\n        if not table.deepcompare(Leta.settings, PreviousSave) then\n            if (not FolderExists(Leta.SettingsPath)) then\n                FolderCreate(Leta.SettingsPath)\n            end\n\n            FileSave(Leta.SettingsFile, Leta.settings)\n            PreviousSave = table.deepcopy(Leta.settings)\n        end\n    end\n    Leta.LoadSettings()\n    Leta.init = true\nend\nself.used = true\n",
-						conditions = 
-						{
-							
-							{
-								"1d38aceb-831a-88f5-8452-17c4b312c663",
-								false,
-							},
-						},
-						name = "Init",
-						uuid = "be19cab4-1f6d-bf2f-9928-e3acf5ba49c3",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "local scale = Leta.settings.ToggleScale\nif Leta ~= nil and Leta.init == true and table.valid(Leta.settings.Toggles) then\n    if TimeSince(Leta.lastTick) > 1000 then\n        for k, v in pairs(Leta.settings.Toggles) do\n            if v.job == Leta.JobTable[TensorCore.mGetPlayer().job] or v.job == \"global\" then\n                v.active = true\n            else\n                v.active = false\n            end\n        end\n        Leta.lastTick = Now()\n    end\n    for k, v in pairs(Leta.settings.Toggles) do\n        if v.group ~= 0 and v.shown and v.active then\n\n\n\n            GUI:SetNextWindowSize(0, 0, GUI.SetCond_Always)\n            local WinFlags\n            if Leta.settings.LockedToggles == true then\n                WinFlags =\n                    (GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_AlwaysAutoResize + GUI.WindowFlags_NoScrollbar +\n                    GUI.WindowFlags_NoCollapse +\n                    GUI.WindowFlags_NoMove)\n            else\n                WinFlags =\n                    (GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_AlwaysAutoResize + GUI.WindowFlags_NoScrollbar +\n                    GUI.WindowFlags_NoCollapse)\n            end\n            GUI:PushStyleColor(GUI.Col_WindowBg, 0.070, 0.070, 0.070, 0.45)\n\n            GUI:Begin(\"LetaToggles\" .. v.group, true, WinFlags)\n            GUI:PopStyleColor()\n\n            GUI:SetWindowFontSize(scale)\n\n            if v.shown == true then\n                local ChildColorTogglesTable = {}\n                if v.bool ~= true then\n                    ChildColorTogglesTable = {\n                        r = Leta.settings.ToggleColorDisable.r,\n                        g = Leta.settings.ToggleColorDisable.g,\n                        b = Leta.settings.ToggleColorDisable.b,\n                        a = Leta.settings.ToggleColorDisable.a\n                    }\n                else\n                    ChildColorTogglesTable = {\n                        r = Leta.settings.ToggleColorEnable.r,\n                        g = Leta.settings.ToggleColorEnable.g,\n                        b = Leta.settings.ToggleColorEnable.b,\n                        a = Leta.settings.ToggleColorEnable.a\n                    }\n                end\n                GUI:PushStyleVar(GUI.StyleVar_ChildWindowRounding, 5)\n                GUI:PushStyleVar(GUI.StyleVar_ItemSpacing, 3, 3)\n\n                GUI:PushStyleColor(\n                    GUI.Col_ChildWindowBg,\n                    ChildColorTogglesTable.r,\n                    ChildColorTogglesTable.g,\n                    ChildColorTogglesTable.b,\n                    ChildColorTogglesTable.a\n                )\n\n                local strlenght = GUI:CalcTextSize(k)\n                local btnWidth = Leta.settings.ToggleWidth\n                local btnHeight = Leta.settings.ToggleHeight\n                local btnSpacing = GUI:GetTextLineHeightWithSpacing()\n                GUI:BeginChild(k .. \"##extra1\", btnWidth, btnHeight, false, GUI.WindowFlags_AlwaysAutoResize)\n                GUI:SetWindowFontSize(scale)\n                GUI:SetCursorPosX((btnWidth - strlenght) * 0.5)\n                GUI:SetCursorPosY((btnHeight - btnSpacing) * 0.5)\n\n                GUI:Text(k)\n                GUI:EndChild()\n\n                if (GUI:IsItemHovered()) then\n                    if (GUI:IsMouseClicked(0)) then\n                        v.bool = not v.bool\n                        Leta.SaveSettings()\n                    end\n                    if GUI:IsMouseClicked(1) then\n                        Leta.GUI.open = not Leta.GUI.open\n                    --  Leta.SaveSettings()\n                    end\n                end\n                GUI:PopStyleColor()\n                GUI:PopStyleVar()\n                GUI:PopStyleVar()\n            end\n            GUI:End()\n        end\n    end\nend\nself.used = true\n",
-						conditions = 
-						{
-							
-							{
-								"1d38aceb-831a-88f5-8452-17c4b312c663",
-								true,
-							},
-						},
-						name = "Draw",
-						uuid = "3c5ea42e-06f2-f5cd-a2cc-a784ae3aab27",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "if Leta.GUI.open then\n    GUI:SetNextWindowSize(280, 0, GUI.SetCond_Appearing)\n    Leta.GUI.visible, Leta.GUI.open = GUI:Begin(\"Leta Menu\", Leta.GUI.open)\n    if Leta.GUI.visible then\n        local changed\n        Leta.settings.LockedToggles, changed = GUI:Checkbox(GetString(\"Lock Toggles\"), Leta.settings.LockedToggles)\n        if changed then\n            Leta.SaveSettings()\n        end\n\n        GUI:Separator()\n\n        local width = GUI:GetContentRegionAvailWidth()\n        GUI:Dummy((width - 114), 0)\n        GUI:SameLine()\n        GUI:Text(\"[Mod]\")\n        GUI:SameLine()\n        GUI:Dummy((7), 0)\n        GUI:SameLine()\n        GUI:Text(\"+\")\n        GUI:SameLine()\n        GUI:Dummy(-10, 0)\n        GUI:SameLine()\n        GUI:Text(\"[Key]\")\n        if table.valid(Leta.settings.Toggles) then\n            for k, v in pairs(Leta.settings.Toggles) do\n                if v.job == Leta.JobTable[TensorCore.mGetPlayer().job] or v.job == \"global\" then\n                    local changed\n                    v.shown, changed = GUI:Checkbox(GetString(\"##\" .. k), v.shown)\n                    if changed then\n                        Leta.SaveSettings()\n                    end\n                    GUI:SameLine()\n\n                    if v.bool == true then\n                        GUI:TextColored(1, 1, 1, 1, k)\n                    else\n                        GUI:TextColored(1, 0, 0, 1, k)\n                    end\n\n                    if GUI:IsItemHovered() then\n                        if GUI:IsItemClicked(0) then\n                            v.bool = not v.bool\n                            Leta.SaveSettings()\n                        end\n                    end\n\n                    GUI:SameLine()\n                    local width = GUI:GetContentRegionAvailWidth()\n                    GUI:Dummy((width - 125), 0)\n                    GUI:SameLine()\n\n                    GUI:SameLine()\n                    local allowedKey\n                    v.modifier, allowedKey = GUI:Keybind(\"##LetaModifier\" .. k, v.modifier, 60)\n\n                    if (allowedKey == \"SHIFT\" or allowedKey == \"CONTROL\" or allowedKey == \"ALT\") then\n                        v.modifier = Leta.ModToKey[allowedKey]\n                    else\n                        v.modifier = 0\n                    end\n                    if GUI:IsItemClicked(1) then\n                        v.modifier = nil\n                    end\n                    GUI:SameLine()\n                    local width = GUI:GetContentRegionAvailWidth()\n                    GUI:Text(\"+\")\n                    GUI:SameLine()\n                    v.key = GUI:Keybind(\"##LetaKey\" .. k, v.key, 35)\n                    if GUI:IsItemClicked(1) then\n                        v.key = nil\n                    end\n                end\n            end\n        end\n        GUI:Button(\"Restore Defaults\")\n        if GUI:IsItemClicked(0) then\n            Leta.settings.Toggles = {}\n\n            Leta.SaveSettings()\n            Leta = nil\n        end\n        GUI:SameLine()\n        GUI:Dummy(width - 245, 0)\n        GUI:SameLine()\n        GUI:Button(\"Save Keybinds\", 110, 19)\n        if GUI:IsItemClicked(0) then\n            Leta.SaveSettings()\n            GUI:SetWindowSize(280, 0)\n        end\n        if GUI:CollapsingHeader(\"Customize##Leta##\") then\n            Leta.settings.ToggleScale =\n                GUI:SliderFloat(\"Text Scale##LetaScale##\", Leta.settings.ToggleScale, 0.1, 5, \"%.2f\", 1)\nLeta.settings.ToggleHeight = GUI:SliderFloat(\"Height##LetaHeight##\", Leta.settings.ToggleHeight, 1, 200, \"%.0f\", 1)\nLeta.settings.ToggleWidth = GUI:SliderFloat(\"Width##LetaWidth##\", Leta.settings.ToggleWidth, 1, 500, \"%.0f\", 1)\nGUI:PushItemWidth(205)\n            Leta.settings.ToggleColorEnable.r,\n                Leta.settings.ToggleColorEnable.g,\n                Leta.settings.ToggleColorEnable.b,\n                Leta.settings.ToggleColorEnable.a,\n                changed =\n                GUI:ColorEdit4(\n                \"Enabled##leta##\",\n                Leta.settings.ToggleColorEnable.r,\n                Leta.settings.ToggleColorEnable.g,\n                Leta.settings.ToggleColorEnable.b,\n                Leta.settings.ToggleColorEnable.a,\n                GUI.ColorEditMode_RGB\n            )\n\n            Leta.settings.ToggleColorDisable.r,\n                Leta.settings.ToggleColorDisable.g,\n                Leta.settings.ToggleColorDisable.b,\n                Leta.settings.ToggleColorDisable.a,\n                changed =\n                GUI:ColorEdit4(\n                \"Disabled##leta##\",\n                Leta.settings.ToggleColorDisable.r,\n                Leta.settings.ToggleColorDisable.g,\n                Leta.settings.ToggleColorDisable.b,\n                Leta.settings.ToggleColorDisable.a,\nGUI.ColorEditMode_RGB\n                \n            )\nGUI:PopItemWidth()\n            if GUI:Button(\"Reset Customization##LetaColors\") then\n                Leta.settings.ToggleColorEnable = {r = 0.631, g = 0.186, b = 0.217, a = 1.000}\n                Leta.settings.ToggleColorDisable = {r = 0.070, g = 0.070, b = 0.070, a = .749}\n                Leta.settings.ToggleScale = 1\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLeta.settings.ToggleHeight = 30\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLeta.settings.ToggleWidth = 105\n                Leta.SaveSettings()\n            end\n            GUI:SameLine()\n            GUI:Dummy(0, 0)\n            GUI:SameLine()\n            if GUI:Button(\"Save##LetaColors\") then\n                Leta.SaveSettings()\n            end\n        end\n        GUI:SetWindowSize(280, 0)\n    end\n\n    GUI:End()\nend\n",
-						conditions = 
-						{
-							
-							{
-								"1d38aceb-831a-88f5-8452-17c4b312c663",
-								true,
-							},
-						},
-						name = "Menu",
-						uuid = "0e9b1755-ef8a-4a48-bbf9-ea005b5b9759",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "for k, v in pairs(Leta.settings.Toggles) do\n    if Leta.GUI.open then\n        if v.key ~= nil and (v.modifier ~= nil or v.modifier > 0) then\n            v.hasModifier = true\n        end\n        if v.key ~= nil and (v.modifier == nil or v.modifier == 0) then\n            v.hasModifier = false\n        end\n    end\n\n    if v.hasModifier ~= true then\n        if\n            v.active and GUI:IsKeyPressed(v.key, false) and not GUI:IsKeyDown(16) and not GUI:IsKeyDown(17) and\n                not GUI:IsKeyDown(18)\n         then\n            v.bool = not v.bool\n        end\n    end\n    if v.hasModifier == true then\n        if v.active and GUI:IsKeyPressed(v.key, false) and GUI:IsKeyDown(v.modifier) then\n            v.bool = not v.bool\n        end\n    end\nend\n",
-						conditions = 
-						{
-							
-							{
-								"1d38aceb-831a-88f5-8452-17c4b312c663",
-								true,
-							},
-						},
-						name = "Keypress",
-						uuid = "7e8bc270-e5cd-d027-91f6-ebd5e29d56bd",
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta ~= nil",
-						uuid = "1d38aceb-831a-88f5-8452-17c4b312c663",
-						version = 2,
-					},
-				},
-			},
-			eventType = 13,
-			name = "Toggles",
-			uuid = "096a36f0-cc2c-f4b0-b67a-dafb7bf01ab0",
-			version = 2,
-		},
-		inheritedIndex = 20,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			name = "--Version Number",
-			uuid = "44ddf12d-225b-0011-82f5-8c19632cc413",
-			version = 2,
-		},
-		inheritedIndex = 21,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.4.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
-						conditions = 
-						{
-							
-							{
-								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
-								true,
-							},
-						},
-						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return letaVersion == nil",
-						dequeueIfLuaFalse = true,
-						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
-						version = 2,
-					},
-				},
-			},
-			name = "v5.4.4.1",
-			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
-			version = 2,
-		},
-		inheritedIndex = 22,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			name = "--Duty Helper",
-			uuid = "6a8f617a-0281-9f04-bda7-77ee566d178a",
-			version = 2,
-		},
-		inheritedIndex = 27,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 16556,
-						conditions = 
-						{
-							
-							{
-								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
-								true,
-							},
-							
-							{
-								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
-								true,
-							},
-							
-							{
-								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
-								true,
-							},
-							
-							{
-								"85ede217-57a0-e66f-b519-1329950dcc66",
-								true,
-							},
-						},
-						fallthrough = true,
-						gVar = "ACR_RikuAST2_Healbar_CelestialIntersection",
-						ignoreWeaveRules = true,
-						targetType = "Main Tank",
-						uuid = "20b4ce27-5df0-af96-9a44-779646f5b2c3",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 25873,
-						conditions = 
-						{
-							
-							{
-								"21d6245b-d8dc-3d19-bf63-6b5a717402a2",
-								true,
-							},
-							
-							{
-								"0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
-								true,
-							},
-							
-							{
-								"33ce2f41-d38b-61c6-a589-2bbe063ae2db",
-								true,
-							},
-							
-							{
-								"7d4c92e8-17d4-522f-a811-8f53c6dd2608",
-								true,
-							},
-						},
-						gVar = "ACR_RikuAST2_Healbar_Exaltation",
-						ignoreWeaveRules = true,
-						targetType = "Main Tank",
-						uuid = "03da3a64-1df3-b89c-8e9c-f8b8fce59beb",
-						variableIsHover = true,
-						variableTogglesType = 3,
-						version = 2,
-					},
-					inheritedIndex = 3,
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Heal\"].bool",
-						dequeueIfLuaFalse = true,
-						name = "Toggle Heal",
-						uuid = "21d6245b-d8dc-3d19-bf63-6b5a717402a2",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return Leta.settings.Toggles[\"Mitigation\"].bool",
-						dequeueIfLuaFalse = true,
-						name = "Toggle Mitigation",
-						uuid = "0cca10c3-f1e4-4be1-b5f8-d20ebc0ef7cc",
-						version = 2,
-					},
-					inheritedIndex = 2,
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.AOEMitigation[eventArgs.spellID] == true",
-						dequeueIfLuaFalse = true,
-						uuid = "1c4bfd9f-e86c-2388-b2f1-93a7ad8ad845",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Party",
-						channelCheckTimeRemain = 3,
-						channelCheckType = 3,
-						comparator = 2,
-						conditionType = 5,
-						partyTargetType = "Event Entity",
-						uuid = "240d5878-d691-0458-bbb0-92a142116746",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.TankMitigation[eventArgs.spellID] == true",
-						dequeueIfLuaFalse = true,
-						uuid = "33ce2f41-d38b-61c6-a589-2bbe063ae2db",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 30,
-						actionID = 16556,
-						category = "Self",
-						comparator = 2,
-						conditionType = 4,
-						name = "CD - Cel Intersection <= 0s",
-						uuid = "85ede217-57a0-e66f-b519-1329950dcc66",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionID = 25873,
-						category = "Self",
-						comparator = 2,
-						conditionType = 4,
-						name = "CD - Exaltation <= 0s",
-						uuid = "7d4c92e8-17d4-522f-a811-8f53c6dd2608",
-						version = 2,
-					},
-				},
-			},
-			eventType = 3,
-			name = "Duty Helper",
-			throttleTime = 1250,
-			timeout = 3,
-			uuid = "1404436e-9a2e-7e7e-b09c-50839e46b22a",
-			version = 2,
-		},
-		inheritedIndex = 28,
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 7559,
-						conditions = 
-						{
-							
-							{
-								"9344e544-8aa7-e303-ae49-c8a23dec9d2e",
-								true,
-							},
-							
-							{
-								"c73df984-1137-1ad0-af9f-83e2b83f6c91",
-								true,
-							},
-							
-							{
-								"576b2abc-b50f-1223-a256-3d54da36abed",
-								true,
-							},
-							
-							{
-								"559f05a4-3baf-4a21-9902-f6a0e91af34f",
-								true,
-							},
-							
-							{
-								"1dbd9942-5f70-2107-9089-5fc4fe643069",
-								true,
-							},
-							
-							{
-								"08f1d3bf-4caa-0138-81a2-1d022c3b600d",
-								true,
-							},
-						},
-						endIfUsed = true,
-						gVar = "ACR_RikuAST2_Hotbar_Surecast",
-						ignoreWeaveRules = true,
-						uuid = "69b3d0f1-9d83-ac26-92f3-ac34f600f8ee",
-						variableTogglesType = 2,
-						version = 2,
-					},
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "if AnyoneCore ~= nil and AnyoneCore.DPSMitigation[eventArgs.spellID] == true then\n\t\tlocal ent = TensorCore.mGetEntity(eventArgs.id)\n\t\tif ent ~= nil and ent.attackable and ent.alive then\n\t\t\t\treturn true\n\t\tend\nend\nreturn false",
-						conditionType = 2,
-						dequeueIfLuaFalse = true,
-						eventArgType = 2,
-						name = "miti table dequeue check",
-						partyTargetSubType = 1,
-						uuid = "ae610342-5068-395c-bd77-8d7e0900f29b",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return TensorCore.mGetPlayer().alive and AnyoneCore ~= nil and (AnyoneCore.assistCallback() or AnyoneCore.Settings.DutyHelper.requirebotenabled == false) and AnyoneCore.Settings.DutyHelper.enabled == true",
-						dequeueIfLuaFalse = true,
-						name = "duty helper enabled",
-						partyTargetSubType = 1,
-						uuid = "c73df984-1137-1ad0-af9f-83e2b83f6c91",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Self",
-						conditionType = 7,
-						dequeueIfLuaFalse = true,
-						name = "combat check",
-						partyTargetSubType = 1,
-						uuid = "1dbd9942-5f70-2107-9089-5fc4fe643069",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.Knockback[eventArgs.spellID] == true",
-						dequeueIfLuaFalse = true,
-						name = "check kb table",
-						uuid = "559f05a4-3baf-4a21-9902-f6a0e91af34f",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Party",
-						channelCheckTimeRemain = 5,
-						channelCheckType = 3,
-						comparator = 2,
-						conditionType = 5,
-						name = "check timer",
-						partyTargetType = "Event Entity",
-						uuid = "08f1d3bf-4caa-0138-81a2-1d022c3b600d",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						buffCheckType = 2,
-						buffID = 418,
-						category = "Self",
-						name = "missing transcendent",
-						uuid = "576b2abc-b50f-1223-a256-3d54da36abed",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "local ent = TensorCore.mGetEntity(eventArgs.entityID)\nreturn ent ~= nil and ent.type ~= 1",
-						dequeueIfLuaFalse = true,
-						name = "not a player",
-						uuid = "9344e544-8aa7-e303-ae49-c8a23dec9d2e",
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return AnyoneCore.Settings.DutyHelper.mitigation == true",
-						dequeueIfLuaFalse = true,
-						name = "check mitigation settings",
-						uuid = "e65b2ae0-c967-6a87-a4da-8cded194beff",
-						version = 2,
-					},
-				},
-			},
-			eventType = 3,
-			name = "Multitool",
-			timeout = 10,
-			uuid = "d066fbce-6e78-3a2a-b789-d7db896d5b3b",
-			version = 2,
-		},
-		inheritedIndex = 29,
+		inheritedIndex = 31,
 	},
 	
 	{
@@ -3834,7 +3850,172 @@ local tbl =
 			uuid = "6e521d06-e8d2-e0b1-9a34-8fe1a8d7a48c",
 			version = 2,
 		},
-		inheritedIndex = 33,
+		inheritedIndex = 32,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "if Leta == nil then\n    Leta = {}\nend\nif Leta.init ~= true then\n    Leta.lastTick = Now()\n\n    Leta.GUI = {\n        open = false,\n        visible = false\n    }\n    Leta.settings = {\n        LockedToggles = false,\n        ToggleColorEnable = {r = 0.631, g = 0.186, b = 0.217, a = 1.000},\n        ToggleColorDisable = {r = 0.070, g = 0.070, b = 0.070, a = .749},\n\t\t\t\t\t\t\t\tToggleBGAlpha = 0.45,\n        ToggleScale = 1,\n        ToggleHeight = 30,\n        ToggleWidth = 105,\n        Toggles = {\n            --global\n            [\"AOE\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"ST\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"GCD\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Esuna\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Mitigation\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Heal\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            --whm\n            [\"Asylum\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Bell\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Benediction\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"Temperance\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"HOT\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            --sage\n            [\"Haima\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Holos\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Panhaima\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Zoe\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Soteria\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma Opener\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            -- AST\n            [\"Macrocosmos\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"Neutral Sect\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Synastry\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Earthly Star\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"HoT\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Horoscope\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            --SCH\n            [\"Expedient\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Illumination\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Seraph\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"D Tactics\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Sacred Soil\"] = {bool = false, shown = true, group = 1, job = \"SCH\"}\n        }\n    }\n\n    Leta.ModToKey = {\n        [\"SHIFT\"] = 16,\n        [\"CONTROL\"] = 17,\n        [\"ALT\"] = 18\n    }\n    Leta.JobTable = {\n        [6] = \"WHM\",\n        [24] = \"WHM\",\n        [28] = \"SCH\",\n        [26] = \"SCH\",\n        [33] = \"AST\",\n        [40] = \"SGE\"\n    }\n\n    Leta.LuaPath = GetLuaModsPath()\n    Leta.SettingsPath = Leta.LuaPath .. [[ffxivminion\\leta\\]]\n    Leta.SettingsFile = Leta.SettingsPath .. [[Settings.lua]]\n    local v = table.valid\n    function Leta.valid(...)\n        local tbl = {...}\n        local size = #tbl\n        if size > 0 then\n            local count = tbl[1]\n            if type(count) == \"number\" then\n                if size == (count + 1) then\n                    for i = 2, size do\n                        if not v(tbl[i]) then\n                            return false\n                        end\n                    end\n                    return true\n                end\n            else\n                for i = 1, size do\n                    if not v(tbl[i]) then\n                        return false\n                    end\n                end\n                return true\n            end\n        end\n        return false\n    end\n    local valid = Leta.valid\n\n    function Leta.LoadSettings()\n        if (not FolderExists(Leta.SettingsPath)) then\n            FolderCreate(Leta.SettingsPath)\n        end\n        local tbl = FileLoad(Leta.SettingsFile)\n        local function scan(tbl, tbl2, depth)\n            depth = depth or 0\n            if valid(2, tbl, tbl2) then\n                for k, v in pairs(tbl2) do\n                    if type(v) == \"table\" then\n                        if tbl[k] and valid(tbl[k]) then\n                            tbl[k] = table.merge(tbl[k], scan(tbl[k], v, depth + 1))\n                        else\n                            tbl[k] = v\n                        end\n                    else\n                        if tbl[k] ~= tbl2[k] then\n                            tbl[k] = tbl2[k]\n                        end\n                    end\n                end\n            end\n            return tbl\n        end\n        Leta.settings = scan(Leta.settings, tbl)\n    end\n\n    function Leta.SaveSettings()\n        d(\"[Leta] Settings saved\")\n        if not table.deepcompare(Leta.settings, PreviousSave) then\n            if (not FolderExists(Leta.SettingsPath)) then\n                FolderCreate(Leta.SettingsPath)\n            end\n\n            FileSave(Leta.SettingsFile, Leta.settings)\n            PreviousSave = table.deepcopy(Leta.settings)\n        end\n    end\n    Leta.LoadSettings()\n    Leta.init = true\nend\nself.used = true\n",
+						conditions = 
+						{
+							
+							{
+								"1d38aceb-831a-88f5-8452-17c4b312c663",
+								false,
+							},
+						},
+						name = "Init",
+						uuid = "be19cab4-1f6d-bf2f-9928-e3acf5ba49c3",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "local scale = Leta.settings.ToggleScale\nif Leta ~= nil and Leta.init == true and table.valid(Leta.settings.Toggles) then\n    if TimeSince(Leta.lastTick) > 1000 then\n        for k, v in pairs(Leta.settings.Toggles) do\n            if v.job == Leta.JobTable[TensorCore.mGetPlayer().job] or v.job == \"global\" then\n                v.active = true\n            else\n                v.active = false\n            end\n        end\n        Leta.lastTick = Now()\n    end\n    for k, v in pairs(Leta.settings.Toggles) do\n        if v.group ~= 0 and v.shown and v.active then\n\n\n\n            GUI:SetNextWindowSize(0, 0, GUI.SetCond_Always)\n            local WinFlags\n            if Leta.settings.LockedToggles == true then\n                WinFlags =\n                    (GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_AlwaysAutoResize + GUI.WindowFlags_NoScrollbar +\n                    GUI.WindowFlags_NoCollapse +\n                    GUI.WindowFlags_NoMove)\n            else\n                WinFlags =\n                    (GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_AlwaysAutoResize + GUI.WindowFlags_NoScrollbar +\n                    GUI.WindowFlags_NoCollapse)\n            end\n            GUI:PushStyleColor(GUI.Col_WindowBg, 0.070, 0.070, 0.070, Leta.settings.ToggleBGAlpha or 0.45)\n\n            GUI:Begin(\"LetaToggles\" .. v.group, true, WinFlags)\n            GUI:PopStyleColor()\n\n            GUI:SetWindowFontSize(scale)\n\n            if v.shown == true then\n                local ChildColorTogglesTable = {}\n                if v.bool ~= true then\n                    ChildColorTogglesTable = {\n                        r = Leta.settings.ToggleColorDisable.r,\n                        g = Leta.settings.ToggleColorDisable.g,\n                        b = Leta.settings.ToggleColorDisable.b,\n                        a = Leta.settings.ToggleColorDisable.a\n                    }\n                else\n                    ChildColorTogglesTable = {\n                        r = Leta.settings.ToggleColorEnable.r,\n                        g = Leta.settings.ToggleColorEnable.g,\n                        b = Leta.settings.ToggleColorEnable.b,\n                        a = Leta.settings.ToggleColorEnable.a\n                    }\n                end\n                GUI:PushStyleVar(GUI.StyleVar_ChildWindowRounding, 5)\n                GUI:PushStyleVar(GUI.StyleVar_ItemSpacing, 3, 3)\n\n                GUI:PushStyleColor(\n                    GUI.Col_ChildWindowBg,\n                    ChildColorTogglesTable.r,\n                    ChildColorTogglesTable.g,\n                    ChildColorTogglesTable.b,\n                    ChildColorTogglesTable.a\n                )\n\n                local strlenght = GUI:CalcTextSize(k)\n                local btnWidth = Leta.settings.ToggleWidth\n                local btnHeight = Leta.settings.ToggleHeight\n                local btnSpacing = GUI:GetTextLineHeightWithSpacing()\n                GUI:BeginChild(k .. \"##extra1\", btnWidth, btnHeight, false, GUI.WindowFlags_AlwaysAutoResize)\n                GUI:SetWindowFontSize(scale)\n                GUI:SetCursorPosX((btnWidth - strlenght) * 0.5)\n                GUI:SetCursorPosY((btnHeight - btnSpacing) * 0.5)\n\n                GUI:Text(k)\n                GUI:EndChild()\n\n                if (GUI:IsItemHovered()) then\n                    if (GUI:IsMouseClicked(0)) then\n                        v.bool = not v.bool\n                        Leta.SaveSettings()\n                    end\n                    if GUI:IsMouseClicked(1) then\n                        Leta.GUI.open = not Leta.GUI.open\n                    --  Leta.SaveSettings()\n                    end\n                end\n                GUI:PopStyleColor()\n                GUI:PopStyleVar()\n                GUI:PopStyleVar()\n            end\n            GUI:End()\n        end\n    end\nend\nself.used = true\n",
+						conditions = 
+						{
+							
+							{
+								"1d38aceb-831a-88f5-8452-17c4b312c663",
+								true,
+							},
+						},
+						name = "Draw",
+						uuid = "3c5ea42e-06f2-f5cd-a2cc-a784ae3aab27",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "if Leta.GUI.open then\n    GUI:SetNextWindowSize(280, 0, GUI.SetCond_Appearing)\n    Leta.GUI.visible, Leta.GUI.open = GUI:Begin(\"Leta Menu\", Leta.GUI.open)\n    if Leta.GUI.visible then\n        local changed\n        Leta.settings.LockedToggles, changed = GUI:Checkbox(GetString(\"Lock Toggles\"), Leta.settings.LockedToggles)\n        if changed then\n            Leta.SaveSettings()\n        end\n\n        GUI:Separator()\n\n        local width = GUI:GetContentRegionAvailWidth()\n        GUI:Dummy((width - 114), 0)\n        GUI:SameLine()\n        GUI:Text(\"[Mod]\")\n        GUI:SameLine()\n        GUI:Dummy((7), 0)\n        GUI:SameLine()\n        GUI:Text(\"+\")\n        GUI:SameLine()\n        GUI:Dummy(-10, 0)\n        GUI:SameLine()\n        GUI:Text(\"[Key]\")\n        if table.valid(Leta.settings.Toggles) then\n            for k, v in pairs(Leta.settings.Toggles) do\n                if v.job == Leta.JobTable[TensorCore.mGetPlayer().job] or v.job == \"global\" then\n                    local changed\n                    v.shown, changed = GUI:Checkbox(GetString(\"##\" .. k), v.shown)\n                    if changed then\n                        Leta.SaveSettings()\n                    end\n                    GUI:SameLine()\n\n                    if v.bool == true then\n                        GUI:TextColored(1, 1, 1, 1, k)\n                    else\n                        GUI:TextColored(1, 0, 0, 1, k)\n                    end\n\n                    if GUI:IsItemHovered() then\n                        if GUI:IsItemClicked(0) then\n                            v.bool = not v.bool\n                            Leta.SaveSettings()\n                        end\n                    end\n\n                    GUI:SameLine()\n                    local width = GUI:GetContentRegionAvailWidth()\n                    GUI:Dummy((width - 125), 0)\n                    GUI:SameLine()\n\n                    GUI:SameLine()\n                    local allowedKey\n                    v.modifier, allowedKey = GUI:Keybind(\"##LetaModifier\" .. k, v.modifier, 60)\n\n                    if (allowedKey == \"SHIFT\" or allowedKey == \"CONTROL\" or allowedKey == \"ALT\") then\n                        v.modifier = Leta.ModToKey[allowedKey]\n                    else\n                        v.modifier = 0\n                    end\n                    if GUI:IsItemClicked(1) then\n                        v.modifier = nil\n                    end\n                    GUI:SameLine()\n                    local width = GUI:GetContentRegionAvailWidth()\n                    GUI:Text(\"+\")\n                    GUI:SameLine()\n                    v.key = GUI:Keybind(\"##LetaKey\" .. k, v.key, 35)\n                    if GUI:IsItemClicked(1) then\n                        v.key = nil\n                    end\n                end\n            end\n        end\n        GUI:Button(\"Restore Defaults\")\n        if GUI:IsItemClicked(0) then\n            Leta.settings.Toggles = {}\n\n            Leta.SaveSettings()\n            Leta = nil\n        end\n        GUI:SameLine()\n        GUI:Dummy(width - 245, 0)\n        GUI:SameLine()\n        GUI:Button(\"Save Keybinds\", 110, 19)\n        if GUI:IsItemClicked(0) then\n            Leta.SaveSettings()\n            GUI:SetWindowSize(280, 0)\n        end\n        if GUI:CollapsingHeader(\"Customize##Leta##\") then\n            Leta.settings.ToggleScale =\n                GUI:SliderFloat(\"Text Scale##LetaScale##\", Leta.settings.ToggleScale, 0.1, 5, \"%.2f\", 1)\nLeta.settings.ToggleHeight = GUI:SliderFloat(\"Height##LetaHeight##\", Leta.settings.ToggleHeight, 1, 200, \"%.0f\", 1)\nLeta.settings.ToggleWidth = GUI:SliderFloat(\"Width##LetaWidth##\", Leta.settings.ToggleWidth, 1, 500, \"%.0f\", 1)\nLeta.settings.ToggleBGAlpha = GUI:SliderFloat(\"BG Alpha##LetaBGAlpha##\", Leta.settings.ToggleBGAlpha, 0, 1, \"%.3f\", 1)\nGUI:PushItemWidth(205)\n            Leta.settings.ToggleColorEnable.r,\n                Leta.settings.ToggleColorEnable.g,\n                Leta.settings.ToggleColorEnable.b,\n                Leta.settings.ToggleColorEnable.a,\n                changed =\n                GUI:ColorEdit4(\n                \"Enabled##leta##\",\n                Leta.settings.ToggleColorEnable.r,\n                Leta.settings.ToggleColorEnable.g,\n                Leta.settings.ToggleColorEnable.b,\n                Leta.settings.ToggleColorEnable.a,\n                GUI.ColorEditMode_RGB\n            )\n\n            Leta.settings.ToggleColorDisable.r,\n                Leta.settings.ToggleColorDisable.g,\n                Leta.settings.ToggleColorDisable.b,\n                Leta.settings.ToggleColorDisable.a,\n                changed =\n                GUI:ColorEdit4(\n                \"Disabled##leta##\",\n                Leta.settings.ToggleColorDisable.r,\n                Leta.settings.ToggleColorDisable.g,\n                Leta.settings.ToggleColorDisable.b,\n                Leta.settings.ToggleColorDisable.a,\nGUI.ColorEditMode_RGB\n                \n            )\nGUI:PopItemWidth()\n            if GUI:Button(\"Reset Customization##LetaColors\") then\n                Leta.settings.ToggleColorEnable = {r = 0.631, g = 0.186, b = 0.217, a = 1.000}\n                Leta.settings.ToggleColorDisable = {r = 0.070, g = 0.070, b = 0.070, a = .749}\n                Leta.settings.ToggleScale = 1\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLeta.settings.ToggleHeight = 30\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLeta.settings.ToggleWidth = 105\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLeta.settings.ToggleBGAlpha = 0.45\n                Leta.SaveSettings()\n            end\n            GUI:SameLine()\n            GUI:Dummy(0, 0)\n            GUI:SameLine()\n            if GUI:Button(\"Save##LetaColors\") then\n                Leta.SaveSettings()\n            end\n        end\n        GUI:SetWindowSize(280, 0)\n    end\n\n    GUI:End()\nend\n",
+						conditions = 
+						{
+							
+							{
+								"1d38aceb-831a-88f5-8452-17c4b312c663",
+								true,
+							},
+						},
+						name = "Menu",
+						uuid = "0e9b1755-ef8a-4a48-bbf9-ea005b5b9759",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "for k, v in pairs(Leta.settings.Toggles) do\n    if Leta.GUI.open then\n        if v.key ~= nil and (v.modifier ~= nil or v.modifier > 0) then\n            v.hasModifier = true\n        end\n        if v.key ~= nil and (v.modifier == nil or v.modifier == 0) then\n            v.hasModifier = false\n        end\n    end\n\n    if v.hasModifier ~= true then\n        if\n            v.active and GUI:IsKeyPressed(v.key, false) and not GUI:IsKeyDown(16) and not GUI:IsKeyDown(17) and\n                not GUI:IsKeyDown(18)\n         then\n            v.bool = not v.bool\n        end\n    end\n    if v.hasModifier == true then\n        if v.active and GUI:IsKeyPressed(v.key, false) and GUI:IsKeyDown(v.modifier) then\n            v.bool = not v.bool\n        end\n    end\nend\n",
+						conditions = 
+						{
+							
+							{
+								"1d38aceb-831a-88f5-8452-17c4b312c663",
+								true,
+							},
+						},
+						name = "Keypress",
+						uuid = "7e8bc270-e5cd-d027-91f6-ebd5e29d56bd",
+						version = 2,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta ~= nil",
+						uuid = "1d38aceb-831a-88f5-8452-17c4b312c663",
+						version = 2,
+					},
+				},
+			},
+			eventType = 13,
+			name = "Toggles",
+			uuid = "0e5be9fa-80a9-3706-b9b9-fce06c66b99c",
+			version = 2,
+		},
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			name = "--Version Number",
+			uuid = "44ddf12d-225b-0011-82f5-8c19632cc413",
+			version = 2,
+		},
+		inheritedIndex = 34,
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "letaVersion = \"5.4.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+								true,
+							},
+						},
+						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return letaVersion == nil",
+						dequeueIfLuaFalse = true,
+						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+						version = 2,
+					},
+				},
+			},
+			name = "v5.4.5",
+			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
+			version = 2,
+		},
+		inheritedIndex = 35,
 	}, 
 	inheritedProfiles = 
 	{
