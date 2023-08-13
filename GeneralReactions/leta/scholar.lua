@@ -974,6 +974,11 @@ local tbl =
 							},
 							
 							{
+								"9057d2a5-1c50-98ef-a378-608718069371",
+								true,
+							},
+							
+							{
 								"52dfd5b9-3d58-0574-8110-01fb953db771",
 								true,
 							},
@@ -1080,6 +1085,11 @@ local tbl =
 							
 							{
 								"2a0a8f03-d83e-7649-9801-92217e022fca",
+								true,
+							},
+							
+							{
+								"9057d2a5-1c50-98ef-a378-608718069371",
 								true,
 							},
 							
@@ -3393,7 +3403,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.5\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.5.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3421,7 +3431,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.5",
+			name = "v5.4.5.1",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},

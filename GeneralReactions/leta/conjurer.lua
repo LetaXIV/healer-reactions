@@ -742,7 +742,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.5",
+			name = "v5.4.5.1",
 			uuid = "13a6178d-1ceb-b2b8-af24-cc76dc404f81",
 			version = 2,
 		},
