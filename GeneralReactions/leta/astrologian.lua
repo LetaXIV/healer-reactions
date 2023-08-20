@@ -2762,11 +2762,11 @@ local tbl =
 				{
 					data = 
 					{
-						actionCDValue = 80,
+						actionCDValue = 40,
 						actionID = 3614,
 						category = "Self",
 						conditionType = 4,
-						name = "CD - Ess Dignity >= 80s",
+						name = "CD - Ess Dignity >= 40s",
 						uuid = "23289d50-2f71-41f4-8562-fdbed9b2f458",
 						version = 2,
 					},
@@ -3991,7 +3991,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.5.2\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.5.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -4020,7 +4020,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.5.2",
+			name = "v5.4.5.3",
 			uuid = "7359c6da-e813-81d7-95e7-d31fc34b8ba2",
 			version = 2,
 		},

@@ -3403,7 +3403,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.5.2\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.5.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3415,6 +3415,7 @@ local tbl =
 						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
 						version = 2,
 					},
+					inheritedIndex = 1,
 				},
 			},
 			conditions = 
@@ -3431,7 +3432,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.5.2",
+			name = "v5.4.5.3",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},
