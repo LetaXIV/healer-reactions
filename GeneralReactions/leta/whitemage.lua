@@ -4,174 +4,6 @@ local tbl =
 	{
 		data = 
 		{
-			name = "Custom Angles",
-			uuid = "e91ea678-e77b-5e1d-a05f-73f403f51e11",
-			version = 2,
-		},
-		inheritedIndex = 10,
-		inheritedObjectUUID = "4b8f5642-e295-3219-a20e-ff58ef010f61",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "All Stack Circles",
-			uuid = "1faab423-da0f-5333-8950-81b3de55fe30",
-			version = 2,
-		},
-		inheritedIndex = 11,
-		inheritedObjectUUID = "c15c73d5-3cb1-260e-920e-fed8d8a36c29",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Channels",
-			uuid = "a65362e0-c081-08b0-8bf7-d84fb7fcbb1f",
-			version = 2,
-		},
-		inheritedIndex = 12,
-		inheritedObjectUUID = "3457f648-64ee-20a7-9028-3cd76c07f8d8",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Casts",
-			uuid = "99b34936-4b08-faa6-ab6d-05264bec0b92",
-			version = 2,
-		},
-		inheritedIndex = 13,
-		inheritedObjectUUID = "1f9e02c6-6313-f0b4-b2a4-76441d91ecbf",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Entity Add",
-			uuid = "fd2564d5-57c6-5257-8d4a-90c66618db12",
-			version = 2,
-		},
-		inheritedIndex = 14,
-		inheritedObjectUUID = "85795041-4c57-89ed-b6a5-ebe077a1082b",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Towers",
-			uuid = "bb3a0499-a9c9-8b34-ad83-302428137d34",
-			version = 2,
-		},
-		inheritedIndex = 15,
-		inheritedObjectUUID = "0a59b16f-c348-aee3-8868-eb071892b2e9",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Gorai Tethers",
-			uuid = "be1c07d2-ef2f-824d-9e87-bfdbdfc07708",
-			version = 2,
-		},
-		inheritedIndex = 16,
-		inheritedObjectUUID = "0dd67047-ded0-e0c8-a708-a8cb08a8e478",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Limit Cut",
-			uuid = "1d0c36a5-d205-b69c-9da3-80f79a04367f",
-			version = 2,
-		},
-		inheritedIndex = 17,
-		inheritedObjectUUID = "5ae340fe-0caf-dddc-8582-705908cabc0e",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "AOEs",
-			uuid = "81bab341-25d6-cf0c-8cb8-bd3946ce8a74",
-			version = 2,
-		},
-		inheritedIndex = 18,
-		inheritedObjectUUID = "21c1ec6a-a9fb-4ec2-b3e0-4506c3582f56",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Triple Kasumi-giri",
-			uuid = "0f1c88b9-5986-9eb0-a126-1c54be4e0f98",
-			version = 2,
-		},
-		inheritedIndex = 19,
-		inheritedObjectUUID = "a50ca1a2-518c-d9ff-9c8c-90304065c6d6",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Moko Tethers",
-			uuid = "1be05d94-0bf4-61ca-992e-f73456f2aa4a",
-			version = 2,
-		},
-		inheritedIndex = 20,
-		inheritedObjectUUID = "32b28750-3200-c50f-99bc-8e6877e5706a",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
-			name = "Moko Near/Far Edge",
-			uuid = "d569b431-b513-7294-95ec-f313041958d7",
-			version = 2,
-		},
-		inheritedIndex = 21,
-		inheritedObjectUUID = "c40a467a-decb-f57a-9b5b-92f8f84edb83",
-		inheritedOverwrites = 
-		{
-		},
-	},
-	
-	{
-		data = 
-		{
 			name = "--Misc",
 			uuid = "e1db977f-aaba-a9ee-860b-cca2824fd9d8",
 			version = 2,
@@ -1208,6 +1040,53 @@ local tbl =
 							},
 							
 							{
+								"5a5457f0-e7e2-406a-aa66-330a294bab42",
+								true,
+							},
+							
+							{
+								"69784c75-865f-114a-a91d-821e653cbede",
+								true,
+							},
+							
+							{
+								"439f4507-25be-6118-916c-cd663dbbcca9",
+								true,
+							},
+							
+							{
+								"907b1acc-abb9-fe80-9337-783f13a875d9",
+								true,
+							},
+							
+							{
+								"5d771e03-49ff-3bb5-be42-396b8b32029b",
+								true,
+							},
+						},
+						endIfUsed = true,
+						gVar = "ACR_RikuWHM2_Healbar_PlenaryIndulgence",
+						name = "Variable Indulgence",
+						uuid = "45536740-eb91-8793-85f6-d84d8bdea8d8",
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 3,
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"285098cb-d656-1f34-ad23-84d0d07e869c",
+								true,
+							},
+							
+							{
 								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
 								true,
 							},
@@ -1339,12 +1218,7 @@ local tbl =
 							},
 							
 							{
-								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
-								true,
-							},
-							
-							{
-								"69784c75-865f-114a-a91d-821e653cbede",
+								"5a5457f0-e7e2-406a-aa66-330a294bab42",
 								true,
 							},
 							
@@ -1726,12 +1600,7 @@ local tbl =
 							},
 							
 							{
-								"ab75b47b-98d2-05cd-856f-c70fd977b7da",
-								true,
-							},
-							
-							{
-								"5ca72a84-937c-28e2-b803-b51e3f838d4f",
+								"5a5457f0-e7e2-406a-aa66-330a294bab42",
 								true,
 							},
 							
@@ -1961,7 +1830,7 @@ local tbl =
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 7,
+					inheritedIndex = 18,
 				},
 			},
 			conditions = 
@@ -2069,6 +1938,19 @@ local tbl =
 						version = 2,
 					},
 					inheritedIndex = 8,
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return Leta.settings.Toggles[\"Lilies\"].bool",
+						dequeueIfLuaFalse = true,
+						name = "Toggle Lilies",
+						uuid = "5a5457f0-e7e2-406a-aa66-330a294bab42",
+						version = 2,
+					},
+					inheritedIndex = 9,
 				},
 				
 				{
@@ -2782,7 +2664,7 @@ local tbl =
 						uuid = "6760eb89-2506-de36-b4a6-290b1493ae28",
 						version = 2,
 					},
-					inheritedIndex = 41,
+					inheritedIndex = 46,
 				},
 			},
 			name = "Heal",
@@ -2989,7 +2871,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "if Leta == nil then\n    Leta = {}\nend\nif Leta.init ~= true then\n    Leta.lastTick = Now()\n\n    Leta.GUI = {\n        open = false,\n        visible = false\n    }\n    Leta.settings = {\n        LockedToggles = false,\n        ToggleColorEnable = {r = 0.631, g = 0.186, b = 0.217, a = 1.000},\n        ToggleColorDisable = {r = 0.070, g = 0.070, b = 0.070, a = .749},\n\t\t\t\t\t\t\t\tToggleBGAlpha = 0.45,\n        ToggleScale = 1,\n        ToggleHeight = 30,\n        ToggleWidth = 105,\n        Toggles = {\n            --global\n            [\"AOE\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"ST\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"GCD\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Esuna\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Mitigation\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Heal\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            --whm\n            [\"Asylum\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Bell\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Benediction\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"Temperance\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"HOT\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            --sage\n            [\"Haima\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Holos\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Panhaima\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Zoe\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Soteria\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma Opener\"] = {bool = false, shown = false, group = 1, job = \"SGE\"},\n            -- AST\n            [\"Macrocosmos\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"Neutral Sect\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Synastry\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Earthly Star\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"HoT\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Horoscope\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            --SCH\n            [\"Expedient\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Illumination\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Seraph\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"D Tactics\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Sacred Soil\"] = {bool = false, shown = true, group = 1, job = \"SCH\"}\n        }\n    }\n\n    Leta.ModToKey = {\n        [\"SHIFT\"] = 16,\n        [\"CONTROL\"] = 17,\n        [\"ALT\"] = 18\n    }\n    Leta.JobTable = {\n        [6] = \"WHM\",\n        [24] = \"WHM\",\n        [28] = \"SCH\",\n        [26] = \"SCH\",\n        [33] = \"AST\",\n        [40] = \"SGE\"\n    }\n\n    Leta.LuaPath = GetLuaModsPath()\n    Leta.SettingsPath = Leta.LuaPath .. [[ffxivminion\\leta\\]]\n    Leta.SettingsFile = Leta.SettingsPath .. [[Settings.lua]]\n    local v = table.valid\n    function Leta.valid(...)\n        local tbl = {...}\n        local size = #tbl\n        if size > 0 then\n            local count = tbl[1]\n            if type(count) == \"number\" then\n                if size == (count + 1) then\n                    for i = 2, size do\n                        if not v(tbl[i]) then\n                            return false\n                        end\n                    end\n                    return true\n                end\n            else\n                for i = 1, size do\n                    if not v(tbl[i]) then\n                        return false\n                    end\n                end\n                return true\n            end\n        end\n        return false\n    end\n    local valid = Leta.valid\n\n    function Leta.LoadSettings()\n        if (not FolderExists(Leta.SettingsPath)) then\n            FolderCreate(Leta.SettingsPath)\n        end\n        local tbl = FileLoad(Leta.SettingsFile)\n        local function scan(tbl, tbl2, depth)\n            depth = depth or 0\n            if valid(2, tbl, tbl2) then\n                for k, v in pairs(tbl2) do\n                    if type(v) == \"table\" then\n                        if tbl[k] and valid(tbl[k]) then\n                            tbl[k] = table.merge(tbl[k], scan(tbl[k], v, depth + 1))\n                        else\n                            tbl[k] = v\n                        end\n                    else\n                        if tbl[k] ~= tbl2[k] then\n                            tbl[k] = tbl2[k]\n                        end\n                    end\n                end\n            end\n            return tbl\n        end\n        Leta.settings = scan(Leta.settings, tbl)\n    end\n\n    function Leta.SaveSettings()\n        d(\"[Leta] Settings saved\")\n        if not table.deepcompare(Leta.settings, PreviousSave) then\n            if (not FolderExists(Leta.SettingsPath)) then\n                FolderCreate(Leta.SettingsPath)\n            end\n\n            FileSave(Leta.SettingsFile, Leta.settings)\n            PreviousSave = table.deepcopy(Leta.settings)\n        end\n    end\n    Leta.LoadSettings()\n    Leta.init = true\nend\nself.used = true\n",
+						actionLua = "if Leta == nil then\n    Leta = {}\nend\nif Leta.init ~= true then\n    Leta.lastTick = Now()\n\n    Leta.GUI = {\n        open = false,\n        visible = false\n    }\n    Leta.settings = {\n        LockedToggles = false,\n        ToggleColorEnable = {r = 0.631, g = 0.186, b = 0.217, a = 1.000},\n        ToggleColorDisable = {r = 0.070, g = 0.070, b = 0.070, a = .749},\n\t\t\t\t\t\t\t\tToggleBGAlpha = 0.45,\n        ToggleScale = 1,\n        ToggleHeight = 30,\n        ToggleWidth = 105,\n        Toggles = {\n            --global\n            [\"AOE\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"ST\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"GCD\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Esuna\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Mitigation\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            [\"Heal\"] = {bool = true, shown = true, group = 2, job = \"global\"},\n            --whm\n            [\"Asylum\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Bell\"] = {bool = false, shown = true, group = 1, job = \"WHM\"},\n            [\"Benediction\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"Temperance\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            [\"HOT\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Lilies\"] = {bool = true, shown = true, group = 1, job = \"WHM\"},\n            --sage\n            [\"Haima\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n\t\t\t\t\t\t\t\t\t\t\t\t[\"Holos\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Panhaima\"] = {bool = false, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Zoe\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Soteria\"] = {bool = true, shown = true, group = 1, job = \"SGE\"},\n            [\"Pneuma Opener\"] = {bool = false, shown = false, group = 1, job = \"SGE\"},\n            -- AST\n            [\"Macrocosmos\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"Neutral Sect\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Synastry\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Earthly Star\"] = {bool = false, shown = true, group = 1, job = \"AST\"},\n            [\"HoT\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            [\"Horoscope\"] = {bool = true, shown = true, group = 1, job = \"AST\"},\n            --SCH\n            [\"Expedient\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Illumination\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Seraph\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"D Tactics\"] = {bool = true, shown = true, group = 1, job = \"SCH\"},\n            [\"Sacred Soil\"] = {bool = false, shown = true, group = 1, job = \"SCH\"}\n        }\n    }\n\n    Leta.ModToKey = {\n        [\"SHIFT\"] = 16,\n        [\"CONTROL\"] = 17,\n        [\"ALT\"] = 18\n    }\n    Leta.JobTable = {\n        [6] = \"WHM\",\n        [24] = \"WHM\",\n        [28] = \"SCH\",\n        [26] = \"SCH\",\n        [33] = \"AST\",\n        [40] = \"SGE\"\n    }\n\n    Leta.LuaPath = GetLuaModsPath()\n    Leta.SettingsPath = Leta.LuaPath .. [[ffxivminion\\leta\\]]\n    Leta.SettingsFile = Leta.SettingsPath .. [[Settings.lua]]\n    local v = table.valid\n    function Leta.valid(...)\n        local tbl = {...}\n        local size = #tbl\n        if size > 0 then\n            local count = tbl[1]\n            if type(count) == \"number\" then\n                if size == (count + 1) then\n                    for i = 2, size do\n                        if not v(tbl[i]) then\n                            return false\n                        end\n                    end\n                    return true\n                end\n            else\n                for i = 1, size do\n                    if not v(tbl[i]) then\n                        return false\n                    end\n                end\n                return true\n            end\n        end\n        return false\n    end\n    local valid = Leta.valid\n\n    function Leta.LoadSettings()\n        if (not FolderExists(Leta.SettingsPath)) then\n            FolderCreate(Leta.SettingsPath)\n        end\n        local tbl = FileLoad(Leta.SettingsFile)\n        local function scan(tbl, tbl2, depth)\n            depth = depth or 0\n            if valid(2, tbl, tbl2) then\n                for k, v in pairs(tbl2) do\n                    if type(v) == \"table\" then\n                        if tbl[k] and valid(tbl[k]) then\n                            tbl[k] = table.merge(tbl[k], scan(tbl[k], v, depth + 1))\n                        else\n                            tbl[k] = v\n                        end\n                    else\n                        if tbl[k] ~= tbl2[k] then\n                            tbl[k] = tbl2[k]\n                        end\n                    end\n                end\n            end\n            return tbl\n        end\n        Leta.settings = scan(Leta.settings, tbl)\n    end\n\n    function Leta.SaveSettings()\n        d(\"[Leta] Settings saved\")\n        if not table.deepcompare(Leta.settings, PreviousSave) then\n            if (not FolderExists(Leta.SettingsPath)) then\n                FolderCreate(Leta.SettingsPath)\n            end\n\n            FileSave(Leta.SettingsFile, Leta.settings)\n            PreviousSave = table.deepcopy(Leta.settings)\n        end\n    end\n    Leta.LoadSettings()\n    Leta.init = true\nend\nself.used = true\n",
 						conditions = 
 						{
 							
@@ -3109,7 +2991,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.5.3\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.6\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3137,7 +3019,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.5.3",
+			name = "v5.4.6",
 			uuid = "9570df5c-4066-44ad-852c-c4c9993eca8f",
 			version = 2,
 		},
