@@ -718,7 +718,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.7\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.7.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -747,7 +747,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.7",
+			name = "v5.4.7.1",
 			uuid = "9d4ddd7d-b425-57c4-bbb7-49e5121baef3",
 			version = 2,
 		},

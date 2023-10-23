@@ -165,6 +165,7 @@ local tbl =
 								true,
 							},
 						},
+						gVar = "ACR_RikuWHM2_CD",
 						name = "Set Variables",
 						uuid = "8ceba036-70b3-14a9-8147-e299a38d5ccd",
 						version = 2,
@@ -362,8 +363,9 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Event",
+						category = "Lua",
 						comparator = 2,
+						conditionLua = "return (eventArgs.time*1000) - TimeSince(eventArgs.timeQueued) <= (data.castTime*1000)",
 						eventCountdownTime = 1.5,
 						name = "Broil Timer",
 						uuid = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
@@ -3225,7 +3227,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.7\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.7.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3255,7 +3257,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.7",
+			name = "v5.4.7.1",
 			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
 			version = 2,
 		},

@@ -322,8 +322,9 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Event",
+						category = "Lua",
 						comparator = 2,
+						conditionLua = "return (eventArgs.time*1000) - TimeSince(eventArgs.timeQueued) <= (data.castTime*1000)",
 						eventCountdownTime = 1.5,
 						name = "Glare Timer",
 						uuid = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
@@ -3008,7 +3009,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.7\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.7.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3037,7 +3038,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.7",
+			name = "v5.4.7.1",
 			uuid = "9570df5c-4066-44ad-852c-c4c9993eca8f",
 			version = 2,
 		},

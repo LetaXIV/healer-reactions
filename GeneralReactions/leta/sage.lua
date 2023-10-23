@@ -598,9 +598,9 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Event",
+						category = "Lua",
 						comparator = 2,
-						conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= ((data.castTime*1000) + AnyoneCore.Settings.PrepullHelper.BadTeamDelay)",
+						conditionLua = "return (eventArgs.time*1000) - TimeSince(eventArgs.timeQueued) <= (data.castTime*1000)",
 						eventCountdownTime = 1.5,
 						name = "Dosis/Pneuma Timer",
 						uuid = "de7d078f-d3ad-7b91-8f56-2780e2a467b7",
@@ -3323,7 +3323,7 @@ local tbl =
 					data = 
 					{
 						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.7\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						actionLua = "letaVersion = \"5.4.7.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
 						conditions = 
 						{
 							
@@ -3352,7 +3352,7 @@ local tbl =
 					},
 				},
 			},
-			name = "v5.4.7",
+			name = "v5.4.7.1",
 			uuid = "3bf5a707-f643-0845-a62d-e237f3c19dc3",
 			version = 2,
 		},
