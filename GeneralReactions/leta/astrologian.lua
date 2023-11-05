@@ -3855,6 +3855,7 @@ local tbl =
 		"store\\anyone\\sharedultimate",
 		"store\\anyone\\sharedcriterion",
 		"store\\anyone\\sharedcriterion2",
+		"anyone\\sharedcriterion3",
 	},
 }
 

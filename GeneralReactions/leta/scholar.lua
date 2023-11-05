@@ -3220,53 +3220,6 @@ local tbl =
 	{
 		data = 
 		{
-			actions = 
-			{
-				
-				{
-					data = 
-					{
-						aType = "Lua",
-						actionLua = "letaVersion = \"5.4.7.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
-						conditions = 
-						{
-							
-							{
-								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
-								true,
-							},
-						},
-						gVar = "ACR_RikuWHM2_CD",
-						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-			},
-			conditions = 
-			{
-				
-				{
-					data = 
-					{
-						category = "Lua",
-						conditionLua = "return letaVersion == nil",
-						dequeueIfLuaFalse = true,
-						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
-						version = 2,
-					},
-				},
-			},
-			name = "v5.4.7.1",
-			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
-			version = 2,
-		},
-		inheritedIndex = 36,
-	},
-	
-	{
-		data = 
-		{
 			name = "n/a",
 			uuid = "d08ed7aa-c757-7328-aa20-362771b5b1b7",
 			version = 2,
@@ -3464,6 +3417,53 @@ local tbl =
 			enabled = false,
 			name = "n/a",
 		},
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "letaVersion = \"5.4.7.1\"\nd(\"Leta's reactions \" .. letaVersion .. \" loaded.\")\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+								true,
+							},
+						},
+						gVar = "ACR_RikuWHM2_CD",
+						uuid = "f96a0929-c656-8277-b4c0-8fe992e106c2",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return letaVersion == nil",
+						dequeueIfLuaFalse = true,
+						uuid = "8d72527b-8ee0-5fbf-b774-dfe95cd7dcac",
+						version = 2,
+					},
+				},
+			},
+			name = "v5.4.7.1",
+			uuid = "e9fc6ef3-2df7-997b-899f-bb04a90d6bbb",
+			version = 2,
+		},
+		inheritedIndex = 36,
 	}, 
 	inheritedProfiles = 
 	{
